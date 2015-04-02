@@ -36,13 +36,19 @@ public class Entity<T extends Writable> implements Writable {
     }
 
     @Override
-    public int hashCode() {
-        return value.hashCode();
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Entity entity = (Entity) o;
+        return description.equals(entity.description) &&
+                !(value != null ? !value.equals(entity.value) : entity.value != null);
     }
 
     @Override
-    public boolean equals(Object obj) {
-        return obj instanceof Entity && ((Entity) obj).value.equals(value);
+    public int hashCode() {
+        int result = value != null ? value.hashCode() : 0;
+        result = 31 * result + description.hashCode();
+        return result;
     }
 
     @Override
@@ -60,7 +66,7 @@ public class Entity<T extends Writable> implements Writable {
             value.readFields(dataInput);
             description = dataInput.readLine();
         } catch (InstantiationException | IllegalAccessException | ClassNotFoundException e) {
-            e.printStackTrace();
+            throw new IOException(e);
         }
     }
 }

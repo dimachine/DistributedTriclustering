@@ -1,5 +1,6 @@
 package ru.zudin.triclustering.model;
 
+import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.collections4.list.FixedSizeList;
 import org.apache.hadoop.io.Writable;
 
@@ -14,30 +15,28 @@ import java.util.*;
  */
 public class Tuple implements Writable {
     private List<Set<Entity>> entities;
-    private int position;
 
     private Tuple(int capacity) {
         this.entities = FixedSizeList.fixedSizeList(new ArrayList<>(capacity));
-        position = 0;
     }
 
-    public void add(Collection<Entity> collection) {
-        if (position >= entities.size())
-            throw new IndexOutOfBoundsException("List is full");
-        Set<Entity> entitySet = new HashSet<>();
-        entitySet.addAll(collection);
-        entities.set(position++, entitySet);
+    public void set(int index, Collection<Entity> collection) {
+        preCheck(index);
+        entities.set(index, new HashSet<>(collection));
     }
 
     public Set<Entity> get(int index) {
-        if (index < 0 || index >= entities.size())
-            throw new IllegalArgumentException("Illegal index");
+        preCheck(index);
         return entities.get(index);
+    }
+
+    public int dimension() {
+        return entities.size();
     }
 
     @Override
     public void write(DataOutput output) throws IOException {
-        output.writeInt(entities.size());
+        output.writeInt(dimension());
         for (Set<Entity> set : entities) {
             output.writeInt(set.size());
             for (Entity entity : set) {
@@ -60,6 +59,33 @@ public class Tuple implements Writable {
             }
             entities.set(i, entitySet);
         }
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Tuple tuple = (Tuple) o;
+        if (tuple.dimension() != dimension()) return false;
+        for (int i = 0; i < dimension(); i++) {
+            if (!CollectionUtils.isEqualCollection(get(i), tuple.get(i)))
+                return false;
+        }
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        return entities.stream()
+                .flatMap(Collection::stream)
+                .mapToInt(Object::hashCode)
+                .reduce((a, b) -> 31 * a + b)
+                .getAsInt();
+    }
+
+    private void preCheck(int index) {
+        if (index < 0 || index >= dimension())
+            throw new IllegalArgumentException("Illegal index");
     }
 
     public static class Factory {

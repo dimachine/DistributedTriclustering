@@ -20,7 +20,7 @@ public class Tuple implements Writable {
         this.entities = FixedSizeList.fixedSizeList(new ArrayList<>(capacity));
     }
 
-    public void set(int index, Collection<Entity> collection) {
+    public <T extends Writable> void set(int index, Collection<Entity<T>> collection) {
         preCheck(index);
         entities.set(index, new HashSet<>(collection));
     }
@@ -89,14 +89,18 @@ public class Tuple implements Writable {
     }
 
     public static class Factory {
-        private int capacity;
+        private int dimension;
 
-        public Factory(int capacity) {
-            this.capacity = capacity;
+        public Factory(int dimension) {
+            this.dimension = dimension;
         }
 
-        public Tuple buildTuple() {
-            return new Tuple(capacity);
+        public int dimension() {
+            return dimension;
+        }
+
+        public Tuple createTuple() {
+            return new Tuple(dimension);
         }
     }
 }

@@ -14,8 +14,10 @@ import java.util.Set;
 public class Context {
     Set<Tuple> tuples;
     List<Set<Entity>> rawData;
+    ClusterSet clusters;
 
     public Context(int dimension) {
+        clusters = new ClusterSet(dimension);
         rawData = FixedSizeList.fixedSizeList(new ArrayList<>(dimension));
         for (int i = 0; i < dimension; i++) {
             rawData.set(i, new HashSet<>());

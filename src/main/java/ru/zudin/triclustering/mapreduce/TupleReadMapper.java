@@ -38,7 +38,7 @@ public class TupleReadMapper extends Mapper<Long, String, Integer, Tuple> {
 
     @Override
     protected void map(Long key, String value, Context context) throws IOException, InterruptedException {
-        String[] data = value.split(mainDelimiter); //The Shawshank Redemption  (1994)	Prison	Crime
+        String[] data = value.split(mainDelimiter);
         if (data.length != factory.dimension())
             throw new IllegalArgumentException("Dimensions from file and config are different");
         Tuple tuple = factory.createTuple();

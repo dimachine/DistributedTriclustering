@@ -16,23 +16,25 @@ import java.util.*;
 public class Tuple implements Writable {
     private List<Set<Entity>> entities;
 
-    private Tuple(int capacity) {
-        this.entities = FixedSizeList.fixedSizeList(new ArrayList<>(capacity));
+    private Tuple(int dimension) {
+        this.entities = FixedSizeList.fixedSizeList(new ArrayList<>(dimension));
     }
 
     public <T extends Writable> void set(int index, Collection<Entity<T>> collection) {
-        preCheck(index);
+        Utils.preCheck(index, dimension());
         entities.set(index, new HashSet<>(collection));
     }
 
     public Set<Entity> get(int index) {
-        preCheck(index);
+        Utils.preCheck(index, dimension());
         return entities.get(index);
     }
 
     public int dimension() {
         return entities.size();
     }
+
+    // Hadoop methods
 
     @Override
     public void write(DataOutput output) throws IOException {
@@ -61,6 +63,8 @@ public class Tuple implements Writable {
         }
     }
 
+    // Storage methods
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -83,15 +87,11 @@ public class Tuple implements Writable {
                 .getAsInt();
     }
 
-    private void preCheck(int index) {
-        if (index < 0 || index >= dimension())
-            throw new IllegalArgumentException("Illegal index");
-    }
-
     public static class Factory {
         private int dimension;
 
         public Factory(int dimension) {
+            Utils.preCheck(dimension, Integer.MAX_VALUE);
             this.dimension = dimension;
         }
 

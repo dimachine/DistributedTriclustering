@@ -35,6 +35,8 @@ public class Entity<T extends Writable> implements Writable {
         return description;
     }
 
+    // Storage methods
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -50,6 +52,8 @@ public class Entity<T extends Writable> implements Writable {
         result = 31 * result + description.hashCode();
         return result;
     }
+
+    // Hadoop methods
 
     @Override
     public void write(DataOutput dataOutput) throws IOException {

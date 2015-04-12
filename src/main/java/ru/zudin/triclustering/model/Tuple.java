@@ -16,8 +16,8 @@ import java.util.*;
 public class Tuple implements Writable {
     private List<Set<Entity>> entities;
 
-    private Tuple(int dimension) {
-        this.entities = FixedSizeList.fixedSizeList(new ArrayList<>(dimension));
+    public Tuple() {
+        this.entities = FixedSizeList.fixedSizeList(new ArrayList<>(EntityType.size()));
     }
 
     public <T extends Writable> void set(int index, Collection<Entity<T>> collection) {
@@ -85,22 +85,5 @@ public class Tuple implements Writable {
                 .mapToInt(Object::hashCode)
                 .reduce((a, b) -> 31 * a + b)
                 .getAsInt();
-    }
-
-    public static class Factory {
-        private int dimension;
-
-        public Factory(int dimension) {
-            Utils.preCheck(dimension, Integer.MAX_VALUE);
-            this.dimension = dimension;
-        }
-
-        public int dimension() {
-            return dimension;
-        }
-
-        public Tuple createTuple() {
-            return new Tuple(dimension);
-        }
     }
 }

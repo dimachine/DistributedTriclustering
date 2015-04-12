@@ -1,6 +1,7 @@
 package ru.zudin.triclustering.model;
 
 import org.apache.commons.collections4.list.FixedSizeList;
+import org.apache.hadoop.io.Writable;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -11,15 +12,15 @@ import java.util.Set;
  * @author Sergey Zudin
  * @since 02.04.15.
  */
-public class Context {
+public class Context<E extends Writable, I extends Writable, M extends Writable> {
     Set<Tuple> tuples;
     List<Set<Entity>> rawData;
     ClusterSet clusters;
 
-    public Context(int dimension) {
-        clusters = new ClusterSet(dimension);
-        rawData = FixedSizeList.fixedSizeList(new ArrayList<>(dimension));
-        for (int i = 0; i < dimension; i++) {
+    public Context() {
+        clusters = new TriclusterSet();
+        rawData = FixedSizeList.fixedSizeList(new ArrayList<>(EntityType.size()));
+        for (int i = 0; i < EntityType.size(); i++) {
             rawData.set(i, new HashSet<>());
         }
     }

@@ -12,18 +12,20 @@ import java.io.IOException;
  */
 public class Entity<T extends Writable> implements Writable {
     private T value;
+    private EntityType type;
     private String description;
 
     protected Entity() {
-        this(null);
+        this(null, null);
     }
 
-    public Entity(T value) {
-        this(value, "empty description");
+    public Entity(T value, EntityType type) {
+        this(value, type, "empty description");
     }
 
-    public Entity(T value, String description) {
+    public Entity(T value, EntityType type, String description) {
         this.value = value;
+        this.type = type;
         this.description = description;
     }
 
@@ -35,6 +37,10 @@ public class Entity<T extends Writable> implements Writable {
         return description;
     }
 
+    public EntityType getType() {
+        return type;
+    }
+
     // Storage methods
 
     @Override
@@ -43,12 +49,14 @@ public class Entity<T extends Writable> implements Writable {
         if (o == null || getClass() != o.getClass()) return false;
         Entity entity = (Entity) o;
         return description.equals(entity.description) &&
-                !(value != null ? !value.equals(entity.value) : entity.value != null);
+                !(value != null ? !value.equals(entity.value) : entity.value != null) &&
+                !(type != null ? !type.equals(entity.type) : entity.type != null);
     }
 
     @Override
     public int hashCode() {
         int result = value != null ? value.hashCode() : 0;
+        if (type != null) result = result * 31 + type.hashCode();
         result = 31 * result + description.hashCode();
         return result;
     }
@@ -59,6 +67,7 @@ public class Entity<T extends Writable> implements Writable {
     public void write(DataOutput dataOutput) throws IOException {
         dataOutput.writeChars(value.getClass().getName());
         value.write(dataOutput);
+        dataOutput.writeChars(type.name());
         dataOutput.writeChars(description);
     }
 
@@ -68,6 +77,7 @@ public class Entity<T extends Writable> implements Writable {
         try {
             value = (T) Class.forName(cls).newInstance();
             value.readFields(dataInput);
+            type = EntityType.valueOf(dataInput.readLine());
             description = dataInput.readLine();
         } catch (InstantiationException | IllegalAccessException | ClassNotFoundException e) {
             throw new IOException(e);

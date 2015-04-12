@@ -8,6 +8,7 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * @author Sergey Zudin
@@ -21,13 +22,21 @@ public class Tuple implements Writable {
     }
 
     public <T extends Writable> void set(int index, Collection<Entity<T>> collection) {
-        Utils.preCheck(index, dimension());
+        preCheck(index, dimension());
         entities.set(index, new HashSet<>(collection));
     }
 
     public Set<Entity> get(int index) {
-        Utils.preCheck(index, dimension());
+        preCheck(index, dimension());
         return entities.get(index);
+    }
+
+    public List<Entity> getAllExcept(int index) {
+        preCheck(index, dimension());
+        return entities.stream()
+                .filter(set -> entities.indexOf(set) != index)
+                .flatMap(Collection::stream)
+                .collect(Collectors.toList());
     }
 
     public int dimension() {
@@ -85,5 +94,12 @@ public class Tuple implements Writable {
                 .mapToInt(Object::hashCode)
                 .reduce((a, b) -> 31 * a + b)
                 .getAsInt();
+    }
+
+    // utils
+
+    private void preCheck(int index, int dimension) {
+        if (index < 0 || index >= dimension)
+            throw new IllegalArgumentException("Illegal index");
     }
 }

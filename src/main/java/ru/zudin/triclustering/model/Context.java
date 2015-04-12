@@ -41,8 +41,7 @@ public class Context {
         for (int i = 0; i < EntityType.size(); i++) {
             entities.get(i).addAll(tuple.get(i));
             for (Entity elem : tuple.get(i)) {
-                List<Entity> allExcept = tuple.getAllExcept(i);
-                clusters.add(elem, allExcept.toArray(new Entity[allExcept.size()]));
+                clusters.add(elem, tuple.getAllExcept(i).toArray(new Entity[0]));
             }
         }
     }
@@ -53,7 +52,16 @@ public class Context {
      * @return set of all existing clusters
      */
     public Set<Cluster> getClusters() {
-        return null;
+        Set<Cluster> result = new HashSet<>();
+        for (Tuple tuple : tuples) {
+            Cluster cluster = new Cluster();
+            for (int i = 0; i < tuple.dimension(); i++) {
+                Set<Entity> set = clusters.get(tuple.getAllExcept(i).toArray(new Entity[0]));
+                cluster.set(i, set);
+            }
+            result.add(cluster);
+        }
+        return result;
     }
 
 }

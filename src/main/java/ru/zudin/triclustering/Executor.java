@@ -1,10 +1,11 @@
 package ru.zudin.triclustering;
 
 import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.fs.FileSystem;
-import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.util.ToolRunner;
 import ru.zudin.triclustering.mapreduce.ChainingJob;
+import ru.zudin.triclustering.mapreduce.ContextBuildReducer;
+import ru.zudin.triclustering.mapreduce.PostProcessingMapper;
+import ru.zudin.triclustering.mapreduce.TupleReadMapper;
 
 /**
  * @author Sergey Zudin
@@ -12,9 +13,12 @@ import ru.zudin.triclustering.mapreduce.ChainingJob;
  */
 public class Executor {
     public static void main(String[] args) throws Exception {
-        FileSystem fileSystem = FileSystem.get(new Configuration());
-        fileSystem.delete(new Path("temp"), true);
-        fileSystem.delete(new Path("result"), true);
-        ToolRunner.run(new Configuration(), new ChainingJob(), new String[]{ "data/test.txt" , "result" });
+        ChainingJob job = ChainingJob.Builder.instance()
+                .name("triclustering")
+                .mapper(TupleReadMapper.class)
+                .reducer(ContextBuildReducer.class)
+                .mapper(PostProcessingMapper.class)
+                .build();
+        ToolRunner.run(new Configuration(), job, new String[]{ "data/test.txt" , "result" });
     }
 }

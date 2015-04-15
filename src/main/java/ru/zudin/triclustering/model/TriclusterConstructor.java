@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
  */
 public class TriclusterConstructor implements ClusterConstructor {
     private static final int SIZE = 3;
-    List<MultiKeyMap<Entity, Set<Entity>>> maps;
+    private List<MultiKeyMap<Entity, Set<Entity>>> maps;
     private List<EntityType> entities;
 
     /**

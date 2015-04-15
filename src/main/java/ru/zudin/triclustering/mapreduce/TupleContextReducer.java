@@ -8,6 +8,7 @@ import ru.zudin.triclustering.model.FormalContext;
 import ru.zudin.triclustering.model.Tuple;
 
 import java.io.IOException;
+import java.util.Set;
 
 /**
  * @author Sergey Zudin
@@ -22,6 +23,9 @@ public class TupleContextReducer extends Reducer<IntWritable, Tuple, IntWritable
         for (Tuple tuple : values) {
             formalContext.add(tuple);
         }
-        context.write(new IntWritable(0), new Text(mapper.writeValueAsString(formalContext)));
+        Set<Tuple> clusters = formalContext.getClusters();
+        for (Tuple cluster : clusters) {
+            context.write(new IntWritable(0), new Text(mapper.writeValueAsString(cluster)));
+        }
     }
 }

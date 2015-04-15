@@ -2,7 +2,9 @@ package ru.zudin.triclustering.mapreduce;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
+import org.codehaus.jackson.map.ObjectMapper;
 import ru.zudin.triclustering.model.Tuple;
 import ru.zudin.triclustering.parameters.DensityParameter;
 import ru.zudin.triclustering.parameters.Parameter;
@@ -15,7 +17,7 @@ import java.util.List;
  * @author Sergey Zudin
  * @since 15.04.15.
  */
-public class PostProcessingMapper extends Mapper<LongWritable, Tuple, IntWritable, Tuple> {
+public class PostProcessingMapper extends Mapper<LongWritable, Text, IntWritable, Tuple> {
     private List<Parameter> parameters;
 
     @Override
@@ -26,7 +28,10 @@ public class PostProcessingMapper extends Mapper<LongWritable, Tuple, IntWritabl
     }
 
     @Override
-    protected void map(LongWritable key, Tuple tuple, Context context) throws IOException, InterruptedException {
+    protected void map(LongWritable key, Text text, Context context) throws IOException, InterruptedException {
+        ObjectMapper mapper = new ObjectMapper();
+        String content = text.toString().split("\t")[1];
+        Tuple tuple = mapper.readValue(content, Tuple.class);
         for (Parameter parameter : parameters) {
             if (!parameter.check(tuple)) {
                 return;

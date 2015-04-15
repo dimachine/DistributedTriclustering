@@ -67,8 +67,4 @@ public class FormalContext {
         }
         return result;
     }
-
-    public void add(FormalContext context) {
-
-    }
 }

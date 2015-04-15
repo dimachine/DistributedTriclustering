@@ -6,7 +6,10 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.log4j.BasicConfigurator;
-import ru.zudin.triclustering.mapreduce.*;
+import ru.zudin.triclustering.mapreduce.ChainingJob;
+import ru.zudin.triclustering.mapreduce.PostProcessingMapper;
+import ru.zudin.triclustering.mapreduce.TupleContextReducer;
+import ru.zudin.triclustering.mapreduce.TupleReadMapper;
 
 import java.io.IOException;
 
@@ -27,10 +30,9 @@ public class Executor {
                 .tempDir(TEMP_DIR)
                 .mapper(TupleReadMapper.class)
                 .reducer(TupleContextReducer.class)
-                .reducer(ContextReducer.class)
                 .mapper(PostProcessingMapper.class)
                 .build();
-        ToolRunner.run(new Configuration(), job, new String[]{ "data/test.txt" , output});
+        ToolRunner.run(new Configuration(), job, new String[]{ "data/test.txt" , output } );
     }
 
     private static void clear(String output) throws IOException {

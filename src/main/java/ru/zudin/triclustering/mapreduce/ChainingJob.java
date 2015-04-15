@@ -93,7 +93,7 @@ public class ChainingJob extends Configured implements Tool {
         @Override
         public MapRedBuilder tempDir(String path) {
             chainingJob.tempDir = path;
-            return null;
+            return this;
         }
 
         @Override

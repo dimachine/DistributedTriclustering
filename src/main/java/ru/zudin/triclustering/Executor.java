@@ -32,7 +32,7 @@ public class Executor {
                 .reducer(TupleContextReducer.class)
                 .mapper(PostProcessingMapper.class)
                 .build();
-        ToolRunner.run(new Configuration(), job, new String[]{ "data/test.txt" , output } );
+        ToolRunner.run(new Configuration(), job, new String[]{ "data/imdb.txt" , output } );
     }
 
     private static void clear(String output) throws IOException {

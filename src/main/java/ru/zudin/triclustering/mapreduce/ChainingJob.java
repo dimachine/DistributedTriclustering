@@ -3,10 +3,7 @@ package ru.zudin.triclustering.mapreduce;
 import net.jodah.typetools.TypeResolver;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
-import org.apache.hadoop.fs.FileSystem;
-import org.apache.hadoop.fs.LocatedFileStatus;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.fs.RemoteIterator;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.Reducer;
@@ -23,45 +20,24 @@ import java.util.List;
  * @since 15.04.15.
  */
 public class ChainingJob extends Configured implements Tool {
-    private static final String TEMP_PATH = "temp";
     private List<Job> jobs;
     private String name;
+    private String tempDir;
 
     private ChainingJob() {
         jobs = new ArrayList<>();
     }
 
     private void setUp(String input, String output) throws IOException {
-        clear(output);
-
         Job job = jobs.get(0);
         FileInputFormat.addInputPath(job, new Path(input));
         for (int i = 1; i < jobs.size(); i++) {
             Job job2 = jobs.get(i);
-            FileOutputFormat.setOutputPath(job, new Path(TEMP_PATH + i));
-            FileInputFormat.addInputPath(job2, new Path(TEMP_PATH + i));
+            FileOutputFormat.setOutputPath(job, new Path(tempDir + i));
+            FileInputFormat.addInputPath(job2, new Path(tempDir + i));
             job = job2;
         }
         FileOutputFormat.setOutputPath(jobs.get(jobs.size() - 1), new Path(output));
-    }
-
-    private void clear(String output) throws IOException {
-        FileSystem fileSystem = FileSystem.get(new Configuration());
-
-        RemoteIterator<LocatedFileStatus> fileStatusListIterator = fileSystem.listFiles(
-                fileSystem.getWorkingDirectory(), true);
-        List<Path> paths = new ArrayList<>();
-        while(fileStatusListIterator.hasNext()){
-            LocatedFileStatus fileStatus = fileStatusListIterator.next();
-            Path path = fileStatus.getPath();
-            if (path.getName().contains(TEMP_PATH)) {
-                paths.add(path);
-            }
-        }
-        for (Path path : paths) {
-            fileSystem.delete(path, true);
-        }
-        fileSystem.delete(new Path(output), true);
     }
 
     @Override
@@ -76,7 +52,11 @@ public class ChainingJob extends Configured implements Tool {
     }
 
     public interface NamedBuilder {
-        public MapRedBuilder name(String name);
+        public TempDirBuilder name(String name);
+    }
+
+    public interface TempDirBuilder {
+        public MapRedBuilder tempDir(String path);
     }
 
     public interface MapRedBuilder {
@@ -88,7 +68,7 @@ public class ChainingJob extends Configured implements Tool {
         public ChainingJob build();
     }
 
-    public static class Builder implements NamedBuilder, ReadyBuilder {
+    public static class Builder implements NamedBuilder, TempDirBuilder, ReadyBuilder {
         private ChainingJob chainingJob;
         private Job job;
         private boolean isPrevMapper = false;
@@ -105,9 +85,15 @@ public class ChainingJob extends Configured implements Tool {
         }
 
         @Override
-        public MapRedBuilder name(String name) {
+        public TempDirBuilder name(String name) {
             chainingJob.name = name;
             return this;
+        }
+
+        @Override
+        public MapRedBuilder tempDir(String path) {
+            chainingJob.tempDir = path;
+            return null;
         }
 
         @Override
@@ -131,11 +117,11 @@ public class ChainingJob extends Configured implements Tool {
             if (!isPrevMapper) {
                 job = Job.getInstance(conf, chainingJob.name);
                 job.setJarByClass(ChainingJob.class);
+                Class<?>[] typeArgs = TypeResolver.resolveRawArguments(Reducer.class, cls);
+                job.setOutputKeyClass(typeArgs[0]);
+                job.setOutputValueClass(typeArgs[1]);
             }
             job.setReducerClass(cls);
-            Class<?>[] typeArgs = TypeResolver.resolveRawArguments(Reducer.class, cls);
-            job.setOutputKeyClass(typeArgs[2]);
-            job.setOutputValueClass(typeArgs[3]);
             chainingJob.jobs.add(job);
             job = null;
             isPrevMapper = false;

@@ -42,6 +42,18 @@ public class Entity implements Writable {
         return type;
     }
 
+    public void setValue(Text value) {
+        this.value = value;
+    }
+
+    public void setType(EntityType type) {
+        this.type = type;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     // Storage methods
 
     @Override

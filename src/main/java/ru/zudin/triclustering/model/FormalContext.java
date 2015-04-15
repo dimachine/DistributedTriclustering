@@ -15,6 +15,12 @@ public class FormalContext {
     List<Set<Entity>> entities;
     ClusterConstructor constructor;
 
+    public FormalContext(Set<Tuple> tuples, List<Set<Entity>> entities, ClusterConstructor constructor) {
+        this.tuples = tuples;
+        this.entities = entities;
+        this.constructor = constructor;
+    }
+
     /**
      * Base constructor
      */
@@ -60,5 +66,9 @@ public class FormalContext {
             result.add(cluster);
         }
         return result;
+    }
+
+    public void add(FormalContext context) {
+
     }
 }

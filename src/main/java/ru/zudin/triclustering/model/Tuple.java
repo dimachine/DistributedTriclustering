@@ -23,6 +23,18 @@ public class Tuple implements Writable {
         this.entities = Utils.getFixedList(dimension());
     }
 
+    public Tuple(List<Set<Entity>> entities) {
+        this.entities = entities;
+    }
+
+    public List<Set<Entity>> getEntities() {
+        return entities;
+    }
+
+    public void setEntities(List<Set<Entity>> entities) {
+        this.entities = entities;
+    }
+
     public void set(int index, Collection<Entity> collection) {
         Utils.preCheck(index, dimension());
         entities.set(index, new HashSet<>(collection));

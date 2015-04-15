@@ -3,7 +3,6 @@ package ru.zudin.triclustering.model;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.Multimaps;
 import org.apache.commons.collections4.CollectionUtils;
-import org.apache.commons.collections4.list.FixedSizeList;
 import org.apache.commons.collections4.map.MultiKeyMap;
 
 import java.util.*;
@@ -25,7 +24,10 @@ public class TriclusterConstructor implements ClusterConstructor {
      * Base constructor
      */
     public TriclusterConstructor() {
-        maps = FixedSizeList.fixedSizeList(new ArrayList<>(SIZE));
+        maps = Utils.getFixedList(SIZE);
+        for (int i = 0; i < SIZE; i++) {
+            maps.set(i, new MultiKeyMap<>());
+        }
         entities = EntityType.triclusteringEntities();
     }
 

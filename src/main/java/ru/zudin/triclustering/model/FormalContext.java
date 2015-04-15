@@ -1,8 +1,5 @@
 package ru.zudin.triclustering.model;
 
-import org.apache.commons.collections4.list.FixedSizeList;
-
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -13,17 +10,18 @@ import java.util.Set;
  * @author Sergey Zudin
  * @since 02.04.15.
  */
-public class Context {
+public class FormalContext {
     Set<Tuple> tuples;
     List<Set<Entity>> entities;
-    ClusterConstructor clusters;
+    ClusterConstructor constructor;
 
     /**
      * Base constructor
      */
-    public Context() {
-        clusters = new TriclusterConstructor();
-        entities = FixedSizeList.fixedSizeList(new ArrayList<>(EntityType.size()));
+    public FormalContext() {
+        tuples = new HashSet<>();
+        constructor = new TriclusterConstructor();
+        entities = Utils.getFixedList(EntityType.size());
         for (int i = 0; i < EntityType.size(); i++) {
             entities.set(i, new HashSet<>());
         }
@@ -41,7 +39,7 @@ public class Context {
         for (int i = 0; i < EntityType.size(); i++) {
             entities.get(i).addAll(tuple.get(i));
             for (Entity elem : tuple.get(i)) {
-                clusters.add(elem, tuple.getAllExcept(i).toArray(new Entity[0]));
+                constructor.add(elem, tuple.getAllExcept(i).toArray(new Entity[0]));
             }
         }
     }
@@ -51,17 +49,16 @@ public class Context {
      * It iterates over tuples and build clusters based on their components.
      * @return set of all existing clusters
      */
-    public Set<Cluster> getClusters() {
-        Set<Cluster> result = new HashSet<>();
+    public Set<Tuple> getClusters() {
+        Set<Tuple> result = new HashSet<>();
         for (Tuple tuple : tuples) {
-            Cluster cluster = new Cluster();
+            Tuple cluster = new Tuple();
             for (int i = 0; i < tuple.dimension(); i++) {
-                Set<Entity> set = clusters.get(tuple.getAllExcept(i).toArray(new Entity[0]));
+                Set<Entity> set = constructor.get(tuple.getAllExcept(i).toArray(new Entity[0]));
                 cluster.set(i, set);
             }
             result.add(cluster);
         }
         return result;
     }
-
 }

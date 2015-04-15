@@ -1,13 +1,15 @@
 package ru.zudin.triclustering.model;
 
 import org.apache.commons.collections4.CollectionUtils;
-import org.apache.commons.collections4.list.FixedSizeList;
 import org.apache.hadoop.io.Writable;
 
 import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
-import java.util.*;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
@@ -18,10 +20,10 @@ public class Tuple implements Writable {
     private List<Set<Entity>> entities;
 
     public Tuple() {
-        this.entities = FixedSizeList.fixedSizeList(new ArrayList<>(EntityType.size()));
+        this.entities = Utils.getFixedList(dimension());
     }
 
-    public <T extends Writable> void set(int index, Collection<Entity<T>> collection) {
+    public void set(int index, Collection<Entity> collection) {
         Utils.preCheck(index, dimension());
         entities.set(index, new HashSet<>(collection));
     }
@@ -40,7 +42,7 @@ public class Tuple implements Writable {
     }
 
     public int dimension() {
-        return entities.size();
+        return EntityType.size();
     }
 
     // Hadoop methods
@@ -59,7 +61,7 @@ public class Tuple implements Writable {
     @Override
     public void readFields(DataInput input) throws IOException {
         int capacity = input.readInt();
-        entities = FixedSizeList.fixedSizeList(new ArrayList<>(capacity));
+        entities = Utils.getFixedList(capacity);
         for (int i = 0; i < capacity; i++) {
             Set<Entity> entitySet = new HashSet<>();
             int amount = input.readInt();
@@ -94,5 +96,22 @@ public class Tuple implements Writable {
                 .mapToInt(Object::hashCode)
                 .reduce((a, b) -> 31 * a + b)
                 .getAsInt();
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder("Tuple {");
+        for (Set<Entity> set : entities) {
+            builder.append("{");
+            for (Entity entity : set) {
+                builder.append("{").append(entity.getValue()).append(",").append(entity.getType())
+                        .append(",").append(entity.getDescription()).append("},");
+            }
+            builder.deleteCharAt(builder.length()-1);
+            builder.append("},");
+        }
+        builder.deleteCharAt(builder.length()-1);
+        builder.append("}");
+        return builder.toString();
     }
 }

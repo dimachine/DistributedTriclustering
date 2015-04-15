@@ -1,5 +1,6 @@
 package ru.zudin.triclustering.model;
 
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.io.Writable;
 
 import java.io.DataInput;
@@ -10,8 +11,8 @@ import java.io.IOException;
  * @author Sergey Zudin
  * @since 02.04.15.
  */
-public class Entity<T extends Writable> implements Writable {
-    private T value;
+public class Entity implements Writable {
+    private Text value;
     private EntityType type;
     private String description;
 
@@ -19,17 +20,17 @@ public class Entity<T extends Writable> implements Writable {
         this(null, null);
     }
 
-    public Entity(T value, EntityType type) {
+    public Entity(Text value, EntityType type) {
         this(value, type, "empty description");
     }
 
-    public Entity(T value, EntityType type, String description) {
+    public Entity(Text value, EntityType type, String description) {
         this.value = value;
         this.type = type;
         this.description = description;
     }
 
-    public T getValue() {
+    public Text getValue() {
         return value;
     }
 
@@ -65,22 +66,19 @@ public class Entity<T extends Writable> implements Writable {
 
     @Override
     public void write(DataOutput dataOutput) throws IOException {
-        dataOutput.writeChars(value.getClass().getName());
         value.write(dataOutput);
-        dataOutput.writeChars(type.name());
-        dataOutput.writeChars(description);
+        new Text(type.name()).write(dataOutput);
+        new Text(description).write(dataOutput);
     }
 
     @Override
     public void readFields(DataInput dataInput) throws IOException {
-        String cls = dataInput.readLine();
-        try {
-            value = (T) Class.forName(cls).newInstance();
-            value.readFields(dataInput);
-            type = EntityType.valueOf(dataInput.readLine());
-            description = dataInput.readLine();
-        } catch (InstantiationException | IllegalAccessException | ClassNotFoundException e) {
-            throw new IOException(e);
-        }
+        value = new Text();
+        value.readFields(dataInput);
+        Text text = new Text();
+        text.readFields(dataInput);
+        type = EntityType.valueOf(text.toString());
+        text.readFields(dataInput);
+        description = text.toString();
     }
 }

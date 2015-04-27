@@ -7,6 +7,7 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.log4j.Logger;
+import ru.zudin.triclustering.Executor;
 import ru.zudin.triclustering.model.Entity;
 import ru.zudin.triclustering.model.EntityType;
 import ru.zudin.triclustering.model.Tuple;
@@ -28,13 +29,8 @@ public class TupleReadMapper extends Mapper<LongWritable, Text, IntWritable, Tup
     @Override
     protected void setup(Context context) throws IOException, InterruptedException {
         Configuration conf = context.getConfiguration();
-        /*
-         * TODO: use params
-         * conf.get("main_delimiter")
-         * conf.get("inside_delimiter")
-         */
-        mainDelimiter = "\t";
-        insideDelimiter = ";";
+        mainDelimiter = conf.get(Executor.mainDelimiter);
+        insideDelimiter = conf.get(Executor.secondaryDelimiter);
     }
 
     @Override
@@ -43,7 +39,6 @@ public class TupleReadMapper extends Mapper<LongWritable, Text, IntWritable, Tup
         if (data.length != EntityType.size()) {
             logger.error("Wrong input " + value.toString());
             return;
-//            throw new IllegalArgumentException("Dimensions from file and config are different");
         }
         Tuple tuple = new Tuple();
         for (int i = 0; i < data.length; i++) {

@@ -1,0 +1,3818 @@
+The Shawshank Redemption  (1994)	Prison	Crime
+The Shawshank Redemption  (1994)	Prison	Drama
+The Shawshank Redemption  (1994)	Murder	Crime
+The Shawshank Redemption  (1994)	Murder	Drama
+The Shawshank Redemption  (1994)	Friend	Crime
+The Shawshank Redemption  (1994)	Friend	Drama
+The Shawshank Redemption  (1994)	Shawshank	Crime
+The Shawshank Redemption  (1994)	Shawshank	Drama
+The Shawshank Redemption  (1994)	Banker	Crime
+The Shawshank Redemption  (1994)	Banker	Drama
+The Godfather (1972)	Mafia	Crime
+The Godfather (1972)	Mafia	Drama
+The Godfather (1972)	Mafia	Thriller 
+The Godfather (1972)	Wedding	Crime
+The Godfather (1972)	Wedding	Drama
+The Godfather (1972)	Wedding	Thriller 
+The Godfather (1972)	Lawyer	Crime
+The Godfather (1972)	Lawyer	Drama
+The Godfather (1972)	Lawyer	Thriller 
+The Godfather (1972)	Violence	Crime
+The Godfather (1972)	Violence	Drama
+The Godfather (1972)	Violence	Thriller 
+The Godfather (1972)	Organized Crime 	Crime
+The Godfather (1972)	Organized Crime 	Drama
+The Godfather (1972)	Organized Crime 	Thriller 
+The Godfather: Part II (1974)	Cuba	Crime
+The Godfather: Part II (1974)	Cuba	Drama
+The Godfather: Part II (1974)	Cuba	Thriller
+The Godfather: Part II (1974)	New York	Crime
+The Godfather: Part II (1974)	New York	Drama
+The Godfather: Part II (1974)	New York	Thriller
+The Godfather: Part II (1974)	Business	Crime
+The Godfather: Part II (1974)	Business	Drama
+The Godfather: Part II (1974)	Business	Thriller
+The Godfather: Part II (1974)	1920s	Crime
+The Godfather: Part II (1974)	1920s	Drama
+The Godfather: Part II (1974)	1920s	Thriller
+The Godfather: Part II (1974)	1950s 	Crime
+The Godfather: Part II (1974)	1950s 	Drama
+The Godfather: Part II (1974)	1950s 	Thriller
+Il buono, il brutto, il cattivo. (1966)	Gold	Adventure
+Il buono, il brutto, il cattivo. (1966)	Gold	Western
+Il buono, il brutto, il cattivo. (1966)	Cemetery	Adventure
+Il buono, il brutto, il cattivo. (1966)	Cemetery	Western
+Il buono, il brutto, il cattivo. (1966)	Honor	Adventure
+Il buono, il brutto, il cattivo. (1966)	Honor	Western
+Il buono, il brutto, il cattivo. (1966)	Scam	Adventure
+Il buono, il brutto, il cattivo. (1966)	Scam	Western
+Il buono, il brutto, il cattivo. (1966)	Hitman	Adventure
+Il buono, il brutto, il cattivo. (1966)	Hitman	Western
+Pulp Fiction (1994)	Boxer	Crime
+Pulp Fiction (1994)	Boxer	Drama
+Pulp Fiction (1994)	Restaurant	Crime
+Pulp Fiction (1994)	Restaurant	Drama
+Pulp Fiction (1994)	Briefcase	Crime
+Pulp Fiction (1994)	Briefcase	Drama
+Pulp Fiction (1994)	Crime	Crime
+Pulp Fiction (1994)	Crime	Drama
+Pulp Fiction (1994)	Boss	Crime
+Pulp Fiction (1994)	Boss	Drama
+Pulp Fiction (1994)	Violence 	Crime
+Pulp Fiction (1994)	Violence 	Drama
+Schindler's List (1993)	Factory	Biography
+Schindler's List (1993)	Factory	Drama
+Schindler's List (1993)	Factory	History
+Schindler's List (1993)	Factory	War
+Schindler's List (1993)	Jewish	Biography
+Schindler's List (1993)	Jewish	Drama
+Schindler's List (1993)	Jewish	History
+Schindler's List (1993)	Jewish	War
+Schindler's List (1993)	Businessman	Biography
+Schindler's List (1993)	Businessman	Drama
+Schindler's List (1993)	Businessman	History
+Schindler's List (1993)	Businessman	War
+Schindler's List (1993)	Death	Biography
+Schindler's List (1993)	Death	Drama
+Schindler's List (1993)	Death	History
+Schindler's List (1993)	Death	War
+Schindler's List (1993)	Nazi	Biography
+Schindler's List (1993)	Nazi	Drama
+Schindler's List (1993)	Nazi	History
+Schindler's List (1993)	Nazi	War
+12 Angry Men (1957)	Murder	Crime
+12 Angry Men (1957)	Murder	Drama
+12 Angry Men (1957)	Murder	Mystery
+12 Angry Men (1957)	Jury	Crime
+12 Angry Men (1957)	Jury	Drama
+12 Angry Men (1957)	Jury	Mystery
+12 Angry Men (1957)	Trial	Crime
+12 Angry Men (1957)	Trial	Drama
+12 Angry Men (1957)	Trial	Mystery
+12 Angry Men (1957)	Jury Room	Crime
+12 Angry Men (1957)	Jury Room	Drama
+12 Angry Men (1957)	Jury Room	Mystery
+12 Angry Men (1957)	Architect	Crime
+12 Angry Men (1957)	Architect	Drama
+12 Angry Men (1957)	Architect	Mystery
+One Flew Over the Cuckoo's Nest (1975)	Nurse	Drama
+One Flew Over the Cuckoo's Nest (1975)	Patient	Drama
+One Flew Over the Cuckoo's Nest (1975)	Asylum	Drama
+One Flew Over the Cuckoo's Nest (1975)	Rebel	Drama
+One Flew Over the Cuckoo's Nest (1975)	Basketball	Drama
+Star Wars: Episode V - The Empire Strikes Back (1980)	Princess	Action
+Star Wars: Episode V - The Empire Strikes Back (1980)	Princess	Adventure
+Star Wars: Episode V - The Empire Strikes Back (1980)	Princess	Sci-Fi
+Star Wars: Episode V - The Empire Strikes Back (1980)	Empire	Action
+Star Wars: Episode V - The Empire Strikes Back (1980)	Empire	Adventure
+Star Wars: Episode V - The Empire Strikes Back (1980)	Empire	Sci-Fi
+Star Wars: Episode V - The Empire Strikes Back (1980)	Rebel	Action
+Star Wars: Episode V - The Empire Strikes Back (1980)	Rebel	Adventure
+Star Wars: Episode V - The Empire Strikes Back (1980)	Rebel	Sci-Fi
+Star Wars: Episode V - The Empire Strikes Back (1980)	Training	Action
+Star Wars: Episode V - The Empire Strikes Back (1980)	Training	Adventure
+Star Wars: Episode V - The Empire Strikes Back (1980)	Training	Sci-Fi
+Star Wars: Episode V - The Empire Strikes Back (1980)	Rescue	Action
+Star Wars: Episode V - The Empire Strikes Back (1980)	Rescue	Adventure
+Star Wars: Episode V - The Empire Strikes Back (1980)	Rescue	Sci-Fi
+The Dark Knight (2008)	Batman	Action
+The Dark Knight (2008)	Batman	Crime
+The Dark Knight (2008)	Batman	Drama
+The Dark Knight (2008)	Batman	Thriller
+The Dark Knight (2008)	Joker	Action
+The Dark Knight (2008)	Joker	Crime
+The Dark Knight (2008)	Joker	Drama
+The Dark Knight (2008)	Joker	Thriller
+The Dark Knight (2008)	Criminal	Action
+The Dark Knight (2008)	Criminal	Crime
+The Dark Knight (2008)	Criminal	Drama
+The Dark Knight (2008)	Criminal	Thriller
+The Dark Knight (2008)	Gotham	Action
+The Dark Knight (2008)	Gotham	Crime
+The Dark Knight (2008)	Gotham	Drama
+The Dark Knight (2008)	Gotham	Thriller
+The Dark Knight (2008)	Chaos	Action
+The Dark Knight (2008)	Chaos	Crime
+The Dark Knight (2008)	Chaos	Drama
+The Dark Knight (2008)	Chaos	Thriller
+The Lord of the Rings: The Return of the King (2003)	Ring	Action
+The Lord of the Rings: The Return of the King (2003)	Ring	Adventure
+The Lord of the Rings: The Return of the King (2003)	Ring	Fantasy
+The Lord of the Rings: The Return of the King (2003)	Battle	Action
+The Lord of the Rings: The Return of the King (2003)	Battle	Adventure
+The Lord of the Rings: The Return of the King (2003)	Battle	Fantasy
+The Lord of the Rings: The Return of the King (2003)	King	Action
+The Lord of the Rings: The Return of the King (2003)	King	Adventure
+The Lord of the Rings: The Return of the King (2003)	King	Fantasy
+The Lord of the Rings: The Return of the King (2003)	Middle Earth	Action
+The Lord of the Rings: The Return of the King (2003)	Middle Earth	Adventure
+The Lord of the Rings: The Return of the King (2003)	Middle Earth	Fantasy
+The Lord of the Rings: The Return of the King (2003)	Army Of The Dead 	Action
+The Lord of the Rings: The Return of the King (2003)	Army Of The Dead 	Adventure
+The Lord of the Rings: The Return of the King (2003)	Army Of The Dead 	Fantasy
+Star Wars (1977)	Death Star	Action
+Star Wars (1977)	Death Star	Adventure
+Star Wars (1977)	Death Star	Fantasy
+Star Wars (1977)	Death Star	Sci-Fi
+Star Wars (1977)	Empire	Action
+Star Wars (1977)	Empire	Adventure
+Star Wars (1977)	Empire	Fantasy
+Star Wars (1977)	Empire	Sci-Fi
+Star Wars (1977)	Planet	Action
+Star Wars (1977)	Planet	Adventure
+Star Wars (1977)	Planet	Fantasy
+Star Wars (1977)	Planet	Sci-Fi
+Star Wars (1977)	Princess	Action
+Star Wars (1977)	Princess	Adventure
+Star Wars (1977)	Princess	Fantasy
+Star Wars (1977)	Princess	Sci-Fi
+Star Wars (1977)	Galaxy	Action
+Star Wars (1977)	Galaxy	Adventure
+Star Wars (1977)	Galaxy	Fantasy
+Star Wars (1977)	Galaxy	Sci-Fi
+Casablanca (1942)	Casablanca	Drama
+Casablanca (1942)	Casablanca	Romance
+Casablanca (1942)	Casablanca	War
+Casablanca (1942)	German	Drama
+Casablanca (1942)	German	Romance
+Casablanca (1942)	German	War
+Casablanca (1942)	Police	Drama
+Casablanca (1942)	Police	Romance
+Casablanca (1942)	Police	War
+Casablanca (1942)	American Expatriate	Drama
+Casablanca (1942)	American Expatriate	Romance
+Casablanca (1942)	American Expatriate	War
+Casablanca (1942)	Underground	Drama
+Casablanca (1942)	Underground	Romance
+Casablanca (1942)	Underground	War
+Shichinin no samurai (1954)	Samurai	Action
+Shichinin no samurai (1954)	Samurai	Adventure
+Shichinin no samurai (1954)	Bandit	Action
+Shichinin no samurai (1954)	Bandit	Adventure
+Shichinin no samurai (1954)	Farmer	Action
+Shichinin no samurai (1954)	Farmer	Adventure
+Shichinin no samurai (1954)	Japan	Action
+Shichinin no samurai (1954)	Japan	Adventure
+Shichinin no samurai (1954)	Rice 	Action
+Shichinin no samurai (1954)	Rice 	Adventure
+Goodfellas (1990)	Gangster	Biography
+Goodfellas (1990)	Gangster	Crime
+Goodfellas (1990)	Gangster	Drama
+Goodfellas (1990)	Robbery	Biography
+Goodfellas (1990)	Robbery	Crime
+Goodfellas (1990)	Robbery	Drama
+Goodfellas (1990)	New York	Biography
+Goodfellas (1990)	New York	Crime
+Goodfellas (1990)	New York	Drama
+Goodfellas (1990)	Mafia	Biography
+Goodfellas (1990)	Mafia	Crime
+Goodfellas (1990)	Mafia	Drama
+Goodfellas (1990)	1960s	Biography
+Goodfellas (1990)	1960s	Crime
+Goodfellas (1990)	1960s	Drama
+Fight Club (1999)	Fight	Crime
+Fight Club (1999)	Fight	Drama
+Fight Club (1999)	Fight	Thriller
+Fight Club (1999)	Club	Crime
+Fight Club (1999)	Club	Drama
+Fight Club (1999)	Club	Thriller
+Fight Club (1999)	Support Group	Crime
+Fight Club (1999)	Support Group	Drama
+Fight Club (1999)	Support Group	Thriller
+Fight Club (1999)	Office	Crime
+Fight Club (1999)	Office	Drama
+Fight Club (1999)	Office	Thriller
+Fight Club (1999)	Boxing	Crime
+Fight Club (1999)	Boxing	Drama
+Fight Club (1999)	Boxing	Thriller
+Cidade de Deus (2002)	City Of God	Crime
+Cidade de Deus (2002)	City Of God	Drama
+Cidade de Deus (2002)	Violence	Crime
+Cidade de Deus (2002)	Violence	Drama
+Cidade de Deus (2002)	Photographer	Crime
+Cidade de Deus (2002)	Photographer	Drama
+Cidade de Deus (2002)	1960s	Crime
+Cidade de Deus (2002)	1960s	Drama
+Cidade de Deus (2002)	Growing Up	Crime
+Cidade de Deus (2002)	Growing Up	Drama
+The Lord of the Rings: The Fellowship of the Ring (2001)	Ring	Action
+The Lord of the Rings: The Fellowship of the Ring (2001)	Ring	Adventure
+The Lord of the Rings: The Fellowship of the Ring (2001)	Ring	Fantasy
+The Lord of the Rings: The Fellowship of the Ring (2001)	Hobbit	Action
+The Lord of the Rings: The Fellowship of the Ring (2001)	Hobbit	Adventure
+The Lord of the Rings: The Fellowship of the Ring (2001)	Hobbit	Fantasy
+The Lord of the Rings: The Fellowship of the Ring (2001)	Doom	Action
+The Lord of the Rings: The Fellowship of the Ring (2001)	Doom	Adventure
+The Lord of the Rings: The Fellowship of the Ring (2001)	Doom	Fantasy
+The Lord of the Rings: The Fellowship of the Ring (2001)	Middle Earth	Action
+The Lord of the Rings: The Fellowship of the Ring (2001)	Middle Earth	Adventure
+The Lord of the Rings: The Fellowship of the Ring (2001)	Middle Earth	Fantasy
+The Lord of the Rings: The Fellowship of the Ring (2001)	Quest	Action
+The Lord of the Rings: The Fellowship of the Ring (2001)	Quest	Adventure
+The Lord of the Rings: The Fellowship of the Ring (2001)	Quest	Fantasy
+Raiders of the Lost Ark (1981)	Nazi	Action
+Raiders of the Lost Ark (1981)	Nazi	Adventure
+Raiders of the Lost Ark (1981)	Escape	Action
+Raiders of the Lost Ark (1981)	Escape	Adventure
+Raiders of the Lost Ark (1981)	Ark Of The Covenant	Action
+Raiders of the Lost Ark (1981)	Ark Of The Covenant	Adventure
+Raiders of the Lost Ark (1981)	Indiana Jones	Action
+Raiders of the Lost Ark (1981)	Indiana Jones	Adventure
+Raiders of the Lost Ark (1981)	Professor	Action
+Raiders of the Lost Ark (1981)	Professor	Adventure
+Rear Window (1954)	Apartment	Crime
+Rear Window (1954)	Apartment	Mystery
+Rear Window (1954)	Apartment	Romance
+Rear Window (1954)	Apartment	Thriller
+Rear Window (1954)	Neighbor	Crime
+Rear Window (1954)	Neighbor	Mystery
+Rear Window (1954)	Neighbor	Romance
+Rear Window (1954)	Neighbor	Thriller
+Rear Window (1954)	Salesman	Crime
+Rear Window (1954)	Salesman	Mystery
+Rear Window (1954)	Salesman	Romance
+Rear Window (1954)	Salesman	Thriller
+Rear Window (1954)	Photographer	Crime
+Rear Window (1954)	Photographer	Mystery
+Rear Window (1954)	Photographer	Romance
+Rear Window (1954)	Photographer	Thriller
+Rear Window (1954)	Window	Crime
+Rear Window (1954)	Window	Mystery
+Rear Window (1954)	Window	Romance
+Rear Window (1954)	Window	Thriller
+The Usual Suspects (1995)	Criminal	Crime
+The Usual Suspects (1995)	Criminal	Mystery
+The Usual Suspects (1995)	Criminal	Thriller
+The Usual Suspects (1995)	New York	Crime
+The Usual Suspects (1995)	New York	Mystery
+The Usual Suspects (1995)	New York	Thriller
+The Usual Suspects (1995)	Suspect	Crime
+The Usual Suspects (1995)	Suspect	Mystery
+The Usual Suspects (1995)	Suspect	Thriller
+The Usual Suspects (1995)	Revenge	Crime
+The Usual Suspects (1995)	Revenge	Mystery
+The Usual Suspects (1995)	Revenge	Thriller
+The Usual Suspects (1995)	Explosion	Crime
+The Usual Suspects (1995)	Explosion	Mystery
+The Usual Suspects (1995)	Explosion	Thriller
+Psycho (1960)	Motel	Drama
+Psycho (1960)	Motel	Horror
+Psycho (1960)	Motel	Mystery
+Psycho (1960)	Motel	Thriller
+Psycho (1960)	California	Drama
+Psycho (1960)	California	Horror
+Psycho (1960)	California	Mystery
+Psycho (1960)	California	Thriller
+Psycho (1960)	Shower	Drama
+Psycho (1960)	Shower	Horror
+Psycho (1960)	Shower	Mystery
+Psycho (1960)	Shower	Thriller
+Psycho (1960)	Alimony	Drama
+Psycho (1960)	Alimony	Horror
+Psycho (1960)	Alimony	Mystery
+Psycho (1960)	Alimony	Thriller
+Psycho (1960)	Phoenix Arizona	Drama
+Psycho (1960)	Phoenix Arizona	Horror
+Psycho (1960)	Phoenix Arizona	Mystery
+Psycho (1960)	Phoenix Arizona	Thriller
+C'era una volta il West (1968)	Harmonica	Western
+C'era una volta il West (1968)	Assassin	Western
+C'era una volta il West (1968)	Widow	Western
+C'era una volta il West (1968)	Epic	Western
+C'era una volta il West (1968)	Murder	Western
+The Silence of the Lambs (1991)	FBI	Crime
+The Silence of the Lambs (1991)	FBI	Thriller
+The Silence of the Lambs (1991)	Serial Killer	Crime
+The Silence of the Lambs (1991)	Serial Killer	Thriller
+The Silence of the Lambs (1991)	Agent	Crime
+The Silence of the Lambs (1991)	Agent	Thriller
+The Silence of the Lambs (1991)	Psychiatrist	Crime
+The Silence of the Lambs (1991)	Psychiatrist	Thriller
+The Silence of the Lambs (1991)	Psychopath	Crime
+The Silence of the Lambs (1991)	Psychopath	Thriller
+The Matrix (1999)	Computer	Action
+The Matrix (1999)	Computer	Adventure
+The Matrix (1999)	Computer	Sci-Fi
+The Matrix (1999)	Computer	Thriller
+The Matrix (1999)	Hacker	Action
+The Matrix (1999)	Hacker	Adventure
+The Matrix (1999)	Hacker	Sci-Fi
+The Matrix (1999)	Hacker	Thriller
+The Matrix (1999)	Computer Hacker	Action
+The Matrix (1999)	Computer Hacker	Adventure
+The Matrix (1999)	Computer Hacker	Sci-Fi
+The Matrix (1999)	Computer Hacker	Thriller
+The Matrix (1999)	The Matrix	Action
+The Matrix (1999)	The Matrix	Adventure
+The Matrix (1999)	The Matrix	Sci-Fi
+The Matrix (1999)	The Matrix	Thriller
+The Matrix (1999)	Reality	Action
+The Matrix (1999)	Reality	Adventure
+The Matrix (1999)	Reality	Sci-Fi
+The Matrix (1999)	Reality	Thriller
+Se7en (1995)	Detective	Crime
+Se7en (1995)	Detective	Drama
+Se7en (1995)	Detective	Mystery
+Se7en (1995)	Detective	Thriller
+Se7en (1995)	Seven Deadly Sins	Crime
+Se7en (1995)	Seven Deadly Sins	Drama
+Se7en (1995)	Seven Deadly Sins	Mystery
+Se7en (1995)	Seven Deadly Sins	Thriller
+Se7en (1995)	Serial Killer	Crime
+Se7en (1995)	Serial Killer	Drama
+Se7en (1995)	Serial Killer	Mystery
+Se7en (1995)	Serial Killer	Thriller
+Se7en (1995)	Gluttony	Crime
+Se7en (1995)	Gluttony	Drama
+Se7en (1995)	Gluttony	Mystery
+Se7en (1995)	Gluttony	Thriller
+Se7en (1995)	Police	Crime
+Se7en (1995)	Police	Drama
+Se7en (1995)	Police	Mystery
+Se7en (1995)	Police	Thriller
+Memento (2000)	Memory	Mystery
+Memento (2000)	Memory	Thriller
+Memento (2000)	Murder	Mystery
+Memento (2000)	Murder	Thriller
+Memento (2000)	Short Term Memory	Mystery
+Memento (2000)	Short Term Memory	Thriller
+Memento (2000)	Polaroid	Mystery
+Memento (2000)	Polaroid	Thriller
+Memento (2000)	Short Term Memory Loss	Mystery
+Memento (2000)	Short Term Memory Loss	Thriller
+It's a Wonderful Life (1946)	Angel	Drama
+It's a Wonderful Life (1946)	Angel	Fantasy
+It's a Wonderful Life (1946)	Angel	Romance
+It's a Wonderful Life (1946)	Business	Drama
+It's a Wonderful Life (1946)	Business	Fantasy
+It's a Wonderful Life (1946)	Business	Romance
+It's a Wonderful Life (1946)	Christmas	Drama
+It's a Wonderful Life (1946)	Christmas	Fantasy
+It's a Wonderful Life (1946)	Christmas	Romance
+It's a Wonderful Life (1946)	Small Town	Drama
+It's a Wonderful Life (1946)	Small Town	Fantasy
+It's a Wonderful Life (1946)	Small Town	Romance
+It's a Wonderful Life (1946)	Bank	Drama
+It's a Wonderful Life (1946)	Bank	Fantasy
+It's a Wonderful Life (1946)	Bank	Romance
+The Lord of the Rings: The Two Towers (2002)	Ring	Action
+The Lord of the Rings: The Two Towers (2002)	Ring	Adventure
+The Lord of the Rings: The Two Towers (2002)	Ring	Fantasy
+The Lord of the Rings: The Two Towers (2002)	Army	Action
+The Lord of the Rings: The Two Towers (2002)	Army	Adventure
+The Lord of the Rings: The Two Towers (2002)	Army	Fantasy
+The Lord of the Rings: The Two Towers (2002)	Mission	Action
+The Lord of the Rings: The Two Towers (2002)	Mission	Adventure
+The Lord of the Rings: The Two Towers (2002)	Mission	Fantasy
+The Lord of the Rings: The Two Towers (2002)	Middle Earth	Action
+The Lord of the Rings: The Two Towers (2002)	Middle Earth	Adventure
+The Lord of the Rings: The Two Towers (2002)	Middle Earth	Fantasy
+The Lord of the Rings: The Two Towers (2002)	Tower	Action
+The Lord of the Rings: The Two Towers (2002)	Tower	Adventure
+The Lord of the Rings: The Two Towers (2002)	Tower	Fantasy
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)	General	Drama
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)	General	Thriller
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)	U.S. President	Drama
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)	U.S. President	Thriller
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)	Bomber	Drama
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)	Bomber	Thriller
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)	Doomsday Machine	Drama
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)	Doomsday Machine	Thriller
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)	Doomsday	Drama
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)	Doomsday	Thriller
+Sunset Blvd. (1950)	Writer	Drama
+Sunset Blvd. (1950)	Writer	Film-Noir
+Sunset Blvd. (1950)	Hollywood	Drama
+Sunset Blvd. (1950)	Hollywood	Film-Noir
+Sunset Blvd. (1950)	Mansion	Drama
+Sunset Blvd. (1950)	Mansion	Film-Noir
+Sunset Blvd. (1950)	Comeback	Drama
+Sunset Blvd. (1950)	Comeback	Film-Noir
+Sunset Blvd. (1950)	Director	Drama
+Sunset Blvd. (1950)	Director	Film-Noir
+North by Northwest (1959)	Spy	Action
+North by Northwest (1959)	Spy	Adventure
+North by Northwest (1959)	Spy	Drama
+North by Northwest (1959)	Spy	Mystery
+North by Northwest (1959)	Spy	Romance
+North by Northwest (1959)	Spy	Thriller
+North by Northwest (1959)	Advertising	Action
+North by Northwest (1959)	Advertising	Adventure
+North by Northwest (1959)	Advertising	Drama
+North by Northwest (1959)	Advertising	Mystery
+North by Northwest (1959)	Advertising	Romance
+North by Northwest (1959)	Advertising	Thriller
+North by Northwest (1959)	Agent	Action
+North by Northwest (1959)	Agent	Adventure
+North by Northwest (1959)	Agent	Drama
+North by Northwest (1959)	Agent	Mystery
+North by Northwest (1959)	Agent	Romance
+North by Northwest (1959)	Agent	Thriller
+North by Northwest (1959)	Government Agent	Action
+North by Northwest (1959)	Government Agent	Adventure
+North by Northwest (1959)	Government Agent	Drama
+North by Northwest (1959)	Government Agent	Mystery
+North by Northwest (1959)	Government Agent	Romance
+North by Northwest (1959)	Government Agent	Thriller
+North by Northwest (1959)	Advertising Executive	Action
+North by Northwest (1959)	Advertising Executive	Adventure
+North by Northwest (1959)	Advertising Executive	Drama
+North by Northwest (1959)	Advertising Executive	Mystery
+North by Northwest (1959)	Advertising Executive	Romance
+North by Northwest (1959)	Advertising Executive	Thriller
+Citizen Kane (1941)	Rosebud	Drama
+Citizen Kane (1941)	Rosebud	Mystery
+Citizen Kane (1941)	Reporter	Drama
+Citizen Kane (1941)	Reporter	Mystery
+Citizen Kane (1941)	Newspaper	Drama
+Citizen Kane (1941)	Newspaper	Mystery
+Citizen Kane (1941)	Last Words	Drama
+Citizen Kane (1941)	Last Words	Mystery
+Citizen Kane (1941)	Estate	Drama
+Citizen Kane (1941)	Estate	Mystery
+Leon (1994)	Drugs	Crime
+Leon (1994)	Drugs	Drama
+Leon (1994)	Drugs	Thriller
+Leon (1994)	Revenge	Crime
+Leon (1994)	Revenge	Drama
+Leon (1994)	Revenge	Thriller
+Leon (1994)	Apartment	Crime
+Leon (1994)	Apartment	Drama
+Leon (1994)	Apartment	Thriller
+Leon (1994)	Neighbor	Crime
+Leon (1994)	Neighbor	Drama
+Leon (1994)	Neighbor	Thriller
+Leon (1994)	Hitman	Crime
+Leon (1994)	Hitman	Drama
+Leon (1994)	Hitman	Thriller
+Apocalypse Now (1979)	Colonel	Action
+Apocalypse Now (1979)	Colonel	Drama
+Apocalypse Now (1979)	Colonel	War
+Apocalypse Now (1979)	Jungle	Action
+Apocalypse Now (1979)	Jungle	Drama
+Apocalypse Now (1979)	Jungle	War
+Apocalypse Now (1979)	Army	Action
+Apocalypse Now (1979)	Army	Drama
+Apocalypse Now (1979)	Army	War
+Apocalypse Now (1979)	Boat	Action
+Apocalypse Now (1979)	Boat	Drama
+Apocalypse Now (1979)	Boat	War
+Apocalypse Now (1979)	Vietnam	Action
+Apocalypse Now (1979)	Vietnam	Drama
+Apocalypse Now (1979)	Vietnam	War
+Forrest Gump (1994)	Vietnam	Drama
+Forrest Gump (1994)	Vietnam	Romance
+Forrest Gump (1994)	Simple Man	Drama
+Forrest Gump (1994)	Simple Man	Romance
+Forrest Gump (1994)	Table Tennis	Drama
+Forrest Gump (1994)	Table Tennis	Romance
+Forrest Gump (1994)	Fishing	Drama
+Forrest Gump (1994)	Fishing	Romance
+Forrest Gump (1994)	Shrimp	Drama
+Forrest Gump (1994)	Shrimp	Romance
+American Beauty (1999)	Infatuation	Drama
+American Beauty (1999)	Fast Food Restaurant	Drama
+American Beauty (1999)	Friendship	Drama
+American Beauty (1999)	Cheerleading	Drama
+American Beauty (1999)	Loser	Drama
+American History X (1998)	Prison	Crime
+American History X (1998)	Prison	Drama
+American History X (1998)	Neo Nazi	Crime
+American History X (1998)	Neo Nazi	Drama
+American History X (1998)	Hatred	Crime
+American History X (1998)	Hatred	Drama
+American History X (1998)	Skinhead	Crime
+American History X (1998)	Skinhead	Drama
+American History X (1998)	Racism	Crime
+American History X (1998)	Racism	Drama
+Taxi Driver (1976)	New York City	Drama
+Taxi Driver (1976)	New York City	Thriller
+Taxi Driver (1976)	Prostitute	Drama
+Taxi Driver (1976)	Prostitute	Thriller
+Taxi Driver (1976)	Loner	Drama
+Taxi Driver (1976)	Loner	Thriller
+Taxi Driver (1976)	Gunman	Drama
+Taxi Driver (1976)	Gunman	Thriller
+Taxi Driver (1976)	Insomnia	Drama
+Taxi Driver (1976)	Insomnia	Thriller
+Vertigo (1958)	Suicide	Crime
+Vertigo (1958)	Suicide	Mystery
+Vertigo (1958)	Suicide	Romance
+Vertigo (1958)	Suicide	Thriller
+Vertigo (1958)	Police	Crime
+Vertigo (1958)	Police	Mystery
+Vertigo (1958)	Police	Romance
+Vertigo (1958)	Police	Thriller
+Vertigo (1958)	Acrophobia	Crime
+Vertigo (1958)	Acrophobia	Mystery
+Vertigo (1958)	Acrophobia	Romance
+Vertigo (1958)	Acrophobia	Thriller
+Vertigo (1958)	Vertigo	Crime
+Vertigo (1958)	Vertigo	Mystery
+Vertigo (1958)	Vertigo	Romance
+Vertigo (1958)	Vertigo	Thriller
+Vertigo (1958)	Love	Crime
+Vertigo (1958)	Love	Mystery
+Vertigo (1958)	Love	Romance
+Vertigo (1958)	Love	Thriller
+Terminator 2: Judgment Day (1991)	Future	Action
+Terminator 2: Judgment Day (1991)	Future	Sci-Fi
+Terminator 2: Judgment Day (1991)	Future	Thriller
+Terminator 2: Judgment Day (1991)	The Terminator	Action
+Terminator 2: Judgment Day (1991)	The Terminator	Sci-Fi
+Terminator 2: Judgment Day (1991)	The Terminator	Thriller
+Terminator 2: Judgment Day (1991)	Cyborg	Action
+Terminator 2: Judgment Day (1991)	Cyborg	Sci-Fi
+Terminator 2: Judgment Day (1991)	Cyborg	Thriller
+Terminator 2: Judgment Day (1991)	Sequel	Action
+Terminator 2: Judgment Day (1991)	Sequel	Sci-Fi
+Terminator 2: Judgment Day (1991)	Sequel	Thriller
+Terminator 2: Judgment Day (1991)	Warrior	Action
+Terminator 2: Judgment Day (1991)	Warrior	Sci-Fi
+Terminator 2: Judgment Day (1991)	Warrior	Thriller
+Lawrence of Arabia (1962)	Desert	Adventure
+Lawrence of Arabia (1962)	Desert	Biography
+Lawrence of Arabia (1962)	Desert	Drama
+Lawrence of Arabia (1962)	Desert	War
+Lawrence of Arabia (1962)	Army	Adventure
+Lawrence of Arabia (1962)	Army	Biography
+Lawrence of Arabia (1962)	Army	Drama
+Lawrence of Arabia (1962)	Army	War
+Lawrence of Arabia (1962)	Arab	Adventure
+Lawrence of Arabia (1962)	Arab	Biography
+Lawrence of Arabia (1962)	Arab	Drama
+Lawrence of Arabia (1962)	Arab	War
+Lawrence of Arabia (1962)	Turk	Adventure
+Lawrence of Arabia (1962)	Turk	Biography
+Lawrence of Arabia (1962)	Turk	Drama
+Lawrence of Arabia (1962)	Turk	War
+Lawrence of Arabia (1962)	General	Adventure
+Lawrence of Arabia (1962)	General	Biography
+Lawrence of Arabia (1962)	General	Drama
+Lawrence of Arabia (1962)	General	War
+Alien (1979)	Alien	Horror
+Alien (1979)	Alien	Sci-Fi
+Alien (1979)	Alien	Thriller
+Alien (1979)	Spaceship	Horror
+Alien (1979)	Spaceship	Sci-Fi
+Alien (1979)	Spaceship	Thriller
+Alien (1979)	Egg	Horror
+Alien (1979)	Egg	Sci-Fi
+Alien (1979)	Egg	Thriller
+Alien (1979)	Parasite	Horror
+Alien (1979)	Parasite	Sci-Fi
+Alien (1979)	Parasite	Thriller
+Alien (1979)	Creature	Horror
+Alien (1979)	Creature	Sci-Fi
+Alien (1979)	Creature	Thriller
+Le fabuleux destin d'Amelie Poulain (2001)	Love	Comedy
+Le fabuleux destin d'Amelie Poulain (2001)	Love	Romance
+Le fabuleux destin d'Amelie Poulain (2001)	Waitress	Comedy
+Le fabuleux destin d'Amelie Poulain (2001)	Waitress	Romance
+Le fabuleux destin d'Amelie Poulain (2001)	Garden Gnome	Comedy
+Le fabuleux destin d'Amelie Poulain (2001)	Garden Gnome	Romance
+Le fabuleux destin d'Amelie Poulain (2001)	Hypochondriac	Comedy
+Le fabuleux destin d'Amelie Poulain (2001)	Hypochondriac	Romance
+Le fabuleux destin d'Amelie Poulain (2001)	Happiness	Comedy
+Le fabuleux destin d'Amelie Poulain (2001)	Happiness	Romance
+WALL�E (2008)	Robot	Animation
+WALL�E (2008)	Robot	Adventure
+WALL�E (2008)	Robot	Family
+WALL�E (2008)	Robot	Romance
+WALL�E (2008)	Robot	Sci-Fi
+WALL�E (2008)	Plant	Animation
+WALL�E (2008)	Plant	Adventure
+WALL�E (2008)	Plant	Family
+WALL�E (2008)	Plant	Romance
+WALL�E (2008)	Plant	Sci-Fi
+WALL�E (2008)	Future	Animation
+WALL�E (2008)	Future	Adventure
+WALL�E (2008)	Future	Family
+WALL�E (2008)	Future	Romance
+WALL�E (2008)	Future	Sci-Fi
+WALL�E (2008)	Rescue	Animation
+WALL�E (2008)	Rescue	Adventure
+WALL�E (2008)	Rescue	Family
+WALL�E (2008)	Rescue	Romance
+WALL�E (2008)	Rescue	Sci-Fi
+WALL�E (2008)	Corporation	Animation
+WALL�E (2008)	Corporation	Adventure
+WALL�E (2008)	Corporation	Family
+WALL�E (2008)	Corporation	Romance
+WALL�E (2008)	Corporation	Sci-Fi
+Saving Private Ryan (1998)	Normandy	Action
+Saving Private Ryan (1998)	Normandy	Drama
+Saving Private Ryan (1998)	Normandy	War
+Saving Private Ryan (1998)	Invasion	Action
+Saving Private Ryan (1998)	Invasion	Drama
+Saving Private Ryan (1998)	Invasion	War
+Saving Private Ryan (1998)	General	Action
+Saving Private Ryan (1998)	General	Drama
+Saving Private Ryan (1998)	General	War
+Saving Private Ryan (1998)	Soldier	Action
+Saving Private Ryan (1998)	Soldier	Drama
+Saving Private Ryan (1998)	Soldier	War
+Saving Private Ryan (1998)	1944	Action
+Saving Private Ryan (1998)	1944	Drama
+Saving Private Ryan (1998)	1944	War
+A Clockwork Orange (1971)	Aversion Therapy	Crime
+A Clockwork Orange (1971)	Aversion Therapy	Drama
+A Clockwork Orange (1971)	Aversion Therapy	Sci-Fi
+A Clockwork Orange (1971)	Aversion Therapy	Thriller
+A Clockwork Orange (1971)	Gang	Crime
+A Clockwork Orange (1971)	Gang	Drama
+A Clockwork Orange (1971)	Gang	Sci-Fi
+A Clockwork Orange (1971)	Gang	Thriller
+A Clockwork Orange (1971)	Prison	Crime
+A Clockwork Orange (1971)	Prison	Drama
+A Clockwork Orange (1971)	Prison	Sci-Fi
+A Clockwork Orange (1971)	Prison	Thriller
+A Clockwork Orange (1971)	Violence	Crime
+A Clockwork Orange (1971)	Violence	Drama
+A Clockwork Orange (1971)	Violence	Sci-Fi
+A Clockwork Orange (1971)	Violence	Thriller
+A Clockwork Orange (1971)	Britain	Crime
+A Clockwork Orange (1971)	Britain	Drama
+A Clockwork Orange (1971)	Britain	Sci-Fi
+A Clockwork Orange (1971)	Britain	Thriller
+The Shining (1980)	Hotel	Horror
+The Shining (1980)	Hotel	Thriller
+The Shining (1980)	Caretaker	Horror
+The Shining (1980)	Caretaker	Thriller
+The Shining (1980)	Ghost	Horror
+The Shining (1980)	Ghost	Thriller
+The Shining (1980)	Insanity	Horror
+The Shining (1980)	Insanity	Thriller
+The Shining (1980)	Colorado	Horror
+The Shining (1980)	Colorado	Thriller
+Paths of Glory (1957)	Soldier	Crime
+Paths of Glory (1957)	Soldier	Drama
+Paths of Glory (1957)	Soldier	War
+Paths of Glory (1957)	General	Crime
+Paths of Glory (1957)	General	Drama
+Paths of Glory (1957)	General	War
+Paths of Glory (1957)	French Army	Crime
+Paths of Glory (1957)	French Army	Drama
+Paths of Glory (1957)	French Army	War
+Paths of Glory (1957)	French	Crime
+Paths of Glory (1957)	French	Drama
+Paths of Glory (1957)	French	War
+Paths of Glory (1957)	WWI	Crime
+Paths of Glory (1957)	WWI	Drama
+Paths of Glory (1957)	WWI	War
+The Departed (2006)	Police	Crime
+The Departed (2006)	Police	Mystery
+The Departed (2006)	State Police	Crime
+The Departed (2006)	State Police	Mystery
+The Departed (2006)	Undercover	Crime
+The Departed (2006)	Undercover	Mystery
+The Departed (2006)	Mafia	Crime
+The Departed (2006)	Mafia	Mystery
+The Departed (2006)	Mole	Crime
+The Departed (2006)	Mole	Mystery
+The Pianist (2002)	Jewish	Biography
+The Pianist (2002)	Jewish	Drama
+The Pianist (2002)	Jewish	War
+The Pianist (2002)	Warsaw Ghetto	Biography
+The Pianist (2002)	Warsaw Ghetto	Drama
+The Pianist (2002)	Warsaw Ghetto	War
+The Pianist (2002)	Piano	Biography
+The Pianist (2002)	Piano	Drama
+The Pianist (2002)	Piano	War
+The Pianist (2002)	Nazi	Biography
+The Pianist (2002)	Nazi	Drama
+The Pianist (2002)	Nazi	War
+The Pianist (2002)	Deportation	Biography
+The Pianist (2002)	Deportation	Drama
+The Pianist (2002)	Deportation	War
+To Kill a Mockingbird (1962)	Children	Crime
+To Kill a Mockingbird (1962)	Children	Drama
+To Kill a Mockingbird (1962)	Children	Mystery
+To Kill a Mockingbird (1962)	Trial	Crime
+To Kill a Mockingbird (1962)	Trial	Drama
+To Kill a Mockingbird (1962)	Trial	Mystery
+To Kill a Mockingbird (1962)	Lawyer	Crime
+To Kill a Mockingbird (1962)	Lawyer	Drama
+To Kill a Mockingbird (1962)	Lawyer	Mystery
+To Kill a Mockingbird (1962)	Alabama	Crime
+To Kill a Mockingbird (1962)	Alabama	Drama
+To Kill a Mockingbird (1962)	Alabama	Mystery
+To Kill a Mockingbird (1962)	Small Town	Crime
+To Kill a Mockingbird (1962)	Small Town	Drama
+To Kill a Mockingbird (1962)	Small Town	Mystery
+Aliens (1986)	Alien	Action
+Aliens (1986)	Alien	Sci-Fi
+Aliens (1986)	Alien	Thriller
+Aliens (1986)	Space	Action
+Aliens (1986)	Space	Sci-Fi
+Aliens (1986)	Space	Thriller
+Aliens (1986)	Space Marine	Action
+Aliens (1986)	Space Marine	Sci-Fi
+Aliens (1986)	Space Marine	Thriller
+Aliens (1986)	Nightmare	Action
+Aliens (1986)	Nightmare	Sci-Fi
+Aliens (1986)	Nightmare	Thriller
+Aliens (1986)	Extraterrestrial	Action
+Aliens (1986)	Extraterrestrial	Sci-Fi
+Aliens (1986)	Extraterrestrial	Thriller
+Sen to Chihiro no kamikakushi (2001)	God	Animation
+Sen to Chihiro no kamikakushi (2001)	God	Adventure
+Sen to Chihiro no kamikakushi (2001)	God	Family
+Sen to Chihiro no kamikakushi (2001)	God	Fantasy
+Sen to Chihiro no kamikakushi (2001)	Bathhouse	Animation
+Sen to Chihiro no kamikakushi (2001)	Bathhouse	Adventure
+Sen to Chihiro no kamikakushi (2001)	Bathhouse	Family
+Sen to Chihiro no kamikakushi (2001)	Bathhouse	Fantasy
+Sen to Chihiro no kamikakushi (2001)	Pig	Animation
+Sen to Chihiro no kamikakushi (2001)	Pig	Adventure
+Sen to Chihiro no kamikakushi (2001)	Pig	Family
+Sen to Chihiro no kamikakushi (2001)	Pig	Fantasy
+Sen to Chihiro no kamikakushi (2001)	Spirit	Animation
+Sen to Chihiro no kamikakushi (2001)	Spirit	Adventure
+Sen to Chihiro no kamikakushi (2001)	Spirit	Family
+Sen to Chihiro no kamikakushi (2001)	Spirit	Fantasy
+Sen to Chihiro no kamikakushi (2001)	River	Animation
+Sen to Chihiro no kamikakushi (2001)	River	Adventure
+Sen to Chihiro no kamikakushi (2001)	River	Family
+Sen to Chihiro no kamikakushi (2001)	River	Fantasy
+Das Leben der Anderen (2006)	Actress	Drama
+Das Leben der Anderen (2006)	Actress	Thriller
+Das Leben der Anderen (2006)	East Germany	Drama
+Das Leben der Anderen (2006)	East Germany	Thriller
+Das Leben der Anderen (2006)	Surveillance	Drama
+Das Leben der Anderen (2006)	Surveillance	Thriller
+Das Leben der Anderen (2006)	Party	Drama
+Das Leben der Anderen (2006)	Party	Thriller
+Das Leben der Anderen (2006)	Germany	Drama
+Das Leben der Anderen (2006)	Germany	Thriller
+M (1931)	Police	Crime
+M (1931)	Police	Thriller
+M (1931)	Criminal	Crime
+M (1931)	Criminal	Thriller
+M (1931)	Killer	Crime
+M (1931)	Killer	Thriller
+M (1931)	Organized Crime	Crime
+M (1931)	Organized Crime	Thriller
+M (1931)	Investigation	Crime
+M (1931)	Investigation	Thriller
+Double Indemnity (1944)	Insurance	Crime
+Double Indemnity (1944)	Insurance	Film-Noir
+Double Indemnity (1944)	Insurance	Thriller
+Double Indemnity (1944)	Insurance Investigator	Crime
+Double Indemnity (1944)	Insurance Investigator	Film-Noir
+Double Indemnity (1944)	Insurance Investigator	Thriller
+Double Indemnity (1944)	Murder	Crime
+Double Indemnity (1944)	Murder	Film-Noir
+Double Indemnity (1944)	Murder	Thriller
+Double Indemnity (1944)	Marriage	Crime
+Double Indemnity (1944)	Marriage	Film-Noir
+Double Indemnity (1944)	Marriage	Thriller
+Double Indemnity (1944)	Insurance Salesman	Crime
+Double Indemnity (1944)	Insurance Salesman	Film-Noir
+Double Indemnity (1944)	Insurance Salesman	Thriller
+Eternal Sunshine of the Spotless Mind (2004)	Memory	Drama
+Eternal Sunshine of the Spotless Mind (2004)	Memory	Romance
+Eternal Sunshine of the Spotless Mind (2004)	Love	Drama
+Eternal Sunshine of the Spotless Mind (2004)	Love	Romance
+Eternal Sunshine of the Spotless Mind (2004)	February	Drama
+Eternal Sunshine of the Spotless Mind (2004)	February	Romance
+Eternal Sunshine of the Spotless Mind (2004)	Beach	Drama
+Eternal Sunshine of the Spotless Mind (2004)	Beach	Romance
+Eternal Sunshine of the Spotless Mind (2004)	Crush	Drama
+Eternal Sunshine of the Spotless Mind (2004)	Crush	Romance
+Chinatown (1974)	Water	Crime
+Chinatown (1974)	Water	Drama
+Chinatown (1974)	Water	Mystery
+Chinatown (1974)	Water	Thriller
+Chinatown (1974)	Murder	Crime
+Chinatown (1974)	Murder	Drama
+Chinatown (1974)	Murder	Mystery
+Chinatown (1974)	Murder	Thriller
+Chinatown (1974)	Detective	Crime
+Chinatown (1974)	Detective	Drama
+Chinatown (1974)	Detective	Mystery
+Chinatown (1974)	Detective	Thriller
+Chinatown (1974)	Corruption	Crime
+Chinatown (1974)	Corruption	Drama
+Chinatown (1974)	Corruption	Mystery
+Chinatown (1974)	Corruption	Thriller
+Chinatown (1974)	Private Detective	Crime
+Chinatown (1974)	Private Detective	Drama
+Chinatown (1974)	Private Detective	Mystery
+Chinatown (1974)	Private Detective	Thriller
+Requiem for a Dream (2000)	Drug	Drama
+Requiem for a Dream (2000)	Dream	Drama
+Requiem for a Dream (2000)	Friend	Drama
+Requiem for a Dream (2000)	Addiction	Drama
+Requiem for a Dream (2000)	Heroin	Drama
+The Third Man (1949)	Black Market	Mystery
+The Third Man (1949)	Black Market	Thriller
+The Third Man (1949)	Police	Mystery
+The Third Man (1949)	Police	Thriller
+The Third Man (1949)	Car Accident	Mystery
+The Third Man (1949)	Car Accident	Thriller
+The Third Man (1949)	Post WWII	Mystery
+The Third Man (1949)	Post WWII	Thriller
+The Third Man (1949)	Reference To Hamlet	Mystery
+The Third Man (1949)	Reference To Hamlet	Thriller
+L.A. Confidential (1997)	Police	Crime
+L.A. Confidential (1997)	Police	Drama
+L.A. Confidential (1997)	Police	Mystery
+L.A. Confidential (1997)	Police	Thriller
+L.A. Confidential (1997)	1950s	Crime
+L.A. Confidential (1997)	1950s	Drama
+L.A. Confidential (1997)	1950s	Mystery
+L.A. Confidential (1997)	1950s	Thriller
+L.A. Confidential (1997)	Violence	Crime
+L.A. Confidential (1997)	Violence	Drama
+L.A. Confidential (1997)	Violence	Mystery
+L.A. Confidential (1997)	Violence	Thriller
+L.A. Confidential (1997)	Diner	Crime
+L.A. Confidential (1997)	Diner	Drama
+L.A. Confidential (1997)	Diner	Mystery
+L.A. Confidential (1997)	Diner	Thriller
+L.A. Confidential (1997)	Corruption	Crime
+L.A. Confidential (1997)	Corruption	Drama
+L.A. Confidential (1997)	Corruption	Mystery
+L.A. Confidential (1997)	Corruption	Thriller
+Reservoir Dogs (1992)	Police	Crime
+Reservoir Dogs (1992)	Police	Drama
+Reservoir Dogs (1992)	Police	Mystery
+Reservoir Dogs (1992)	Police	Thriller
+Reservoir Dogs (1992)	Robbery	Crime
+Reservoir Dogs (1992)	Robbery	Drama
+Reservoir Dogs (1992)	Robbery	Mystery
+Reservoir Dogs (1992)	Robbery	Thriller
+Reservoir Dogs (1992)	Diamond	Crime
+Reservoir Dogs (1992)	Diamond	Drama
+Reservoir Dogs (1992)	Diamond	Mystery
+Reservoir Dogs (1992)	Diamond	Thriller
+Reservoir Dogs (1992)	Heist	Crime
+Reservoir Dogs (1992)	Heist	Drama
+Reservoir Dogs (1992)	Heist	Mystery
+Reservoir Dogs (1992)	Heist	Thriller
+Reservoir Dogs (1992)	Undercover	Crime
+Reservoir Dogs (1992)	Undercover	Drama
+Reservoir Dogs (1992)	Undercover	Mystery
+Reservoir Dogs (1992)	Undercover	Thriller
+Das Boot (1981)	U Boat	Action
+Das Boot (1981)	U Boat	Drama
+Das Boot (1981)	U Boat	History
+Das Boot (1981)	U Boat	War
+Das Boot (1981)	German	Action
+Das Boot (1981)	German	Drama
+Das Boot (1981)	German	History
+Das Boot (1981)	German	War
+Das Boot (1981)	Boredom	Action
+Das Boot (1981)	Boredom	Drama
+Das Boot (1981)	Boredom	History
+Das Boot (1981)	Boredom	War
+Das Boot (1981)	Submarine	Action
+Das Boot (1981)	Submarine	Drama
+Das Boot (1981)	Submarine	History
+Das Boot (1981)	Submarine	War
+Das Boot (1981)	Mission	Action
+Das Boot (1981)	Mission	Drama
+Das Boot (1981)	Mission	History
+Das Boot (1981)	Mission	War
+The Treasure of the Sierra Madre (1948)	Mexico	Adventure
+The Treasure of the Sierra Madre (1948)	Mexico	Drama
+The Treasure of the Sierra Madre (1948)	Mexico	Western
+The Treasure of the Sierra Madre (1948)	Mexico	Action
+The Treasure of the Sierra Madre (1948)	Gold	Adventure
+The Treasure of the Sierra Madre (1948)	Gold	Drama
+The Treasure of the Sierra Madre (1948)	Gold	Western
+The Treasure of the Sierra Madre (1948)	Gold	Action
+The Treasure of the Sierra Madre (1948)	Prospector	Adventure
+The Treasure of the Sierra Madre (1948)	Prospector	Drama
+The Treasure of the Sierra Madre (1948)	Prospector	Western
+The Treasure of the Sierra Madre (1948)	Prospector	Action
+The Treasure of the Sierra Madre (1948)	Tampico Mexico	Adventure
+The Treasure of the Sierra Madre (1948)	Tampico Mexico	Drama
+The Treasure of the Sierra Madre (1948)	Tampico Mexico	Western
+The Treasure of the Sierra Madre (1948)	Tampico Mexico	Action
+The Treasure of the Sierra Madre (1948)	Friend	Adventure
+The Treasure of the Sierra Madre (1948)	Friend	Drama
+The Treasure of the Sierra Madre (1948)	Friend	Western
+The Treasure of the Sierra Madre (1948)	Friend	Action
+Monty Python and the Holy Grail (1975)	Knight	Adventure
+Monty Python and the Holy Grail (1975)	Knight	Comedy
+Monty Python and the Holy Grail (1975)	Camelot	Adventure
+Monty Python and the Holy Grail (1975)	Camelot	Comedy
+Monty Python and the Holy Grail (1975)	Holy Grail	Adventure
+Monty Python and the Holy Grail (1975)	Holy Grail	Comedy
+Monty Python and the Holy Grail (1975)	Castle	Adventure
+Monty Python and the Holy Grail (1975)	Castle	Comedy
+Monty Python and the Holy Grail (1975)	King Arthur	Adventure
+Monty Python and the Holy Grail (1975)	King Arthur	Comedy
+City Lights (1931)	Tramp	Comedy
+City Lights (1931)	Tramp	Drama
+City Lights (1931)	Tramp	Romance
+City Lights (1931)	Operation	Comedy
+City Lights (1931)	Operation	Drama
+City Lights (1931)	Operation	Romance
+City Lights (1931)	Little Tramp	Comedy
+City Lights (1931)	Little Tramp	Drama
+City Lights (1931)	Little Tramp	Romance
+City Lights (1931)	Benefactor	Comedy
+City Lights (1931)	Benefactor	Drama
+City Lights (1931)	Benefactor	Romance
+City Lights (1931)	Love	Comedy
+City Lights (1931)	Love	Drama
+City Lights (1931)	Love	Romance
+El laberinto del fauno (2006)	Girl	Drama
+El laberinto del fauno (2006)	Girl	Fantasy
+El laberinto del fauno (2006)	Girl	Thriller
+El laberinto del fauno (2006)	Girl	War
+El laberinto del fauno (2006)	Spain	Drama
+El laberinto del fauno (2006)	Spain	Fantasy
+El laberinto del fauno (2006)	Spain	Thriller
+El laberinto del fauno (2006)	Spain	War
+El laberinto del fauno (2006)	Fairy	Drama
+El laberinto del fauno (2006)	Fairy	Fantasy
+El laberinto del fauno (2006)	Fairy	Thriller
+El laberinto del fauno (2006)	Fairy	War
+El laberinto del fauno (2006)	Fascist	Drama
+El laberinto del fauno (2006)	Fascist	Fantasy
+El laberinto del fauno (2006)	Fascist	Thriller
+El laberinto del fauno (2006)	Fascist	War
+El laberinto del fauno (2006)	Faun	Drama
+El laberinto del fauno (2006)	Faun	Fantasy
+El laberinto del fauno (2006)	Faun	Thriller
+El laberinto del fauno (2006)	Faun	War
+The Bridge on the River Kwai (1957)	Bridge	Adventure
+The Bridge on the River Kwai (1957)	Bridge	Drama
+The Bridge on the River Kwai (1957)	Bridge	War
+The Bridge on the River Kwai (1957)	British	Adventure
+The Bridge on the River Kwai (1957)	British	Drama
+The Bridge on the River Kwai (1957)	British	War
+The Bridge on the River Kwai (1957)	Japanese	Adventure
+The Bridge on the River Kwai (1957)	Japanese	Drama
+The Bridge on the River Kwai (1957)	Japanese	War
+The Bridge on the River Kwai (1957)	Construction	Adventure
+The Bridge on the River Kwai (1957)	Construction	Drama
+The Bridge on the River Kwai (1957)	Construction	War
+The Bridge on the River Kwai (1957)	American	Adventure
+The Bridge on the River Kwai (1957)	American	Drama
+The Bridge on the River Kwai (1957)	American	War
+Inglourious Basterds (2009)	German	Drama
+Inglourious Basterds (2009)	German	Thriller
+Inglourious Basterds (2009)	German	War
+Inglourious Basterds (2009)	Nazi	Drama
+Inglourious Basterds (2009)	Nazi	Thriller
+Inglourious Basterds (2009)	Nazi	War
+Inglourious Basterds (2009)	Jewish American	Drama
+Inglourious Basterds (2009)	Jewish American	Thriller
+Inglourious Basterds (2009)	Jewish American	War
+Inglourious Basterds (2009)	Nazi Occupied France	Drama
+Inglourious Basterds (2009)	Nazi Occupied France	Thriller
+Inglourious Basterds (2009)	Nazi Occupied France	War
+Inglourious Basterds (2009)	France	Drama
+Inglourious Basterds (2009)	France	Thriller
+Inglourious Basterds (2009)	France	War
+Raging Bull (1980)	Boxing	Biography
+Raging Bull (1980)	Boxing	Drama
+Raging Bull (1980)	Boxing	Sport
+Raging Bull (1980)	Boxer	Biography
+Raging Bull (1980)	Boxer	Drama
+Raging Bull (1980)	Boxer	Sport
+Raging Bull (1980)	Violence	Biography
+Raging Bull (1980)	Violence	Drama
+Raging Bull (1980)	Violence	Sport
+Raging Bull (1980)	Rage	Biography
+Raging Bull (1980)	Rage	Drama
+Raging Bull (1980)	Rage	Sport
+Raging Bull (1980)	Jealousy	Biography
+Raging Bull (1980)	Jealousy	Drama
+Raging Bull (1980)	Jealousy	Sport
+Avatar (2009)	Paraplegic	Action
+Avatar (2009)	Paraplegic	Adventure
+Avatar (2009)	Paraplegic	Fantasy
+Avatar (2009)	Paraplegic	Sci-Fi
+Avatar (2009)	Marine	Action
+Avatar (2009)	Marine	Adventure
+Avatar (2009)	Marine	Fantasy
+Avatar (2009)	Marine	Sci-Fi
+Avatar (2009)	Natives	Action
+Avatar (2009)	Natives	Adventure
+Avatar (2009)	Natives	Fantasy
+Avatar (2009)	Natives	Sci-Fi
+Avatar (2009)	Colonel	Action
+Avatar (2009)	Colonel	Adventure
+Avatar (2009)	Colonel	Fantasy
+Avatar (2009)	Colonel	Sci-Fi
+Avatar (2009)	Future	Action
+Avatar (2009)	Future	Adventure
+Avatar (2009)	Future	Fantasy
+Avatar (2009)	Future	Sci-Fi
+The Prestige (2006)	Magician	Drama
+The Prestige (2006)	Magician	Mystery
+The Prestige (2006)	Magician	Thriller
+The Prestige (2006)	Rivalry	Drama
+The Prestige (2006)	Rivalry	Mystery
+The Prestige (2006)	Rivalry	Thriller
+The Prestige (2006)	Secret	Drama
+The Prestige (2006)	Secret	Mystery
+The Prestige (2006)	Secret	Thriller
+The Prestige (2006)	Trick	Drama
+The Prestige (2006)	Trick	Mystery
+The Prestige (2006)	Trick	Thriller
+The Prestige (2006)	Illusion	Drama
+The Prestige (2006)	Illusion	Mystery
+The Prestige (2006)	Illusion	Thriller
+Back to the Future (1985)	1955	Adventure
+Back to the Future (1985)	1955	Family
+Back to the Future (1985)	1955	Sci-Fi
+Back to the Future (1985)	Time Machine	Adventure
+Back to the Future (1985)	Time Machine	Family
+Back to the Future (1985)	Time Machine	Sci-Fi
+Back to the Future (1985)	1985	Adventure
+Back to the Future (1985)	1985	Family
+Back to the Future (1985)	1985	Sci-Fi
+Back to the Future (1985)	Time Travel	Adventure
+Back to the Future (1985)	Time Travel	Family
+Back to the Future (1985)	Time Travel	Sci-Fi
+Back to the Future (1985)	High School	Adventure
+Back to the Future (1985)	High School	Family
+Back to the Future (1985)	High School	Sci-Fi
+2001: A Space Odyssey (1968)	Monolith	Adventure
+2001: A Space Odyssey (1968)	Monolith	Mystery
+2001: A Space Odyssey (1968)	Monolith	Sci-Fi
+2001: A Space Odyssey (1968)	Moon	Adventure
+2001: A Space Odyssey (1968)	Moon	Mystery
+2001: A Space Odyssey (1968)	Moon	Sci-Fi
+2001: A Space Odyssey (1968)	Computer	Adventure
+2001: A Space Odyssey (1968)	Computer	Mystery
+2001: A Space Odyssey (1968)	Computer	Sci-Fi
+2001: A Space Odyssey (1968)	Evolution	Adventure
+2001: A Space Odyssey (1968)	Evolution	Mystery
+2001: A Space Odyssey (1968)	Evolution	Sci-Fi
+2001: A Space Odyssey (1968)	Jupiter	Adventure
+2001: A Space Odyssey (1968)	Jupiter	Mystery
+2001: A Space Odyssey (1968)	Jupiter	Sci-Fi
+La vita e bella (1997)	Jewish	Drama
+La vita e bella (1997)	Jewish	Romance
+La vita e bella (1997)	Jewish	War
+La vita e bella (1997)	Italy	Drama
+La vita e bella (1997)	Italy	Romance
+La vita e bella (1997)	Italy	War
+La vita e bella (1997)	Tank	Drama
+La vita e bella (1997)	Tank	Romance
+La vita e bella (1997)	Tank	War
+La vita e bella (1997)	Schoolteacher	Drama
+La vita e bella (1997)	Schoolteacher	Romance
+La vita e bella (1997)	Schoolteacher	War
+La vita e bella (1997)	Jew	Drama
+La vita e bella (1997)	Jew	Romance
+La vita e bella (1997)	Jew	War
+Up (2009)	House	Animation
+Up (2009)	House	Adventure
+Up (2009)	House	Comedy
+Up (2009)	House	Drama
+Up (2009)	House	Family
+Up (2009)	South America	Animation
+Up (2009)	South America	Adventure
+Up (2009)	South America	Comedy
+Up (2009)	South America	Drama
+Up (2009)	South America	Family
+Up (2009)	Boy	Animation
+Up (2009)	Boy	Adventure
+Up (2009)	Boy	Comedy
+Up (2009)	Boy	Drama
+Up (2009)	Boy	Family
+Up (2009)	Dream	Animation
+Up (2009)	Dream	Adventure
+Up (2009)	Dream	Comedy
+Up (2009)	Dream	Drama
+Up (2009)	Dream	Family
+Up (2009)	Retirement Home	Animation
+Up (2009)	Retirement Home	Adventure
+Up (2009)	Retirement Home	Comedy
+Up (2009)	Retirement Home	Drama
+Up (2009)	Retirement Home	Family
+Singin' in the Rain (1952)	Love	Comedy
+Singin' in the Rain (1952)	Love	Musical
+Singin' in the Rain (1952)	Love	Romance
+Singin' in the Rain (1952)	Actress	Comedy
+Singin' in the Rain (1952)	Actress	Musical
+Singin' in the Rain (1952)	Actress	Romance
+Singin' in the Rain (1952)	Friend	Comedy
+Singin' in the Rain (1952)	Friend	Musical
+Singin' in the Rain (1952)	Friend	Romance
+Singin' in the Rain (1952)	Piano	Comedy
+Singin' in the Rain (1952)	Piano	Musical
+Singin' in the Rain (1952)	Piano	Romance
+Singin' in the Rain (1952)	Singing	Comedy
+Singin' in the Rain (1952)	Singing	Musical
+Singin' in the Rain (1952)	Singing	Romance
+Modern Times (1936)	Machine	Comedy
+Modern Times (1936)	Machine	Drama
+Modern Times (1936)	Machine	Romance
+Modern Times (1936)	Invention	Comedy
+Modern Times (1936)	Invention	Drama
+Modern Times (1936)	Invention	Romance
+Modern Times (1936)	Tramp	Comedy
+Modern Times (1936)	Tramp	Drama
+Modern Times (1936)	Tramp	Romance
+Modern Times (1936)	Jail	Comedy
+Modern Times (1936)	Jail	Drama
+Modern Times (1936)	Jail	Romance
+Modern Times (1936)	Police	Comedy
+Modern Times (1936)	Police	Drama
+Modern Times (1936)	Police	Romance
+Some Like It Hot (1959)	Band	Comedy
+Some Like It Hot (1959)	Musician	Comedy
+Some Like It Hot (1959)	All Girl Band	Comedy
+Some Like It Hot (1959)	Witness	Comedy
+Some Like It Hot (1959)	St. Valentine's Day Massacre	Comedy
+Der Untergang (2004)	Hitler	Biography
+Der Untergang (2004)	Hitler	Drama
+Der Untergang (2004)	Hitler	History
+Der Untergang (2004)	Hitler	War
+Der Untergang (2004)	Bunker	Biography
+Der Untergang (2004)	Bunker	Drama
+Der Untergang (2004)	Bunker	History
+Der Untergang (2004)	Bunker	War
+Der Untergang (2004)	Adolf Hitler	Biography
+Der Untergang (2004)	Adolf Hitler	Drama
+Der Untergang (2004)	Adolf Hitler	History
+Der Untergang (2004)	Adolf Hitler	War
+Der Untergang (2004)	1945	Biography
+Der Untergang (2004)	1945	Drama
+Der Untergang (2004)	1945	History
+Der Untergang (2004)	1945	War
+Der Untergang (2004)	Secretary	Biography
+Der Untergang (2004)	Secretary	Drama
+Der Untergang (2004)	Secretary	History
+Der Untergang (2004)	Secretary	War
+Amadeus (1984)	Musician	Drama
+Amadeus (1984)	Musician	Music
+Amadeus (1984)	Asylum	Drama
+Amadeus (1984)	Asylum	Music
+Amadeus (1984)	Envy	Drama
+Amadeus (1984)	Envy	Music
+Amadeus (1984)	Flashback	Drama
+Amadeus (1984)	Flashback	Music
+Amadeus (1984)	Dictation	Drama
+Amadeus (1984)	Dictation	Music
+Full Metal Jacket (1987)	Vietnam	Action
+Full Metal Jacket (1987)	Vietnam	Drama
+Full Metal Jacket (1987)	Vietnam	War
+Full Metal Jacket (1987)	Recruit	Action
+Full Metal Jacket (1987)	Recruit	Drama
+Full Metal Jacket (1987)	Recruit	War
+Full Metal Jacket (1987)	Tet Offensive	Action
+Full Metal Jacket (1987)	Tet Offensive	Drama
+Full Metal Jacket (1987)	Tet Offensive	War
+Full Metal Jacket (1987)	Sergeant	Action
+Full Metal Jacket (1987)	Sergeant	Drama
+Full Metal Jacket (1987)	Sergeant	War
+Full Metal Jacket (1987)	Military	Action
+Full Metal Jacket (1987)	Military	Drama
+Full Metal Jacket (1987)	Military	War
+Nuovo cinema Paradiso (1988)	Village	Comedy
+Nuovo cinema Paradiso (1988)	Village	Drama
+Nuovo cinema Paradiso (1988)	Village	Romance
+Nuovo cinema Paradiso (1988)	Projectionist	Comedy
+Nuovo cinema Paradiso (1988)	Projectionist	Drama
+Nuovo cinema Paradiso (1988)	Projectionist	Romance
+Nuovo cinema Paradiso (1988)	Film Making	Comedy
+Nuovo cinema Paradiso (1988)	Film Making	Drama
+Nuovo cinema Paradiso (1988)	Film Making	Romance
+Nuovo cinema Paradiso (1988)	Cinema	Comedy
+Nuovo cinema Paradiso (1988)	Cinema	Drama
+Nuovo cinema Paradiso (1988)	Cinema	Romance
+Nuovo cinema Paradiso (1988)	Theater	Comedy
+Nuovo cinema Paradiso (1988)	Theater	Drama
+Nuovo cinema Paradiso (1988)	Theater	Romance
+The Maltese Falcon (1941)	Partner	Crime
+The Maltese Falcon (1941)	Partner	Film-Noir
+The Maltese Falcon (1941)	Partner	Mystery
+The Maltese Falcon (1941)	Murder	Crime
+The Maltese Falcon (1941)	Murder	Film-Noir
+The Maltese Falcon (1941)	Murder	Mystery
+The Maltese Falcon (1941)	Statuette	Crime
+The Maltese Falcon (1941)	Statuette	Film-Noir
+The Maltese Falcon (1941)	Statuette	Mystery
+The Maltese Falcon (1941)	Detective	Crime
+The Maltese Falcon (1941)	Detective	Film-Noir
+The Maltese Falcon (1941)	Detective	Mystery
+The Maltese Falcon (1941)	Police	Crime
+The Maltese Falcon (1941)	Police	Film-Noir
+The Maltese Falcon (1941)	Police	Mystery
+Braveheart (1995)	English	Action
+Braveheart (1995)	English	Biography
+Braveheart (1995)	English	Drama
+Braveheart (1995)	English	History
+Braveheart (1995)	English	War
+Braveheart (1995)	Scotland	Action
+Braveheart (1995)	Scotland	Biography
+Braveheart (1995)	Scotland	Drama
+Braveheart (1995)	Scotland	History
+Braveheart (1995)	Scotland	War
+Braveheart (1995)	Fight	Action
+Braveheart (1995)	Fight	Biography
+Braveheart (1995)	Fight	Drama
+Braveheart (1995)	Fight	History
+Braveheart (1995)	Fight	War
+Braveheart (1995)	13th Century	Action
+Braveheart (1995)	13th Century	Biography
+Braveheart (1995)	13th Century	Drama
+Braveheart (1995)	13th Century	History
+Braveheart (1995)	13th Century	War
+Braveheart (1995)	Scot	Action
+Braveheart (1995)	Scot	Biography
+Braveheart (1995)	Scot	Drama
+Braveheart (1995)	Scot	History
+Braveheart (1995)	Scot	War
+Rashomon (1950)	Truth	Crime
+Rashomon (1950)	Truth	Drama
+Rashomon (1950)	Truth	Mystery
+Rashomon (1950)	Japan	Crime
+Rashomon (1950)	Japan	Drama
+Rashomon (1950)	Japan	Mystery
+Rashomon (1950)	Samurai	Crime
+Rashomon (1950)	Samurai	Drama
+Rashomon (1950)	Samurai	Mystery
+Rashomon (1950)	Bandit	Crime
+Rashomon (1950)	Bandit	Drama
+Rashomon (1950)	Bandit	Mystery
+Rashomon (1950)	Rape	Crime
+Rashomon (1950)	Rape	Drama
+Rashomon (1950)	Rape	Mystery
+Gran Torino (2008)	Gang	Drama
+Gran Torino (2008)	Hmong	Drama
+Gran Torino (2008)	Korean War Veteran	Drama
+Gran Torino (2008)	Old Man	Drama
+Gran Torino (2008)	Widower	Drama
+Once Upon a Time in America (1984)	New York	Crime
+Once Upon a Time in America (1984)	New York	Drama
+Once Upon a Time in America (1984)	Jewish	Crime
+Once Upon a Time in America (1984)	Jewish	Drama
+Once Upon a Time in America (1984)	Gangster	Crime
+Once Upon a Time in America (1984)	Gangster	Drama
+Once Upon a Time in America (1984)	Prohibition	Crime
+Once Upon a Time in America (1984)	Prohibition	Drama
+Once Upon a Time in America (1984)	1960s	Crime
+Once Upon a Time in America (1984)	1960s	Drama
+All About Eve (1950)	Theater	Drama
+All About Eve (1950)	Critic	Drama
+All About Eve (1950)	Actress	Drama
+All About Eve (1950)	Director	Drama
+All About Eve (1950)	Star	Drama
+Metropolis (1927)	Worker	Action
+Metropolis (1927)	Worker	Adventure
+Metropolis (1927)	Worker	Drama
+Metropolis (1927)	Worker	Fantasy
+Metropolis (1927)	Worker	Romance
+Metropolis (1927)	Worker	Sci-Fi
+Metropolis (1927)	Worker	Thriller
+Metropolis (1927)	Vision	Action
+Metropolis (1927)	Vision	Adventure
+Metropolis (1927)	Vision	Drama
+Metropolis (1927)	Vision	Fantasy
+Metropolis (1927)	Vision	Romance
+Metropolis (1927)	Vision	Sci-Fi
+Metropolis (1927)	Vision	Thriller
+Metropolis (1927)	Future	Action
+Metropolis (1927)	Future	Adventure
+Metropolis (1927)	Future	Drama
+Metropolis (1927)	Future	Fantasy
+Metropolis (1927)	Future	Romance
+Metropolis (1927)	Future	Sci-Fi
+Metropolis (1927)	Future	Thriller
+Metropolis (1927)	Cathedral	Action
+Metropolis (1927)	Cathedral	Adventure
+Metropolis (1927)	Cathedral	Drama
+Metropolis (1927)	Cathedral	Fantasy
+Metropolis (1927)	Cathedral	Romance
+Metropolis (1927)	Cathedral	Sci-Fi
+Metropolis (1927)	Cathedral	Thriller
+Metropolis (1927)	Partially Lost Film	Action
+Metropolis (1927)	Partially Lost Film	Adventure
+Metropolis (1927)	Partially Lost Film	Drama
+Metropolis (1927)	Partially Lost Film	Fantasy
+Metropolis (1927)	Partially Lost Film	Romance
+Metropolis (1927)	Partially Lost Film	Sci-Fi
+Metropolis (1927)	Partially Lost Film	Thriller
+The Green Mile (1999)	Death Row	Crime
+The Green Mile (1999)	Death Row	Drama
+The Green Mile (1999)	Death Row	Fantasy
+The Green Mile (1999)	Death Row	Mystery
+The Green Mile (1999)	Prison	Crime
+The Green Mile (1999)	Prison	Drama
+The Green Mile (1999)	Prison	Fantasy
+The Green Mile (1999)	Prison	Mystery
+The Green Mile (1999)	Prison Guard	Crime
+The Green Mile (1999)	Prison Guard	Drama
+The Green Mile (1999)	Prison Guard	Fantasy
+The Green Mile (1999)	Prison Guard	Mystery
+The Green Mile (1999)	1930s	Crime
+The Green Mile (1999)	1930s	Drama
+The Green Mile (1999)	1930s	Fantasy
+The Green Mile (1999)	1930s	Mystery
+The Green Mile (1999)	Execution	Crime
+The Green Mile (1999)	Execution	Drama
+The Green Mile (1999)	Execution	Fantasy
+The Green Mile (1999)	Execution	Mystery
+The Elephant Man (1980)	Freak	Biography
+The Elephant Man (1980)	Freak	Drama
+The Elephant Man (1980)	Freak	History
+The Elephant Man (1980)	Dignity	Biography
+The Elephant Man (1980)	Dignity	Drama
+The Elephant Man (1980)	Dignity	History
+The Elephant Man (1980)	19th Century	Biography
+The Elephant Man (1980)	19th Century	Drama
+The Elephant Man (1980)	19th Century	History
+The Elephant Man (1980)	Compassion	Biography
+The Elephant Man (1980)	Compassion	Drama
+The Elephant Man (1980)	Compassion	History
+The Elephant Man (1980)	Period Drama	Biography
+The Elephant Man (1980)	Period Drama	Drama
+The Elephant Man (1980)	Period Drama	History
+Sin City (2005)	Death	Action
+Sin City (2005)	Death	Crime
+Sin City (2005)	Death	Thriller
+Sin City (2005)	Corruption	Action
+Sin City (2005)	Corruption	Crime
+Sin City (2005)	Corruption	Thriller
+Sin City (2005)	Vengeance	Action
+Sin City (2005)	Vengeance	Crime
+Sin City (2005)	Vengeance	Thriller
+Sin City (2005)	Stripper	Action
+Sin City (2005)	Stripper	Crime
+Sin City (2005)	Stripper	Thriller
+Sin City (2005)	Hitman	Action
+Sin City (2005)	Hitman	Crime
+Sin City (2005)	Hitman	Thriller
+Slumdog Millionaire (2008)	Question	Drama
+Slumdog Millionaire (2008)	Question	Romance
+Slumdog Millionaire (2008)	Slum	Drama
+Slumdog Millionaire (2008)	Slum	Romance
+Slumdog Millionaire (2008)	Cheating	Drama
+Slumdog Millionaire (2008)	Cheating	Romance
+Slumdog Millionaire (2008)	Millionaire	Drama
+Slumdog Millionaire (2008)	Millionaire	Romance
+Slumdog Millionaire (2008)	2000s	Drama
+Slumdog Millionaire (2008)	2000s	Romance
+The Great Dictator (1940)	Barber	Comedy
+The Great Dictator (1940)	Barber	Drama
+The Great Dictator (1940)	Barber	War
+The Great Dictator (1940)	Dictator	Comedy
+The Great Dictator (1940)	Dictator	Drama
+The Great Dictator (1940)	Dictator	War
+The Great Dictator (1940)	Soldier	Comedy
+The Great Dictator (1940)	Soldier	Drama
+The Great Dictator (1940)	Soldier	War
+The Great Dictator (1940)	Amnesia	Comedy
+The Great Dictator (1940)	Amnesia	Drama
+The Great Dictator (1940)	Amnesia	War
+The Great Dictator (1940)	Satire	Comedy
+The Great Dictator (1940)	Satire	Drama
+The Great Dictator (1940)	Satire	War
+Rebecca (1940)	Housekeeper	Mystery
+Rebecca (1940)	Housekeeper	Romance
+Rebecca (1940)	Housekeeper	Thriller
+Rebecca (1940)	Love	Mystery
+Rebecca (1940)	Love	Romance
+Rebecca (1940)	Love	Thriller
+Rebecca (1940)	Death	Mystery
+Rebecca (1940)	Death	Romance
+Rebecca (1940)	Death	Thriller
+Rebecca (1940)	Servant	Mystery
+Rebecca (1940)	Servant	Romance
+Rebecca (1940)	Servant	Thriller
+Rebecca (1940)	Estate	Mystery
+Rebecca (1940)	Estate	Romance
+Rebecca (1940)	Estate	Thriller
+The Apartment (1960)	Apartment	Romance
+The Apartment (1960)	Apartment	Comedy
+The Apartment (1960)	Apartment	Drama
+The Apartment (1960)	Executive	Romance
+The Apartment (1960)	Executive	Comedy
+The Apartment (1960)	Executive	Drama
+The Apartment (1960)	Insurance	Romance
+The Apartment (1960)	Insurance	Comedy
+The Apartment (1960)	Insurance	Drama
+The Apartment (1960)	Love	Romance
+The Apartment (1960)	Love	Comedy
+The Apartment (1960)	Love	Drama
+The Apartment (1960)	Elevator	Romance
+The Apartment (1960)	Elevator	Comedy
+The Apartment (1960)	Elevator	Drama
+The Sting (1973)	Con	Comedy
+The Sting (1973)	Con	Crime
+The Sting (1973)	Con	Drama
+The Sting (1973)	Big Con	Comedy
+The Sting (1973)	Big Con	Crime
+The Sting (1973)	Big Con	Drama
+The Sting (1973)	Con Man	Comedy
+The Sting (1973)	Con Man	Crime
+The Sting (1973)	Con Man	Drama
+The Sting (1973)	Con Artist	Comedy
+The Sting (1973)	Con Artist	Crime
+The Sting (1973)	Con Artist	Drama
+The Sting (1973)	Courier	Comedy
+The Sting (1973)	Courier	Crime
+The Sting (1973)	Courier	Drama
+Gladiator (2000)	Gladiator	Action
+Gladiator (2000)	Gladiator	Adventure
+Gladiator (2000)	Gladiator	Drama
+Gladiator (2000)	Gladiator	History
+Gladiator (2000)	Emperor	Action
+Gladiator (2000)	Emperor	Adventure
+Gladiator (2000)	Emperor	Drama
+Gladiator (2000)	Emperor	History
+Gladiator (2000)	General	Action
+Gladiator (2000)	General	Adventure
+Gladiator (2000)	General	Drama
+Gladiator (2000)	General	History
+Gladiator (2000)	Death	Action
+Gladiator (2000)	Death	Adventure
+Gladiator (2000)	Death	Drama
+Gladiator (2000)	Death	History
+Gladiator (2000)	Revenge	Action
+Gladiator (2000)	Revenge	Adventure
+Gladiator (2000)	Revenge	Drama
+Gladiator (2000)	Revenge	History
+The Great Escape (1963)	Escape	Action
+The Great Escape (1963)	Escape	Adventure
+The Great Escape (1963)	Escape	Drama
+The Great Escape (1963)	Escape	History
+The Great Escape (1963)	Escape	Thriller
+The Great Escape (1963)	Escape	War
+The Great Escape (1963)	Prisoner	Action
+The Great Escape (1963)	Prisoner	Adventure
+The Great Escape (1963)	Prisoner	Drama
+The Great Escape (1963)	Prisoner	History
+The Great Escape (1963)	Prisoner	Thriller
+The Great Escape (1963)	Prisoner	War
+The Great Escape (1963)	Escape Attempt	Action
+The Great Escape (1963)	Escape Attempt	Adventure
+The Great Escape (1963)	Escape Attempt	Drama
+The Great Escape (1963)	Escape Attempt	History
+The Great Escape (1963)	Escape Attempt	Thriller
+The Great Escape (1963)	Escape Attempt	War
+The Great Escape (1963)	Plan	Action
+The Great Escape (1963)	Plan	Adventure
+The Great Escape (1963)	Plan	Drama
+The Great Escape (1963)	Plan	History
+The Great Escape (1963)	Plan	Thriller
+The Great Escape (1963)	Plan	War
+The Great Escape (1963)	Tunnel	Action
+The Great Escape (1963)	Tunnel	Adventure
+The Great Escape (1963)	Tunnel	Drama
+The Great Escape (1963)	Tunnel	History
+The Great Escape (1963)	Tunnel	Thriller
+The Great Escape (1963)	Tunnel	War
+Indiana Jones and the Last Crusade (1989)	Nazi	Action
+Indiana Jones and the Last Crusade (1989)	Nazi	Adventure
+Indiana Jones and the Last Crusade (1989)	Holy Grail	Action
+Indiana Jones and the Last Crusade (1989)	Holy Grail	Adventure
+Indiana Jones and the Last Crusade (1989)	Diary	Action
+Indiana Jones and the Last Crusade (1989)	Diary	Adventure
+Indiana Jones and the Last Crusade (1989)	Indiana Jones	Action
+Indiana Jones and the Last Crusade (1989)	Indiana Jones	Adventure
+Indiana Jones and the Last Crusade (1989)	Map	Action
+Indiana Jones and the Last Crusade (1989)	Map	Adventure
+Star Wars: Episode VI - Return of the Jedi (1983)	Rebel	Action
+Star Wars: Episode VI - Return of the Jedi (1983)	Rebel	Adventure
+Star Wars: Episode VI - Return of the Jedi (1983)	Rebel	Fantasy
+Star Wars: Episode VI - Return of the Jedi (1983)	Rebel	Sci-Fi
+Star Wars: Episode VI - Return of the Jedi (1983)	Rebel	Thriller
+Star Wars: Episode VI - Return of the Jedi (1983)	Death Star	Action
+Star Wars: Episode VI - Return of the Jedi (1983)	Death Star	Adventure
+Star Wars: Episode VI - Return of the Jedi (1983)	Death Star	Fantasy
+Star Wars: Episode VI - Return of the Jedi (1983)	Death Star	Sci-Fi
+Star Wars: Episode VI - Return of the Jedi (1983)	Death Star	Thriller
+Star Wars: Episode VI - Return of the Jedi (1983)	Empire	Action
+Star Wars: Episode VI - Return of the Jedi (1983)	Empire	Adventure
+Star Wars: Episode VI - Return of the Jedi (1983)	Empire	Fantasy
+Star Wars: Episode VI - Return of the Jedi (1983)	Empire	Sci-Fi
+Star Wars: Episode VI - Return of the Jedi (1983)	Empire	Thriller
+Star Wars: Episode VI - Return of the Jedi (1983)	Princess	Action
+Star Wars: Episode VI - Return of the Jedi (1983)	Princess	Adventure
+Star Wars: Episode VI - Return of the Jedi (1983)	Princess	Fantasy
+Star Wars: Episode VI - Return of the Jedi (1983)	Princess	Sci-Fi
+Star Wars: Episode VI - Return of the Jedi (1983)	Princess	Thriller
+Star Wars: Episode VI - Return of the Jedi (1983)	Jabba The Hutt	Action
+Star Wars: Episode VI - Return of the Jedi (1983)	Jabba The Hutt	Adventure
+Star Wars: Episode VI - Return of the Jedi (1983)	Jabba The Hutt	Fantasy
+Star Wars: Episode VI - Return of the Jedi (1983)	Jabba The Hutt	Sci-Fi
+Star Wars: Episode VI - Return of the Jedi (1983)	Jabba The Hutt	Thriller
+Ladri di biciclette (1948)	Job	Crime
+Ladri di biciclette (1948)	Job	Drama
+Ladri di biciclette (1948)	Bicycle	Crime
+Ladri di biciclette (1948)	Bicycle	Drama
+Ladri di biciclette (1948)	Poster	Crime
+Ladri di biciclette (1948)	Poster	Drama
+Ladri di biciclette (1948)	Thief	Crime
+Ladri di biciclette (1948)	Thief	Drama
+Ladri di biciclette (1948)	Stolen Bicycle	Crime
+Ladri di biciclette (1948)	Stolen Bicycle	Drama
+Unforgiven (1992)	Cowboy	Crime
+Unforgiven (1992)	Cowboy	Drama
+Unforgiven (1992)	Cowboy	Western
+Unforgiven (1992)	One Last Job	Crime
+Unforgiven (1992)	One Last Job	Drama
+Unforgiven (1992)	One Last Job	Western
+Unforgiven (1992)	Sheriff	Crime
+Unforgiven (1992)	Sheriff	Drama
+Unforgiven (1992)	Sheriff	Western
+Unforgiven (1992)	Gunslinger	Crime
+Unforgiven (1992)	Gunslinger	Drama
+Unforgiven (1992)	Gunslinger	Western
+Unforgiven (1992)	Prostitute	Crime
+Unforgiven (1992)	Prostitute	Drama
+Unforgiven (1992)	Prostitute	Western
+Jaws (1975)	Shark	Thriller
+Jaws (1975)	Beach	Thriller
+Jaws (1975)	Island	Thriller
+Jaws (1975)	Fisherman	Thriller
+Jaws (1975)	Mayor	Thriller
+Batman Begins (2005)	Batman	Action
+Batman Begins (2005)	Batman	Crime
+Batman Begins (2005)	Batman	Drama
+Batman Begins (2005)	Batman	Thriller
+Batman Begins (2005)	Gotham	Action
+Batman Begins (2005)	Gotham	Crime
+Batman Begins (2005)	Gotham	Drama
+Batman Begins (2005)	Gotham	Thriller
+Batman Begins (2005)	Fear	Action
+Batman Begins (2005)	Fear	Crime
+Batman Begins (2005)	Fear	Drama
+Batman Begins (2005)	Fear	Thriller
+Batman Begins (2005)	Bat	Action
+Batman Begins (2005)	Bat	Crime
+Batman Begins (2005)	Bat	Drama
+Batman Begins (2005)	Bat	Thriller
+Batman Begins (2005)	Cave	Action
+Batman Begins (2005)	Cave	Crime
+Batman Begins (2005)	Cave	Drama
+Batman Begins (2005)	Cave	Thriller
+Blade Runner (1982)	Future	Action
+Blade Runner (1982)	Future	Sci-Fi
+Blade Runner (1982)	Future	Thriller
+Blade Runner (1982)	Cyberpunk	Action
+Blade Runner (1982)	Cyberpunk	Sci-Fi
+Blade Runner (1982)	Cyberpunk	Thriller
+Blade Runner (1982)	Police	Action
+Blade Runner (1982)	Police	Sci-Fi
+Blade Runner (1982)	Police	Thriller
+Blade Runner (1982)	Nail Through Hand	Action
+Blade Runner (1982)	Nail Through Hand	Sci-Fi
+Blade Runner (1982)	Nail Through Hand	Thriller
+Blade Runner (1982)	Photograph	Action
+Blade Runner (1982)	Photograph	Sci-Fi
+Blade Runner (1982)	Photograph	Thriller
+Die Hard (1988)	Terrorist	Action
+Die Hard (1988)	Terrorist	Crime
+Die Hard (1988)	Terrorist	Thriller
+Die Hard (1988)	Hostage	Action
+Die Hard (1988)	Hostage	Crime
+Die Hard (1988)	Hostage	Thriller
+Die Hard (1988)	Christmas	Action
+Die Hard (1988)	Christmas	Crime
+Die Hard (1988)	Christmas	Thriller
+Die Hard (1988)	Robbery	Action
+Die Hard (1988)	Robbery	Crime
+Die Hard (1988)	Robbery	Thriller
+Die Hard (1988)	Vault	Action
+Die Hard (1988)	Vault	Crime
+Die Hard (1988)	Vault	Thriller
+Hotel Rwanda (2004)	Hotel	Drama
+Hotel Rwanda (2004)	Hotel	History
+Hotel Rwanda (2004)	Hotel	Thriller
+Hotel Rwanda (2004)	Hotel	War
+Hotel Rwanda (2004)	Rwanda	Drama
+Hotel Rwanda (2004)	Rwanda	History
+Hotel Rwanda (2004)	Rwanda	Thriller
+Hotel Rwanda (2004)	Rwanda	War
+Hotel Rwanda (2004)	Militia	Drama
+Hotel Rwanda (2004)	Militia	History
+Hotel Rwanda (2004)	Militia	Thriller
+Hotel Rwanda (2004)	Militia	War
+Hotel Rwanda (2004)	Hotel Manager	Drama
+Hotel Rwanda (2004)	Hotel Manager	History
+Hotel Rwanda (2004)	Hotel Manager	Thriller
+Hotel Rwanda (2004)	Hotel Manager	War
+Hotel Rwanda (2004)	Atrocity	Drama
+Hotel Rwanda (2004)	Atrocity	History
+Hotel Rwanda (2004)	Atrocity	Thriller
+Hotel Rwanda (2004)	Atrocity	War
+Mr. Smith Goes to Washington (1939)	Senator	Drama
+Mr. Smith Goes to Washington (1939)	Corruption	Drama
+Mr. Smith Goes to Washington (1939)	Political Corruption	Drama
+Mr. Smith Goes to Washington (1939)	Camp	Drama
+Mr. Smith Goes to Washington (1939)	Governor	Drama
+On the Waterfront (1954)	Union	Crime
+On the Waterfront (1954)	Union	Drama
+On the Waterfront (1954)	Union	Romance
+On the Waterfront (1954)	Murder	Crime
+On the Waterfront (1954)	Murder	Drama
+On the Waterfront (1954)	Murder	Romance
+On the Waterfront (1954)	Longshoreman	Crime
+On the Waterfront (1954)	Longshoreman	Drama
+On the Waterfront (1954)	Longshoreman	Romance
+On the Waterfront (1954)	Dock	Crime
+On the Waterfront (1954)	Dock	Drama
+On the Waterfront (1954)	Dock	Romance
+On the Waterfront (1954)	Pigeon	Crime
+On the Waterfront (1954)	Pigeon	Drama
+On the Waterfront (1954)	Pigeon	Romance
+No Country for Old Men (2007)	Money	Crime
+No Country for Old Men (2007)	Money	Drama
+No Country for Old Men (2007)	Money	Thriller
+No Country for Old Men (2007)	Money	Western
+No Country for Old Men (2007)	Killer	Crime
+No Country for Old Men (2007)	Killer	Drama
+No Country for Old Men (2007)	Killer	Thriller
+No Country for Old Men (2007)	Killer	Western
+No Country for Old Men (2007)	Murder	Crime
+No Country for Old Men (2007)	Murder	Drama
+No Country for Old Men (2007)	Murder	Thriller
+No Country for Old Men (2007)	Murder	Western
+No Country for Old Men (2007)	Sheriff	Crime
+No Country for Old Men (2007)	Sheriff	Drama
+No Country for Old Men (2007)	Sheriff	Thriller
+No Country for Old Men (2007)	Sheriff	Western
+No Country for Old Men (2007)	Police	Crime
+No Country for Old Men (2007)	Police	Drama
+No Country for Old Men (2007)	Police	Thriller
+No Country for Old Men (2007)	Police	Western
+Oldboy (2003)	Imprisonment	Action
+Oldboy (2003)	Imprisonment	Drama
+Oldboy (2003)	Imprisonment	Mystery
+Oldboy (2003)	Imprisonment	Thriller
+Oldboy (2003)	Money	Action
+Oldboy (2003)	Money	Drama
+Oldboy (2003)	Money	Mystery
+Oldboy (2003)	Money	Thriller
+Oldboy (2003)	Revenge	Action
+Oldboy (2003)	Revenge	Drama
+Oldboy (2003)	Revenge	Mystery
+Oldboy (2003)	Revenge	Thriller
+Oldboy (2003)	Birthday	Action
+Oldboy (2003)	Birthday	Drama
+Oldboy (2003)	Birthday	Mystery
+Oldboy (2003)	Birthday	Thriller
+Oldboy (2003)	Police	Action
+Oldboy (2003)	Police	Drama
+Oldboy (2003)	Police	Mystery
+Oldboy (2003)	Police	Thriller
+Touch of Evil (1958)	Mexican	Crime
+Touch of Evil (1958)	Mexican	Film-Noir
+Touch of Evil (1958)	Mexican	Thriller
+Touch of Evil (1958)	Border	Crime
+Touch of Evil (1958)	Border	Film-Noir
+Touch of Evil (1958)	Border	Thriller
+Touch of Evil (1958)	Investigation	Crime
+Touch of Evil (1958)	Investigation	Film-Noir
+Touch of Evil (1958)	Investigation	Thriller
+Touch of Evil (1958)	Honeymoon	Crime
+Touch of Evil (1958)	Honeymoon	Film-Noir
+Touch of Evil (1958)	Honeymoon	Thriller
+Touch of Evil (1958)	Mexico	Crime
+Touch of Evil (1958)	Mexico	Film-Noir
+Touch of Evil (1958)	Mexico	Thriller
+Det sjunde inseglet (1957)	Death	Drama
+Det sjunde inseglet (1957)	Death	Fantasy
+Det sjunde inseglet (1957)	Knight	Drama
+Det sjunde inseglet (1957)	Knight	Fantasy
+Det sjunde inseglet (1957)	Plague	Drama
+Det sjunde inseglet (1957)	Plague	Fantasy
+Det sjunde inseglet (1957)	Chess	Drama
+Det sjunde inseglet (1957)	Chess	Fantasy
+Det sjunde inseglet (1957)	Grim Reaper	Drama
+Det sjunde inseglet (1957)	Grim Reaper	Fantasy
+Fargo (1996)	Ransom	Crime
+Fargo (1996)	Ransom	Drama
+Fargo (1996)	Ransom	Thriller
+Fargo (1996)	Murder	Crime
+Fargo (1996)	Murder	Drama
+Fargo (1996)	Murder	Thriller
+Fargo (1996)	Blood	Crime
+Fargo (1996)	Blood	Drama
+Fargo (1996)	Blood	Thriller
+Fargo (1996)	Fargo North Dakota	Crime
+Fargo (1996)	Fargo North Dakota	Drama
+Fargo (1996)	Fargo North Dakota	Thriller
+Fargo (1996)	Kidnapping	Crime
+Fargo (1996)	Kidnapping	Drama
+Fargo (1996)	Kidnapping	Thriller
+District 9 (2009)	Alien	Action
+District 9 (2009)	Alien	Sci-Fi
+District 9 (2009)	Alien	Thriller
+District 9 (2009)	Prawn	Action
+District 9 (2009)	Prawn	Sci-Fi
+District 9 (2009)	Prawn	Thriller
+District 9 (2009)	Government	Action
+District 9 (2009)	Government	Sci-Fi
+District 9 (2009)	Government	Thriller
+District 9 (2009)	Refugee	Action
+District 9 (2009)	Refugee	Sci-Fi
+District 9 (2009)	Refugee	Thriller
+District 9 (2009)	Extraterrestrial	Action
+District 9 (2009)	Extraterrestrial	Sci-Fi
+District 9 (2009)	Extraterrestrial	Thriller
+Mononoke-hime (1997)	Forest	Animation
+Mononoke-hime (1997)	Forest	Adventure
+Mononoke-hime (1997)	Forest	Fantasy
+Mononoke-hime (1997)	Curse	Animation
+Mononoke-hime (1997)	Curse	Adventure
+Mononoke-hime (1997)	Curse	Fantasy
+Mononoke-hime (1997)	Animal	Animation
+Mononoke-hime (1997)	Animal	Adventure
+Mononoke-hime (1997)	Animal	Fantasy
+Mononoke-hime (1997)	Princess	Animation
+Mononoke-hime (1997)	Princess	Adventure
+Mononoke-hime (1997)	Princess	Fantasy
+Mononoke-hime (1997)	Warrior	Animation
+Mononoke-hime (1997)	Warrior	Adventure
+Mononoke-hime (1997)	Warrior	Fantasy
+The Wizard of Oz (1939)	Witch	Adventure
+The Wizard of Oz (1939)	Witch	Family
+The Wizard of Oz (1939)	Witch	Fantasy
+The Wizard of Oz (1939)	Witch	Musical
+The Wizard of Oz (1939)	Wizard	Adventure
+The Wizard of Oz (1939)	Wizard	Family
+The Wizard of Oz (1939)	Wizard	Fantasy
+The Wizard of Oz (1939)	Wizard	Musical
+The Wizard of Oz (1939)	Dog	Adventure
+The Wizard of Oz (1939)	Dog	Family
+The Wizard of Oz (1939)	Dog	Fantasy
+The Wizard of Oz (1939)	Dog	Musical
+The Wizard of Oz (1939)	Brain	Adventure
+The Wizard of Oz (1939)	Brain	Family
+The Wizard of Oz (1939)	Brain	Fantasy
+The Wizard of Oz (1939)	Brain	Musical
+The Wizard of Oz (1939)	Tornado	Adventure
+The Wizard of Oz (1939)	Tornado	Family
+The Wizard of Oz (1939)	Tornado	Fantasy
+The Wizard of Oz (1939)	Tornado	Musical
+Per qualche dollaro in piu (1965)	Bounty Hunter	Action
+Per qualche dollaro in piu (1965)	Bounty Hunter	Adventure
+Per qualche dollaro in piu (1965)	Bounty Hunter	Western
+Per qualche dollaro in piu (1965)	Woman Shot	Action
+Per qualche dollaro in piu (1965)	Woman Shot	Adventure
+Per qualche dollaro in piu (1965)	Woman Shot	Western
+Per qualche dollaro in piu (1965)	Hotel	Action
+Per qualche dollaro in piu (1965)	Hotel	Adventure
+Per qualche dollaro in piu (1965)	Hotel	Western
+Per qualche dollaro in piu (1965)	Betrayal	Action
+Per qualche dollaro in piu (1965)	Betrayal	Adventure
+Per qualche dollaro in piu (1965)	Betrayal	Western
+Per qualche dollaro in piu (1965)	Gunfight	Action
+Per qualche dollaro in piu (1965)	Gunfight	Adventure
+Per qualche dollaro in piu (1965)	Gunfight	Western
+Heat (1995)	Criminal	Action
+Heat (1995)	Criminal	Crime
+Heat (1995)	Criminal	Drama
+Heat (1995)	Criminal	Thriller
+Heat (1995)	Detective	Action
+Heat (1995)	Detective	Crime
+Heat (1995)	Detective	Drama
+Heat (1995)	Detective	Thriller
+Heat (1995)	Thief	Action
+Heat (1995)	Thief	Crime
+Heat (1995)	Thief	Drama
+Heat (1995)	Thief	Thriller
+Heat (1995)	Bank	Action
+Heat (1995)	Bank	Crime
+Heat (1995)	Bank	Drama
+Heat (1995)	Bank	Thriller
+Heat (1995)	Police	Action
+Heat (1995)	Police	Crime
+Heat (1995)	Police	Drama
+Heat (1995)	Police	Thriller
+Strangers on a Train (1951)	Tennis	Crime
+Strangers on a Train (1951)	Tennis	Film-Noir
+Strangers on a Train (1951)	Tennis	Mystery
+Strangers on a Train (1951)	Tennis	Romance
+Strangers on a Train (1951)	Tennis	Sport
+Strangers on a Train (1951)	Tennis	Thriller
+Strangers on a Train (1951)	Stranger	Crime
+Strangers on a Train (1951)	Stranger	Film-Noir
+Strangers on a Train (1951)	Stranger	Mystery
+Strangers on a Train (1951)	Stranger	Romance
+Strangers on a Train (1951)	Stranger	Sport
+Strangers on a Train (1951)	Stranger	Thriller
+Strangers on a Train (1951)	Senator	Crime
+Strangers on a Train (1951)	Senator	Film-Noir
+Strangers on a Train (1951)	Senator	Mystery
+Strangers on a Train (1951)	Senator	Romance
+Strangers on a Train (1951)	Senator	Sport
+Strangers on a Train (1951)	Senator	Thriller
+Strangers on a Train (1951)	Train	Crime
+Strangers on a Train (1951)	Train	Film-Noir
+Strangers on a Train (1951)	Train	Mystery
+Strangers on a Train (1951)	Train	Romance
+Strangers on a Train (1951)	Train	Sport
+Strangers on a Train (1951)	Train	Thriller
+Strangers on a Train (1951)	Murder	Crime
+Strangers on a Train (1951)	Murder	Film-Noir
+Strangers on a Train (1951)	Murder	Mystery
+Strangers on a Train (1951)	Murder	Romance
+Strangers on a Train (1951)	Murder	Sport
+Strangers on a Train (1951)	Murder	Thriller
+Cool Hand Luke (1967)	Prison	Crime
+Cool Hand Luke (1967)	Prison	Drama
+Cool Hand Luke (1967)	Prisoner	Crime
+Cool Hand Luke (1967)	Prisoner	Drama
+Cool Hand Luke (1967)	Escape	Crime
+Cool Hand Luke (1967)	Escape	Drama
+Cool Hand Luke (1967)	Guts	Crime
+Cool Hand Luke (1967)	Guts	Drama
+Cool Hand Luke (1967)	Authority	Crime
+Cool Hand Luke (1967)	Authority	Drama
+Donnie Darko (2001)	Rabbit	Drama
+Donnie Darko (2001)	Rabbit	Mystery
+Donnie Darko (2001)	Rabbit	Sci-Fi
+Donnie Darko (2001)	Rabbit	Thriller
+Donnie Darko (2001)	Vision	Drama
+Donnie Darko (2001)	Vision	Mystery
+Donnie Darko (2001)	Vision	Sci-Fi
+Donnie Darko (2001)	Vision	Thriller
+Donnie Darko (2001)	Teacher	Drama
+Donnie Darko (2001)	Teacher	Mystery
+Donnie Darko (2001)	Teacher	Sci-Fi
+Donnie Darko (2001)	Teacher	Thriller
+Donnie Darko (2001)	Self Help Guru	Drama
+Donnie Darko (2001)	Self Help Guru	Mystery
+Donnie Darko (2001)	Self Help Guru	Sci-Fi
+Donnie Darko (2001)	Self Help Guru	Thriller
+Donnie Darko (2001)	Death	Drama
+Donnie Darko (2001)	Death	Mystery
+Donnie Darko (2001)	Death	Sci-Fi
+Donnie Darko (2001)	Death	Thriller
+Kick-Ass (2010)	Comic Book	Action
+Kick-Ass (2010)	Comic Book	Comedy
+Kick-Ass (2010)	Comic Book	Crime
+Kick-Ass (2010)	Comic Book	Drama
+Kick-Ass (2010)	Comic Book	Thriller
+Kick-Ass (2010)	High School	Action
+Kick-Ass (2010)	High School	Comedy
+Kick-Ass (2010)	High School	Crime
+Kick-Ass (2010)	High School	Drama
+Kick-Ass (2010)	High School	Thriller
+Kick-Ass (2010)	Drug Dealer	Action
+Kick-Ass (2010)	Drug Dealer	Comedy
+Kick-Ass (2010)	Drug Dealer	Crime
+Kick-Ass (2010)	Drug Dealer	Drama
+Kick-Ass (2010)	Drug Dealer	Thriller
+Kick-Ass (2010)	Superhero	Action
+Kick-Ass (2010)	Superhero	Comedy
+Kick-Ass (2010)	Superhero	Crime
+Kick-Ass (2010)	Superhero	Drama
+Kick-Ass (2010)	Superhero	Thriller
+Kick-Ass (2010)	Vigilante	Action
+Kick-Ass (2010)	Vigilante	Comedy
+Kick-Ass (2010)	Vigilante	Crime
+Kick-Ass (2010)	Vigilante	Drama
+Kick-Ass (2010)	Vigilante	Thriller
+High Noon (1952)	Revenge	Drama
+High Noon (1952)	Revenge	Western
+High Noon (1952)	Badge	Drama
+High Noon (1952)	Badge	Western
+High Noon (1952)	Wedding	Drama
+High Noon (1952)	Wedding	Western
+High Noon (1952)	Quitting Job	Drama
+High Noon (1952)	Quitting Job	Western
+High Noon (1952)	Deputy	Drama
+High Noon (1952)	Deputy	Western
+The Sixth Sense (1999)	Child Psychologist	Drama
+The Sixth Sense (1999)	Child Psychologist	Mystery
+The Sixth Sense (1999)	Child Psychologist	Thriller
+The Sixth Sense (1999)	Patient	Drama
+The Sixth Sense (1999)	Patient	Mystery
+The Sixth Sense (1999)	Patient	Thriller
+The Sixth Sense (1999)	Ghost	Drama
+The Sixth Sense (1999)	Ghost	Mystery
+The Sixth Sense (1999)	Ghost	Thriller
+The Sixth Sense (1999)	Young Boy	Drama
+The Sixth Sense (1999)	Young Boy	Mystery
+The Sixth Sense (1999)	Young Boy	Thriller
+The Sixth Sense (1999)	Psychiatrist	Drama
+The Sixth Sense (1999)	Psychiatrist	Mystery
+The Sixth Sense (1999)	Psychiatrist	Thriller
+Notorious (1946)	Spy	Film-Noir
+Notorious (1946)	Spy	Romance
+Notorious (1946)	Spy	Thriller
+Notorious (1946)	Wine	Film-Noir
+Notorious (1946)	Wine	Romance
+Notorious (1946)	Wine	Thriller
+Notorious (1946)	German	Film-Noir
+Notorious (1946)	German	Romance
+Notorious (1946)	German	Thriller
+Notorious (1946)	Wine Cellar	Film-Noir
+Notorious (1946)	Wine Cellar	Romance
+Notorious (1946)	Wine Cellar	Thriller
+Notorious (1946)	Love	Film-Noir
+Notorious (1946)	Love	Romance
+Notorious (1946)	Love	Thriller
+There Will Be Blood (2007)	Oil	Drama
+There Will Be Blood (2007)	Oil	Thriller
+There Will Be Blood (2007)	Land	Drama
+There Will Be Blood (2007)	Land	Thriller
+There Will Be Blood (2007)	Prospector	Drama
+There Will Be Blood (2007)	Prospector	Thriller
+There Will Be Blood (2007)	California	Drama
+There Will Be Blood (2007)	California	Thriller
+There Will Be Blood (2007)	Greed	Drama
+There Will Be Blood (2007)	Greed	Thriller
+The Deer Hunter (1978)	Vietnam	Drama
+The Deer Hunter (1978)	Vietnam	War
+The Deer Hunter (1978)	Escape	Drama
+The Deer Hunter (1978)	Escape	War
+The Deer Hunter (1978)	Russian Roulette	Drama
+The Deer Hunter (1978)	Russian Roulette	War
+The Deer Hunter (1978)	Bar	Drama
+The Deer Hunter (1978)	Bar	War
+The Deer Hunter (1978)	Party	Drama
+The Deer Hunter (1978)	Party	War
+The Manchurian Candidate (1962)	Korean War	Drama
+The Manchurian Candidate (1962)	Korean War	Mystery
+The Manchurian Candidate (1962)	Korean War	Thriller
+The Manchurian Candidate (1962)	Army	Drama
+The Manchurian Candidate (1962)	Army	Mystery
+The Manchurian Candidate (1962)	Army	Thriller
+The Manchurian Candidate (1962)	Nightmare	Drama
+The Manchurian Candidate (1962)	Nightmare	Mystery
+The Manchurian Candidate (1962)	Nightmare	Thriller
+The Manchurian Candidate (1962)	Korea	Drama
+The Manchurian Candidate (1962)	Korea	Mystery
+The Manchurian Candidate (1962)	Korea	Thriller
+The Manchurian Candidate (1962)	Dream	Drama
+The Manchurian Candidate (1962)	Dream	Mystery
+The Manchurian Candidate (1962)	Dream	Thriller
+Annie Hall (1977)	Comedian	Comedy
+Annie Hall (1977)	Comedian	Drama
+Annie Hall (1977)	Comedian	Romance
+Annie Hall (1977)	Singer	Comedy
+Annie Hall (1977)	Singer	Drama
+Annie Hall (1977)	Singer	Romance
+Annie Hall (1977)	Love	Comedy
+Annie Hall (1977)	Love	Drama
+Annie Hall (1977)	Love	Romance
+Annie Hall (1977)	Fake Subtitles	Comedy
+Annie Hall (1977)	Fake Subtitles	Drama
+Annie Hall (1977)	Fake Subtitles	Romance
+Annie Hall (1977)	Death Wish	Comedy
+Annie Hall (1977)	Death Wish	Drama
+Annie Hall (1977)	Death Wish	Romance
+The Wrestler (2008)	Wrestling	Drama
+The Wrestler (2008)	Wrestling	Sport
+The Wrestler (2008)	Wrestler	Drama
+The Wrestler (2008)	Wrestler	Sport
+The Wrestler (2008)	Stripper	Drama
+The Wrestler (2008)	Stripper	Sport
+The Wrestler (2008)	Professional Wrestler	Drama
+The Wrestler (2008)	Professional Wrestler	Sport
+The Wrestler (2008)	1980s	Drama
+The Wrestler (2008)	1980s	Sport
+Kill Bill: Vol. 1 (2003)	Bride	Crime
+Kill Bill: Vol. 1 (2003)	Bride	Thriller
+Kill Bill: Vol. 1 (2003)	Assassin	Crime
+Kill Bill: Vol. 1 (2003)	Assassin	Thriller
+Kill Bill: Vol. 1 (2003)	Coma	Crime
+Kill Bill: Vol. 1 (2003)	Coma	Thriller
+Kill Bill: Vol. 1 (2003)	Assassination	Crime
+Kill Bill: Vol. 1 (2003)	Assassination	Thriller
+Kill Bill: Vol. 1 (2003)	Revenge	Crime
+Kill Bill: Vol. 1 (2003)	Revenge	Thriller
+Snatch. (2000)	Diamond	Crime
+Snatch. (2000)	Diamond	Thriller
+Snatch. (2000)	Boxing	Crime
+Snatch. (2000)	Boxing	Thriller
+Snatch. (2000)	Fight	Crime
+Snatch. (2000)	Fight	Thriller
+Snatch. (2000)	Gypsy	Crime
+Snatch. (2000)	Gypsy	Thriller
+Snatch. (2000)	Dog	Crime
+Snatch. (2000)	Dog	Thriller
+The General (1926)	General	Comedy
+The General (1926)	General	Romance
+The General (1926)	General	War
+The General (1926)	General	Action
+The General (1926)	Confederate	Comedy
+The General (1926)	Confederate	Romance
+The General (1926)	Confederate	War
+The General (1926)	Confederate	Action
+The General (1926)	Train	Comedy
+The General (1926)	Train	Romance
+The General (1926)	Train	War
+The General (1926)	Train	Action
+The General (1926)	Spy	Comedy
+The General (1926)	Spy	Romance
+The General (1926)	Spy	War
+The General (1926)	Spy	Action
+The General (1926)	Escape	Comedy
+The General (1926)	Escape	Romance
+The General (1926)	Escape	War
+The General (1926)	Escape	Action
+Platoon (1986)	Vietnam	Action
+Platoon (1986)	Vietnam	Drama
+Platoon (1986)	Vietnam	War
+Platoon (1986)	Soldier	Action
+Platoon (1986)	Soldier	Drama
+Platoon (1986)	Soldier	War
+Platoon (1986)	Combat	Action
+Platoon (1986)	Combat	Drama
+Platoon (1986)	Combat	War
+Platoon (1986)	Battle	Action
+Platoon (1986)	Battle	Drama
+Platoon (1986)	Battle	War
+Platoon (1986)	Jungle	Action
+Platoon (1986)	Jungle	Drama
+Platoon (1986)	Jungle	War
+The Big Lebowski (1998)	Rug	Comedy
+The Big Lebowski (1998)	Rug	Crime
+The Big Lebowski (1998)	Millionaire	Comedy
+The Big Lebowski (1998)	Millionaire	Crime
+The Big Lebowski (1998)	Bowling	Comedy
+The Big Lebowski (1998)	Bowling	Crime
+The Big Lebowski (1998)	Jewish Convert	Comedy
+The Big Lebowski (1998)	Jewish Convert	Crime
+The Big Lebowski (1998)	Slacker	Comedy
+The Big Lebowski (1998)	Slacker	Crime
+Yojimbo (1961)	Samurai	Action
+Yojimbo (1961)	Samurai	Comedy
+Yojimbo (1961)	Samurai	Crime
+Yojimbo (1961)	Samurai	Drama
+Yojimbo (1961)	Samurai	Thriller
+Yojimbo (1961)	Escape	Action
+Yojimbo (1961)	Escape	Comedy
+Yojimbo (1961)	Escape	Crime
+Yojimbo (1961)	Escape	Drama
+Yojimbo (1961)	Escape	Thriller
+Yojimbo (1961)	Bodyguard	Action
+Yojimbo (1961)	Bodyguard	Comedy
+Yojimbo (1961)	Bodyguard	Crime
+Yojimbo (1961)	Bodyguard	Drama
+Yojimbo (1961)	Bodyguard	Thriller
+Yojimbo (1961)	Ronin	Action
+Yojimbo (1961)	Ronin	Comedy
+Yojimbo (1961)	Ronin	Crime
+Yojimbo (1961)	Ronin	Drama
+Yojimbo (1961)	Ronin	Thriller
+Yojimbo (1961)	Jidai Geki	Action
+Yojimbo (1961)	Jidai Geki	Comedy
+Yojimbo (1961)	Jidai Geki	Crime
+Yojimbo (1961)	Jidai Geki	Drama
+Yojimbo (1961)	Jidai Geki	Thriller
+Ben-Hur (1959)	Friend	Action
+Ben-Hur (1959)	Friend	Adventure
+Ben-Hur (1959)	Friend	Drama
+Ben-Hur (1959)	Friend	History
+Ben-Hur (1959)	Friend	Romance
+Ben-Hur (1959)	Roman	Action
+Ben-Hur (1959)	Roman	Adventure
+Ben-Hur (1959)	Roman	Drama
+Ben-Hur (1959)	Roman	History
+Ben-Hur (1959)	Roman	Romance
+Ben-Hur (1959)	Revenge	Action
+Ben-Hur (1959)	Revenge	Adventure
+Ben-Hur (1959)	Revenge	Drama
+Ben-Hur (1959)	Revenge	History
+Ben-Hur (1959)	Revenge	Romance
+Ben-Hur (1959)	Jerusalem	Action
+Ben-Hur (1959)	Jerusalem	Adventure
+Ben-Hur (1959)	Jerusalem	Drama
+Ben-Hur (1959)	Jerusalem	History
+Ben-Hur (1959)	Jerusalem	Romance
+Ben-Hur (1959)	Galley	Action
+Ben-Hur (1959)	Galley	Adventure
+Ben-Hur (1959)	Galley	Drama
+Ben-Hur (1959)	Galley	History
+Ben-Hur (1959)	Galley	Romance
+Into the Wild (2007)	Alaska	Adventure
+Into the Wild (2007)	Alaska	Biography
+Into the Wild (2007)	Alaska	Drama
+Into the Wild (2007)	Wilderness	Adventure
+Into the Wild (2007)	Wilderness	Biography
+Into the Wild (2007)	Wilderness	Drama
+Into the Wild (2007)	Charity	Adventure
+Into the Wild (2007)	Charity	Biography
+Into the Wild (2007)	Charity	Drama
+Into the Wild (2007)	Emory University	Adventure
+Into the Wild (2007)	Emory University	Biography
+Into the Wild (2007)	Emory University	Drama
+Into the Wild (2007)	Love	Adventure
+Into the Wild (2007)	Love	Biography
+Into the Wild (2007)	Love	Drama
+Ran (1985)	Castle	Action
+Ran (1985)	Castle	Drama
+Ran (1985)	Castle	War
+Ran (1985)	Blood	Action
+Ran (1985)	Blood	Drama
+Ran (1985)	Blood	War
+Ran (1985)	Power	Action
+Ran (1985)	Power	Drama
+Ran (1985)	Power	War
+Ran (1985)	Greed	Action
+Ran (1985)	Greed	Drama
+Ran (1985)	Greed	War
+Ran (1985)	Revenge	Action
+Ran (1985)	Revenge	Drama
+Ran (1985)	Revenge	War
+The Big Sleep (1946)	Murder	Crime
+The Big Sleep (1946)	Murder	Film-Noir
+The Big Sleep (1946)	Murder	Mystery
+The Big Sleep (1946)	Murder	Thriller
+The Big Sleep (1946)	General	Crime
+The Big Sleep (1946)	General	Film-Noir
+The Big Sleep (1946)	General	Mystery
+The Big Sleep (1946)	General	Thriller
+The Big Sleep (1946)	Blackmail	Crime
+The Big Sleep (1946)	Blackmail	Film-Noir
+The Big Sleep (1946)	Blackmail	Mystery
+The Big Sleep (1946)	Blackmail	Thriller
+The Big Sleep (1946)	Private Eye	Crime
+The Big Sleep (1946)	Private Eye	Film-Noir
+The Big Sleep (1946)	Private Eye	Mystery
+The Big Sleep (1946)	Private Eye	Thriller
+The Big Sleep (1946)	Private Detective	Crime
+The Big Sleep (1946)	Private Detective	Film-Noir
+The Big Sleep (1946)	Private Detective	Mystery
+The Big Sleep (1946)	Private Detective	Thriller
+Million Dollar Baby (2004)	Boxer	Drama
+Million Dollar Baby (2004)	Boxer	Sport
+Million Dollar Baby (2004)	Boxing	Drama
+Million Dollar Baby (2004)	Boxing	Sport
+Million Dollar Baby (2004)	Waitress	Drama
+Million Dollar Baby (2004)	Waitress	Sport
+Million Dollar Baby (2004)	Boxing Trainer	Drama
+Million Dollar Baby (2004)	Boxing Trainer	Sport
+Million Dollar Baby (2004)	Brother Sister Relationship	Drama
+Million Dollar Baby (2004)	Brother Sister Relationship	Sport
+It Happened One Night (1934)	Reporter	Comedy
+It Happened One Night (1934)	Reporter	Romance
+It Happened One Night (1934)	Bus	Comedy
+It Happened One Night (1934)	Bus	Romance
+It Happened One Night (1934)	Love	Comedy
+It Happened One Night (1934)	Love	Romance
+It Happened One Night (1934)	Yacht	Comedy
+It Happened One Night (1934)	Yacht	Romance
+It Happened One Night (1934)	Reward	Comedy
+It Happened One Night (1934)	Reward	Romance
+The Lion King (1994)	King	Animation
+The Lion King (1994)	King	Adventure
+The Lion King (1994)	King	Drama
+The Lion King (1994)	King	Family
+The Lion King (1994)	King	Musical
+The Lion King (1994)	Scar	Animation
+The Lion King (1994)	Scar	Adventure
+The Lion King (1994)	Scar	Drama
+The Lion King (1994)	Scar	Family
+The Lion King (1994)	Scar	Musical
+The Lion King (1994)	Prince	Animation
+The Lion King (1994)	Prince	Adventure
+The Lion King (1994)	Prince	Drama
+The Lion King (1994)	Prince	Family
+The Lion King (1994)	Prince	Musical
+The Lion King (1994)	Lion	Animation
+The Lion King (1994)	Lion	Adventure
+The Lion King (1994)	Lion	Drama
+The Lion King (1994)	Lion	Family
+The Lion King (1994)	Lion	Musical
+The Lion King (1994)	Guilt	Animation
+The Lion King (1994)	Guilt	Adventure
+The Lion King (1994)	Guilt	Drama
+The Lion King (1994)	Guilt	Family
+The Lion King (1994)	Guilt	Musical
+Life of Brian (1979)	Christmas	Comedy
+Life of Brian (1979)	Judea	Comedy
+Life of Brian (1979)	Satire	Comedy
+Life of Brian (1979)	Revolutionary	Comedy
+Life of Brian (1979)	Spacecraft	Comedy
+Witness for the Prosecution (1957)	Murder	Crime
+Witness for the Prosecution (1957)	Murder	Drama
+Witness for the Prosecution (1957)	Murder	Mystery
+Witness for the Prosecution (1957)	Murder	Thriller
+Witness for the Prosecution (1957)	Widow	Crime
+Witness for the Prosecution (1957)	Widow	Drama
+Witness for the Prosecution (1957)	Widow	Mystery
+Witness for the Prosecution (1957)	Widow	Thriller
+Witness for the Prosecution (1957)	Alibi	Crime
+Witness for the Prosecution (1957)	Alibi	Drama
+Witness for the Prosecution (1957)	Alibi	Mystery
+Witness for the Prosecution (1957)	Alibi	Thriller
+Witness for the Prosecution (1957)	Trial	Crime
+Witness for the Prosecution (1957)	Trial	Drama
+Witness for the Prosecution (1957)	Trial	Mystery
+Witness for the Prosecution (1957)	Trial	Thriller
+Witness for the Prosecution (1957)	Letter	Crime
+Witness for the Prosecution (1957)	Letter	Drama
+Witness for the Prosecution (1957)	Letter	Mystery
+Witness for the Prosecution (1957)	Letter	Thriller
+Butch Cassidy and the Sundance Kid (1969)	Bolivia	Adventure
+Butch Cassidy and the Sundance Kid (1969)	Bolivia	Crime
+Butch Cassidy and the Sundance Kid (1969)	Bolivia	Drama
+Butch Cassidy and the Sundance Kid (1969)	Bolivia	Western
+Butch Cassidy and the Sundance Kid (1969)	Posse	Adventure
+Butch Cassidy and the Sundance Kid (1969)	Posse	Crime
+Butch Cassidy and the Sundance Kid (1969)	Posse	Drama
+Butch Cassidy and the Sundance Kid (1969)	Posse	Western
+Butch Cassidy and the Sundance Kid (1969)	Train	Adventure
+Butch Cassidy and the Sundance Kid (1969)	Train	Crime
+Butch Cassidy and the Sundance Kid (1969)	Train	Drama
+Butch Cassidy and the Sundance Kid (1969)	Train	Western
+Butch Cassidy and the Sundance Kid (1969)	Gun	Adventure
+Butch Cassidy and the Sundance Kid (1969)	Gun	Crime
+Butch Cassidy and the Sundance Kid (1969)	Gun	Drama
+Butch Cassidy and the Sundance Kid (1969)	Gun	Western
+Butch Cassidy and the Sundance Kid (1969)	Blockbuster	Adventure
+Butch Cassidy and the Sundance Kid (1969)	Blockbuster	Crime
+Butch Cassidy and the Sundance Kid (1969)	Blockbuster	Drama
+Butch Cassidy and the Sundance Kid (1969)	Blockbuster	Western
+Smultronstallet (1957)	Professor	Drama
+Smultronstallet (1957)	Elderly	Drama
+Smultronstallet (1957)	Aging	Drama
+Smultronstallet (1957)	Disillusionment	Drama
+Smultronstallet (1957)	Daughter In Law	Drama
+The Bourne Ultimatum (2007)	Newspaper	Action
+The Bourne Ultimatum (2007)	Newspaper	Adventure
+The Bourne Ultimatum (2007)	Newspaper	Mystery
+The Bourne Ultimatum (2007)	Newspaper	Thriller
+The Bourne Ultimatum (2007)	Dark Past	Action
+The Bourne Ultimatum (2007)	Dark Past	Adventure
+The Bourne Ultimatum (2007)	Dark Past	Mystery
+The Bourne Ultimatum (2007)	Dark Past	Thriller
+The Bourne Ultimatum (2007)	Assassination	Action
+The Bourne Ultimatum (2007)	Assassination	Adventure
+The Bourne Ultimatum (2007)	Assassination	Mystery
+The Bourne Ultimatum (2007)	Assassination	Thriller
+The Bourne Ultimatum (2007)	Jump Between Buildings	Action
+The Bourne Ultimatum (2007)	Jump Between Buildings	Adventure
+The Bourne Ultimatum (2007)	Jump Between Buildings	Mystery
+The Bourne Ultimatum (2007)	Jump Between Buildings	Thriller
+The Bourne Ultimatum (2007)	Conspiracy	Action
+The Bourne Ultimatum (2007)	Conspiracy	Adventure
+The Bourne Ultimatum (2007)	Conspiracy	Mystery
+The Bourne Ultimatum (2007)	Conspiracy	Thriller
+Finding Nemo (2003)	Fish	Animation
+Finding Nemo (2003)	Fish	Adventure
+Finding Nemo (2003)	Fish	Comedy
+Finding Nemo (2003)	Fish	Family
+Finding Nemo (2003)	Dentist	Animation
+Finding Nemo (2003)	Dentist	Adventure
+Finding Nemo (2003)	Dentist	Comedy
+Finding Nemo (2003)	Dentist	Family
+Finding Nemo (2003)	Fish Tank	Animation
+Finding Nemo (2003)	Fish Tank	Adventure
+Finding Nemo (2003)	Fish Tank	Comedy
+Finding Nemo (2003)	Fish Tank	Family
+Finding Nemo (2003)	Harbor	Animation
+Finding Nemo (2003)	Harbor	Adventure
+Finding Nemo (2003)	Harbor	Comedy
+Finding Nemo (2003)	Harbor	Family
+Finding Nemo (2003)	Short Term Memory Loss	Animation
+Finding Nemo (2003)	Short Term Memory Loss	Adventure
+Finding Nemo (2003)	Short Term Memory Loss	Comedy
+Finding Nemo (2003)	Short Term Memory Loss	Family
+Trainspotting (1996)	Drugs	Crime
+Trainspotting (1996)	Drugs	Drama
+Trainspotting (1996)	Heroin	Crime
+Trainspotting (1996)	Heroin	Drama
+Trainspotting (1996)	Female Nudity	Crime
+Trainspotting (1996)	Female Nudity	Drama
+Trainspotting (1996)	Subculture	Crime
+Trainspotting (1996)	Subculture	Drama
+Trainspotting (1996)	Real Estate Agent	Crime
+Trainspotting (1996)	Real Estate Agent	Drama
+Stand by Me (1986)	Friend	Adventure
+Stand by Me (1986)	Friend	Drama
+Stand by Me (1986)	Writer	Adventure
+Stand by Me (1986)	Writer	Drama
+Stand by Me (1986)	Teenager	Adventure
+Stand by Me (1986)	Teenager	Drama
+Stand by Me (1986)	Dead Body	Adventure
+Stand by Me (1986)	Dead Body	Drama
+Stand by Me (1986)	Railroad Track	Adventure
+Stand by Me (1986)	Railroad Track	Drama
+The Graduate (1967)	Love	Comedy
+The Graduate (1967)	Love	Drama
+The Graduate (1967)	Love	Romance
+The Graduate (1967)	College Graduate	Comedy
+The Graduate (1967)	College Graduate	Drama
+The Graduate (1967)	College Graduate	Romance
+The Graduate (1967)	Graduate	Comedy
+The Graduate (1967)	Graduate	Drama
+The Graduate (1967)	Graduate	Romance
+The Graduate (1967)	Bride And Groom	Comedy
+The Graduate (1967)	Bride And Groom	Drama
+The Graduate (1967)	Bride And Groom	Romance
+The Graduate (1967)	Confused Boy	Comedy
+The Graduate (1967)	Confused Boy	Drama
+The Graduate (1967)	Confused Boy	Romance
+The Terminator (1984)	The Terminator	Action
+The Terminator (1984)	The Terminator	Sci-Fi
+The Terminator (1984)	The Terminator	Thriller
+The Terminator (1984)	Future	Action
+The Terminator (1984)	Future	Sci-Fi
+The Terminator (1984)	Future	Thriller
+The Terminator (1984)	Skynet	Action
+The Terminator (1984)	Skynet	Sci-Fi
+The Terminator (1984)	Skynet	Thriller
+The Terminator (1984)	Cyborg	Action
+The Terminator (1984)	Cyborg	Sci-Fi
+The Terminator (1984)	Cyborg	Thriller
+The Terminator (1984)	Soldier	Action
+The Terminator (1984)	Soldier	Sci-Fi
+The Terminator (1984)	Soldier	Thriller
+Gone with the Wind (1939)	Love	Drama
+Gone with the Wind (1939)	Love	Romance
+Gone with the Wind (1939)	Love	War
+Gone with the Wind (1939)	Civil War	Drama
+Gone with the Wind (1939)	Civil War	Romance
+Gone with the Wind (1939)	Civil War	War
+Gone with the Wind (1939)	Reconstruction	Drama
+Gone with the Wind (1939)	Reconstruction	Romance
+Gone with the Wind (1939)	Reconstruction	War
+Gone with the Wind (1939)	American Civil War	Drama
+Gone with the Wind (1939)	American Civil War	Romance
+Gone with the Wind (1939)	American Civil War	War
+Gone with the Wind (1939)	Party	Drama
+Gone with the Wind (1939)	Party	Romance
+Gone with the Wind (1939)	Party	War
+Star Trek (2009)	Captain	Action
+Star Trek (2009)	Captain	Adventure
+Star Trek (2009)	Captain	Sci-Fi
+Star Trek (2009)	Vulcan	Action
+Star Trek (2009)	Vulcan	Adventure
+Star Trek (2009)	Vulcan	Sci-Fi
+Star Trek (2009)	Alien	Action
+Star Trek (2009)	Alien	Adventure
+Star Trek (2009)	Alien	Sci-Fi
+Star Trek (2009)	Starship	Action
+Star Trek (2009)	Starship	Adventure
+Star Trek (2009)	Starship	Sci-Fi
+Star Trek (2009)	Romulan	Action
+Star Trek (2009)	Romulan	Adventure
+Star Trek (2009)	Romulan	Sci-Fi
+Toy Story (1995)	Toy	Animation
+Toy Story (1995)	Toy	Adventure
+Toy Story (1995)	Toy	Comedy
+Toy Story (1995)	Toy	Family
+Toy Story (1995)	Toy	Fantasy
+Toy Story (1995)	Jealousy	Animation
+Toy Story (1995)	Jealousy	Adventure
+Toy Story (1995)	Jealousy	Comedy
+Toy Story (1995)	Jealousy	Family
+Toy Story (1995)	Jealousy	Fantasy
+Toy Story (1995)	Spaceman	Animation
+Toy Story (1995)	Spaceman	Adventure
+Toy Story (1995)	Spaceman	Comedy
+Toy Story (1995)	Spaceman	Family
+Toy Story (1995)	Spaceman	Fantasy
+Toy Story (1995)	Fight	Animation
+Toy Story (1995)	Fight	Adventure
+Toy Story (1995)	Fight	Comedy
+Toy Story (1995)	Fight	Family
+Toy Story (1995)	Fight	Fantasy
+Toy Story (1995)	Little Boy	Animation
+Toy Story (1995)	Little Boy	Adventure
+Toy Story (1995)	Little Boy	Comedy
+Toy Story (1995)	Little Boy	Family
+Toy Story (1995)	Little Boy	Fantasy
+Groundhog Day (1993)	Groundhog	Comedy
+Groundhog Day (1993)	Groundhog	Fantasy
+Groundhog Day (1993)	Groundhog	Romance
+Groundhog Day (1993)	Groundhog Day	Comedy
+Groundhog Day (1993)	Groundhog Day	Fantasy
+Groundhog Day (1993)	Groundhog Day	Romance
+Groundhog Day (1993)	Weatherman	Comedy
+Groundhog Day (1993)	Weatherman	Fantasy
+Groundhog Day (1993)	Weatherman	Romance
+Groundhog Day (1993)	Pennsylvania	Comedy
+Groundhog Day (1993)	Pennsylvania	Fantasy
+Groundhog Day (1993)	Pennsylvania	Romance
+Groundhog Day (1993)	Weather Forecasting	Comedy
+Groundhog Day (1993)	Weather Forecasting	Fantasy
+Groundhog Day (1993)	Weather Forecasting	Romance
+Scarface (1983)	Cuban	Crime
+Scarface (1983)	Cuban	Drama
+Scarface (1983)	Cuban	Thriller
+Scarface (1983)	Friend	Crime
+Scarface (1983)	Friend	Drama
+Scarface (1983)	Friend	Thriller
+Scarface (1983)	Refugee	Crime
+Scarface (1983)	Refugee	Drama
+Scarface (1983)	Refugee	Thriller
+Scarface (1983)	Drugs	Crime
+Scarface (1983)	Drugs	Drama
+Scarface (1983)	Drugs	Thriller
+Scarface (1983)	Cocaine	Crime
+Scarface (1983)	Cocaine	Drama
+Scarface (1983)	Cocaine	Thriller
+Amores perros (2000)	Dog	Drama
+Amores perros (2000)	Dog	Thriller
+Amores perros (2000)	Car Accident	Drama
+Amores perros (2000)	Car Accident	Thriller
+Amores perros (2000)	Money	Drama
+Amores perros (2000)	Money	Thriller
+Amores perros (2000)	Mexico	Drama
+Amores perros (2000)	Mexico	Thriller
+Amores perros (2000)	Dogfight	Drama
+Amores perros (2000)	Dogfight	Thriller
+The Thing (1982)	Dog	Horror
+The Thing (1982)	Dog	Mystery
+The Thing (1982)	Dog	Sci-Fi
+The Thing (1982)	Dog	Thriller
+The Thing (1982)	Helicopter	Horror
+The Thing (1982)	Helicopter	Mystery
+The Thing (1982)	Helicopter	Sci-Fi
+The Thing (1982)	Helicopter	Thriller
+The Thing (1982)	Alien	Horror
+The Thing (1982)	Alien	Mystery
+The Thing (1982)	Alien	Sci-Fi
+The Thing (1982)	Alien	Thriller
+The Thing (1982)	American	Horror
+The Thing (1982)	American	Mystery
+The Thing (1982)	American	Sci-Fi
+The Thing (1982)	American	Thriller
+The Thing (1982)	Scientist	Horror
+The Thing (1982)	Scientist	Mystery
+The Thing (1982)	Scientist	Sci-Fi
+The Thing (1982)	Scientist	Thriller
+Ratatouille (2007)	Rat	Animation
+Ratatouille (2007)	Rat	Comedy
+Ratatouille (2007)	Rat	Family
+Ratatouille (2007)	Rat	Fantasy
+Ratatouille (2007)	Chef	Animation
+Ratatouille (2007)	Chef	Comedy
+Ratatouille (2007)	Chef	Family
+Ratatouille (2007)	Chef	Fantasy
+Ratatouille (2007)	Restaurant	Animation
+Ratatouille (2007)	Restaurant	Comedy
+Ratatouille (2007)	Restaurant	Family
+Ratatouille (2007)	Restaurant	Fantasy
+Ratatouille (2007)	Cooking	Animation
+Ratatouille (2007)	Cooking	Comedy
+Ratatouille (2007)	Cooking	Family
+Ratatouille (2007)	Cooking	Fantasy
+Ratatouille (2007)	Food	Animation
+Ratatouille (2007)	Food	Comedy
+Ratatouille (2007)	Food	Family
+Ratatouille (2007)	Food	Fantasy
+Dog Day Afternoon (1975)	Bank	Crime
+Dog Day Afternoon (1975)	Bank	Drama
+Dog Day Afternoon (1975)	Bank	Thriller
+Dog Day Afternoon (1975)	Police	Crime
+Dog Day Afternoon (1975)	Police	Drama
+Dog Day Afternoon (1975)	Police	Thriller
+Dog Day Afternoon (1975)	Siege	Crime
+Dog Day Afternoon (1975)	Siege	Drama
+Dog Day Afternoon (1975)	Siege	Thriller
+Dog Day Afternoon (1975)	Hostage	Crime
+Dog Day Afternoon (1975)	Hostage	Drama
+Dog Day Afternoon (1975)	Hostage	Thriller
+Dog Day Afternoon (1975)	Media Circus	Crime
+Dog Day Afternoon (1975)	Media Circus	Drama
+Dog Day Afternoon (1975)	Media Circus	Thriller
+Gandhi (1982)	India	Biography
+Gandhi (1982)	India	Drama
+Gandhi (1982)	India	History
+Gandhi (1982)	Muslim	Biography
+Gandhi (1982)	Muslim	Drama
+Gandhi (1982)	Muslim	History
+Gandhi (1982)	Pakistan	Biography
+Gandhi (1982)	Pakistan	Drama
+Gandhi (1982)	Pakistan	History
+Gandhi (1982)	South Africa	Biography
+Gandhi (1982)	South Africa	Drama
+Gandhi (1982)	South Africa	History
+Gandhi (1982)	Independence	Biography
+Gandhi (1982)	Independence	Drama
+Gandhi (1982)	Independence	History
+V for Vendetta (2005)	Terrorist	Action
+V for Vendetta (2005)	Terrorist	Sci-Fi
+V for Vendetta (2005)	Terrorist	Thriller
+V for Vendetta (2005)	Government	Action
+V for Vendetta (2005)	Government	Sci-Fi
+V for Vendetta (2005)	Government	Thriller
+V for Vendetta (2005)	Fascist	Action
+V for Vendetta (2005)	Fascist	Sci-Fi
+V for Vendetta (2005)	Fascist	Thriller
+V for Vendetta (2005)	Fight	Action
+V for Vendetta (2005)	Fight	Sci-Fi
+V for Vendetta (2005)	Fight	Thriller
+V for Vendetta (2005)	Secret Police 	Action
+V for Vendetta (2005)	Secret Police 	Sci-Fi
+V for Vendetta (2005)	Secret Police 	Thriller
+The Gold Rush (1925)	Gold	Adventure
+The Gold Rush (1925)	Gold	Comedy
+The Gold Rush (1925)	Gold	Family
+The Gold Rush (1925)	Gold	Romance
+The Gold Rush (1925)	Gold	Western
+The Gold Rush (1925)	Klondike	Adventure
+The Gold Rush (1925)	Klondike	Comedy
+The Gold Rush (1925)	Klondike	Family
+The Gold Rush (1925)	Klondike	Romance
+The Gold Rush (1925)	Klondike	Western
+The Gold Rush (1925)	Love	Adventure
+The Gold Rush (1925)	Love	Comedy
+The Gold Rush (1925)	Love	Family
+The Gold Rush (1925)	Love	Romance
+The Gold Rush (1925)	Love	Western
+The Gold Rush (1925)	Alaska	Adventure
+The Gold Rush (1925)	Alaska	Comedy
+The Gold Rush (1925)	Alaska	Family
+The Gold Rush (1925)	Alaska	Romance
+The Gold Rush (1925)	Alaska	Western
+The Gold Rush (1925)	Shoe	Adventure
+The Gold Rush (1925)	Shoe	Comedy
+The Gold Rush (1925)	Shoe	Family
+The Gold Rush (1925)	Shoe	Romance
+The Gold Rush (1925)	Shoe	Western
+The Grapes of Wrath (1940)	California	Drama
+The Grapes of Wrath (1940)	Farm	Drama
+The Grapes of Wrath (1940)	Jail	Drama
+The Grapes of Wrath (1940)	Labor	Drama
+The Grapes of Wrath (1940)	Farmer	Drama
+Le salaire de la peur (1953)	Oil	Action
+Le salaire de la peur (1953)	Oil	Drama
+Le salaire de la peur (1953)	Oil	Thriller
+Le salaire de la peur (1953)	Road	Action
+Le salaire de la peur (1953)	Road	Drama
+Le salaire de la peur (1953)	Road	Thriller
+Le salaire de la peur (1953)	American	Action
+Le salaire de la peur (1953)	American	Drama
+Le salaire de la peur (1953)	American	Thriller
+Le salaire de la peur (1953)	Truck	Action
+Le salaire de la peur (1953)	Truck	Drama
+Le salaire de la peur (1953)	Truck	Thriller
+Le salaire de la peur (1953)	Driver	Action
+Le salaire de la peur (1953)	Driver	Drama
+Le salaire de la peur (1953)	Driver	Thriller
+Lock, Stock and Two Smoking Barrels (1998)	Antique	Comedy
+Lock, Stock and Two Smoking Barrels (1998)	Antique	Crime
+Lock, Stock and Two Smoking Barrels (1998)	Antique	Thriller
+Lock, Stock and Two Smoking Barrels (1998)	Drugs	Comedy
+Lock, Stock and Two Smoking Barrels (1998)	Drugs	Crime
+Lock, Stock and Two Smoking Barrels (1998)	Drugs	Thriller
+Lock, Stock and Two Smoking Barrels (1998)	Gun	Comedy
+Lock, Stock and Two Smoking Barrels (1998)	Gun	Crime
+Lock, Stock and Two Smoking Barrels (1998)	Gun	Thriller
+Lock, Stock and Two Smoking Barrels (1998)	Debt	Comedy
+Lock, Stock and Two Smoking Barrels (1998)	Debt	Crime
+Lock, Stock and Two Smoking Barrels (1998)	Debt	Thriller
+Lock, Stock and Two Smoking Barrels (1998)	Violence	Comedy
+Lock, Stock and Two Smoking Barrels (1998)	Violence	Crime
+Lock, Stock and Two Smoking Barrels (1998)	Violence	Thriller
+Twelve Monkeys (1995)	Virus	Mystery
+Twelve Monkeys (1995)	Virus	Sci-Fi
+Twelve Monkeys (1995)	Virus	Thriller
+Twelve Monkeys (1995)	Monkey	Mystery
+Twelve Monkeys (1995)	Monkey	Sci-Fi
+Twelve Monkeys (1995)	Monkey	Thriller
+Twelve Monkeys (1995)	Future	Mystery
+Twelve Monkeys (1995)	Future	Sci-Fi
+Twelve Monkeys (1995)	Future	Thriller
+Twelve Monkeys (1995)	1990s	Mystery
+Twelve Monkeys (1995)	1990s	Sci-Fi
+Twelve Monkeys (1995)	1990s	Thriller
+Twelve Monkeys (1995)	Mental Institution	Mystery
+Twelve Monkeys (1995)	Mental Institution	Sci-Fi
+Twelve Monkeys (1995)	Mental Institution	Thriller
+8? (1963)	Director	Drama
+8? (1963)	Director	Fantasy
+8? (1963)	Spa	Drama
+8? (1963)	Spa	Fantasy
+8? (1963)	Mistress	Drama
+8? (1963)	Mistress	Fantasy
+8? (1963)	Love	Drama
+8? (1963)	Love	Fantasy
+8? (1963)	Marriage	Drama
+8? (1963)	Marriage	Fantasy
+Les diaboliques (1955)	Headmaster	Crime
+Les diaboliques (1955)	Headmaster	Drama
+Les diaboliques (1955)	Headmaster	Horror
+Les diaboliques (1955)	Headmaster	Mystery
+Les diaboliques (1955)	Headmaster	Thriller
+Les diaboliques (1955)	Mistress	Crime
+Les diaboliques (1955)	Mistress	Drama
+Les diaboliques (1955)	Mistress	Horror
+Les diaboliques (1955)	Mistress	Mystery
+Les diaboliques (1955)	Mistress	Thriller
+Les diaboliques (1955)	Swimming Pool	Crime
+Les diaboliques (1955)	Swimming Pool	Drama
+Les diaboliques (1955)	Swimming Pool	Horror
+Les diaboliques (1955)	Swimming Pool	Mystery
+Les diaboliques (1955)	Swimming Pool	Thriller
+Les diaboliques (1955)	Bathtub	Crime
+Les diaboliques (1955)	Bathtub	Drama
+Les diaboliques (1955)	Bathtub	Horror
+Les diaboliques (1955)	Bathtub	Mystery
+Les diaboliques (1955)	Bathtub	Thriller
+Les diaboliques (1955)	Lodging House	Crime
+Les diaboliques (1955)	Lodging House	Drama
+Les diaboliques (1955)	Lodging House	Horror
+Les diaboliques (1955)	Lodging House	Mystery
+Les diaboliques (1955)	Lodging House	Thriller
+Casino (1995)	Casino	Biography
+Casino (1995)	Casino	Crime
+Casino (1995)	Casino	Drama
+Casino (1995)	Mafia	Biography
+Casino (1995)	Mafia	Crime
+Casino (1995)	Mafia	Drama
+Casino (1995)	Murder	Biography
+Casino (1995)	Murder	Crime
+Casino (1995)	Murder	Drama
+Casino (1995)	Greed	Biography
+Casino (1995)	Greed	Crime
+Casino (1995)	Greed	Drama
+Casino (1995)	1970s	Biography
+Casino (1995)	1970s	Crime
+Casino (1995)	1970s	Drama
+The Night of the Hunter (1955)	Widow	Drama
+The Night of the Hunter (1955)	Widow	Film-Noir
+The Night of the Hunter (1955)	Widow	Thriller
+The Night of the Hunter (1955)	Money	Drama
+The Night of the Hunter (1955)	Money	Film-Noir
+The Night of the Hunter (1955)	Money	Thriller
+The Night of the Hunter (1955)	Children	Drama
+The Night of the Hunter (1955)	Children	Film-Noir
+The Night of the Hunter (1955)	Children	Thriller
+The Night of the Hunter (1955)	Preacher	Drama
+The Night of the Hunter (1955)	Preacher	Film-Noir
+The Night of the Hunter (1955)	Preacher	Thriller
+The Night of the Hunter (1955)	Theft	Drama
+The Night of the Hunter (1955)	Theft	Film-Noir
+The Night of the Hunter (1955)	Theft	Thriller
+Hotaru no haka (1988)	Japan	Animation
+Hotaru no haka (1988)	Japan	Drama
+Hotaru no haka (1988)	Japan	War
+Hotaru no haka (1988)	Hunger	Animation
+Hotaru no haka (1988)	Hunger	Drama
+Hotaru no haka (1988)	Hunger	War
+Hotaru no haka (1988)	Air Raid	Animation
+Hotaru no haka (1988)	Air Raid	Drama
+Hotaru no haka (1988)	Air Raid	War
+Hotaru no haka (1988)	Firefly	Animation
+Hotaru no haka (1988)	Firefly	Drama
+Hotaru no haka (1988)	Firefly	War
+Hotaru no haka (1988)	Shelter	Animation
+Hotaru no haka (1988)	Shelter	Drama
+Hotaru no haka (1988)	Shelter	War
+The Princess Bride (1987)	Prince	Adventure
+The Princess Bride (1987)	Prince	Comedy
+The Princess Bride (1987)	Prince	Family
+The Princess Bride (1987)	Prince	Fantasy
+The Princess Bride (1987)	Prince	Romance
+The Princess Bride (1987)	Pirate	Adventure
+The Princess Bride (1987)	Pirate	Comedy
+The Princess Bride (1987)	Pirate	Family
+The Princess Bride (1987)	Pirate	Fantasy
+The Princess Bride (1987)	Pirate	Romance
+The Princess Bride (1987)	Grandfather	Adventure
+The Princess Bride (1987)	Grandfather	Comedy
+The Princess Bride (1987)	Grandfather	Family
+The Princess Bride (1987)	Grandfather	Fantasy
+The Princess Bride (1987)	Grandfather	Romance
+The Princess Bride (1987)	Princess	Adventure
+The Princess Bride (1987)	Princess	Comedy
+The Princess Bride (1987)	Princess	Family
+The Princess Bride (1987)	Princess	Fantasy
+The Princess Bride (1987)	Princess	Romance
+The Princess Bride (1987)	True Love	Adventure
+The Princess Bride (1987)	True Love	Comedy
+The Princess Bride (1987)	True Love	Family
+The Princess Bride (1987)	True Love	Fantasy
+The Princess Bride (1987)	True Love	Romance
+The Incredibles (2004)	Superhero	Animation
+The Incredibles (2004)	Superhero	Action
+The Incredibles (2004)	Superhero	Adventure
+The Incredibles (2004)	Superhero	Family
+The Incredibles (2004)	Secret	Animation
+The Incredibles (2004)	Secret	Action
+The Incredibles (2004)	Secret	Adventure
+The Incredibles (2004)	Secret	Family
+The Incredibles (2004)	Lawsuit	Animation
+The Incredibles (2004)	Lawsuit	Action
+The Incredibles (2004)	Lawsuit	Adventure
+The Incredibles (2004)	Lawsuit	Family
+The Incredibles (2004)	Island	Animation
+The Incredibles (2004)	Island	Action
+The Incredibles (2004)	Island	Adventure
+The Incredibles (2004)	Island	Family
+The Incredibles (2004)	Baby	Animation
+The Incredibles (2004)	Baby	Action
+The Incredibles (2004)	Baby	Adventure
+The Incredibles (2004)	Baby	Family
+Judgment at Nuremberg (1961)	Judge	Drama
+Judgment at Nuremberg (1961)	Judge	History
+Judgment at Nuremberg (1961)	Nazi	Drama
+Judgment at Nuremberg (1961)	Nazi	History
+Judgment at Nuremberg (1961)	Trial	Drama
+Judgment at Nuremberg (1961)	Trial	History
+Judgment at Nuremberg (1961)	Germany	Drama
+Judgment at Nuremberg (1961)	Germany	History
+Judgment at Nuremberg (1961)	Cold War	Drama
+Judgment at Nuremberg (1961)	Cold War	History
+Kind Hearts and Coronets (1949)	Duke	Comedy
+Kind Hearts and Coronets (1949)	Duke	Crime
+Kind Hearts and Coronets (1949)	Duke	Drama
+Kind Hearts and Coronets (1949)	Widow	Comedy
+Kind Hearts and Coronets (1949)	Widow	Crime
+Kind Hearts and Coronets (1949)	Widow	Drama
+Kind Hearts and Coronets (1949)	Aristocracy	Comedy
+Kind Hearts and Coronets (1949)	Aristocracy	Crime
+Kind Hearts and Coronets (1949)	Aristocracy	Drama
+Kind Hearts and Coronets (1949)	Actor Playing Multiple Roles	Comedy
+Kind Hearts and Coronets (1949)	Actor Playing Multiple Roles	Crime
+Kind Hearts and Coronets (1949)	Actor Playing Multiple Roles	Drama
+Kind Hearts and Coronets (1949)	Executioner	Comedy
+Kind Hearts and Coronets (1949)	Executioner	Crime
+Kind Hearts and Coronets (1949)	Executioner	Drama
+The Killing (1956)	Racetrack	Crime
+The Killing (1956)	Racetrack	Drama
+The Killing (1956)	Racetrack	Thriller
+The Killing (1956)	Racetrack	Film-Noir
+The Killing (1956)	Airport	Crime
+The Killing (1956)	Airport	Drama
+The Killing (1956)	Airport	Thriller
+The Killing (1956)	Airport	Film-Noir
+The Killing (1956)	Robbery	Crime
+The Killing (1956)	Robbery	Drama
+The Killing (1956)	Robbery	Thriller
+The Killing (1956)	Robbery	Film-Noir
+The Killing (1956)	Heist	Crime
+The Killing (1956)	Heist	Drama
+The Killing (1956)	Heist	Thriller
+The Killing (1956)	Heist	Film-Noir
+The Killing (1956)	Ex Convict	Crime
+The Killing (1956)	Ex Convict	Drama
+The Killing (1956)	Ex Convict	Thriller
+The Killing (1956)	Ex Convict	Film-Noir
+The Wild Bunch (1969)	Outlaw	Action
+The Wild Bunch (1969)	Outlaw	Western
+The Wild Bunch (1969)	Mexico	Action
+The Wild Bunch (1969)	Mexico	Western
+The Wild Bunch (1969)	Gun	Action
+The Wild Bunch (1969)	Gun	Western
+The Wild Bunch (1969)	Mexican	Action
+The Wild Bunch (1969)	Mexican	Western
+The Wild Bunch (1969)	Shootout	Action
+The Wild Bunch (1969)	Shootout	Western
+Children of Men (2006)	Future	Adventure
+Children of Men (2006)	Future	Drama
+Children of Men (2006)	Future	Mystery
+Children of Men (2006)	Future	Sci-Fi
+Children of Men (2006)	Future	Thriller
+Children of Men (2006)	Violence	Adventure
+Children of Men (2006)	Violence	Drama
+Children of Men (2006)	Violence	Mystery
+Children of Men (2006)	Violence	Sci-Fi
+Children of Men (2006)	Violence	Thriller
+Children of Men (2006)	Survival	Adventure
+Children of Men (2006)	Survival	Drama
+Children of Men (2006)	Survival	Mystery
+Children of Men (2006)	Survival	Sci-Fi
+Children of Men (2006)	Survival	Thriller
+Children of Men (2006)	England	Adventure
+Children of Men (2006)	England	Drama
+Children of Men (2006)	England	Mystery
+Children of Men (2006)	England	Sci-Fi
+Children of Men (2006)	England	Thriller
+Children of Men (2006)	Chaos	Adventure
+Children of Men (2006)	Chaos	Drama
+Children of Men (2006)	Chaos	Mystery
+Children of Men (2006)	Chaos	Sci-Fi
+Children of Men (2006)	Chaos	Thriller
+In Bruges (2008)	Medieval	Crime
+In Bruges (2008)	Medieval	Drama
+In Bruges (2008)	Medieval	Thriller
+In Bruges (2008)	Christmas	Crime
+In Bruges (2008)	Christmas	Drama
+In Bruges (2008)	Christmas	Thriller
+In Bruges (2008)	Tourist	Crime
+In Bruges (2008)	Tourist	Drama
+In Bruges (2008)	Tourist	Thriller
+In Bruges (2008)	Belgium	Crime
+In Bruges (2008)	Belgium	Drama
+In Bruges (2008)	Belgium	Thriller
+In Bruges (2008)	Drugs	Crime
+In Bruges (2008)	Drugs	Drama
+In Bruges (2008)	Drugs	Thriller
+The Exorcist (1973)	Priest	Drama
+The Exorcist (1973)	Priest	Horror
+The Exorcist (1973)	Priest	Thriller
+The Exorcist (1973)	Washington D.C.	Drama
+The Exorcist (1973)	Washington D.C.	Horror
+The Exorcist (1973)	Washington D.C.	Thriller
+The Exorcist (1973)	Faith	Drama
+The Exorcist (1973)	Faith	Horror
+The Exorcist (1973)	Faith	Thriller
+The Exorcist (1973)	Actress	Drama
+The Exorcist (1973)	Actress	Horror
+The Exorcist (1973)	Actress	Thriller
+The Exorcist (1973)	Psychiatrist	Drama
+The Exorcist (1973)	Psychiatrist	Horror
+The Exorcist (1973)	Psychiatrist	Thriller
+Sunrise: A Song of Two Humans (1927)	Murder	Drama
+Sunrise: A Song of Two Humans (1927)	Murder	Romance
+Sunrise: A Song of Two Humans (1927)	Murder	Crime
+Sunrise: A Song of Two Humans (1927)	Love	Drama
+Sunrise: A Song of Two Humans (1927)	Love	Romance
+Sunrise: A Song of Two Humans (1927)	Love	Crime
+Sunrise: A Song of Two Humans (1927)	Adultery	Drama
+Sunrise: A Song of Two Humans (1927)	Adultery	Romance
+Sunrise: A Song of Two Humans (1927)	Adultery	Crime
+Sunrise: A Song of Two Humans (1927)	Storm	Drama
+Sunrise: A Song of Two Humans (1927)	Storm	Romance
+Sunrise: A Song of Two Humans (1927)	Storm	Crime
+Sunrise: A Song of Two Humans (1927)	Lost Negative	Drama
+Sunrise: A Song of Two Humans (1927)	Lost Negative	Romance
+Sunrise: A Song of Two Humans (1927)	Lost Negative	Crime
+The Best Years of Our Lives (1946)	Veteran	Drama
+The Best Years of Our Lives (1946)	Veteran	Romance
+The Best Years of Our Lives (1946)	Veteran	War
+The Best Years of Our Lives (1946)	Love	Drama
+The Best Years of Our Lives (1946)	Love	Romance
+The Best Years of Our Lives (1946)	Love	War
+The Best Years of Our Lives (1946)	Marriage	Drama
+The Best Years of Our Lives (1946)	Marriage	Romance
+The Best Years of Our Lives (1946)	Marriage	War
+The Best Years of Our Lives (1946)	Banker	Drama
+The Best Years of Our Lives (1946)	Banker	Romance
+The Best Years of Our Lives (1946)	Banker	War
+The Best Years of Our Lives (1946)	Soda Jerk	Drama
+The Best Years of Our Lives (1946)	Soda Jerk	Romance
+The Best Years of Our Lives (1946)	Soda Jerk	War
+The Kid (1921)	Baby	Comedy
+The Kid (1921)	Baby	Drama
+The Kid (1921)	Baby	Family
+The Kid (1921)	Orphan	Comedy
+The Kid (1921)	Orphan	Drama
+The Kid (1921)	Orphan	Family
+The Kid (1921)	Foundling	Comedy
+The Kid (1921)	Foundling	Drama
+The Kid (1921)	Foundling	Family
+The Kid (1921)	Broken Window	Comedy
+The Kid (1921)	Broken Window	Drama
+The Kid (1921)	Broken Window	Family
+The Kid (1921)	Angel	Comedy
+The Kid (1921)	Angel	Drama
+The Kid (1921)	Angel	Family
+Le notti di Cabiria (1957)	House	Drama
+Le notti di Cabiria (1957)	House	Romance
+Le notti di Cabiria (1957)	Heartbreak	Drama
+Le notti di Cabiria (1957)	Heartbreak	Romance
+Le notti di Cabiria (1957)	Shrine	Drama
+Le notti di Cabiria (1957)	Shrine	Romance
+Le notti di Cabiria (1957)	Movie Star	Drama
+Le notti di Cabiria (1957)	Movie Star	Romance
+Le notti di Cabiria (1957)	Madonna	Drama
+Le notti di Cabiria (1957)	Madonna	Romance
+The Hustler (1961)	Hustler	Drama
+The Hustler (1961)	Hustler	Romance
+The Hustler (1961)	Hustler	Sport
+The Hustler (1961)	Pool Hustler	Drama
+The Hustler (1961)	Pool Hustler	Romance
+The Hustler (1961)	Pool Hustler	Sport
+The Hustler (1961)	Pool Hall	Drama
+The Hustler (1961)	Pool Hall	Romance
+The Hustler (1961)	Pool Hall	Sport
+The Hustler (1961)	Train	Drama
+The Hustler (1961)	Train	Romance
+The Hustler (1961)	Train	Sport
+The Hustler (1961)	Beautiful Woman	Drama
+The Hustler (1961)	Beautiful Woman	Romance
+The Hustler (1961)	Beautiful Woman	Sport
+Dial M for Murder (1954)	Murder	Crime
+Dial M for Murder (1954)	Murder	Mystery
+Dial M for Murder (1954)	Murder	Thriller
+Dial M for Murder (1954)	Blackmail	Crime
+Dial M for Murder (1954)	Blackmail	Mystery
+Dial M for Murder (1954)	Blackmail	Thriller
+Dial M for Murder (1954)	Letter	Crime
+Dial M for Murder (1954)	Letter	Mystery
+Dial M for Murder (1954)	Letter	Thriller
+Dial M for Murder (1954)	Marriage	Crime
+Dial M for Murder (1954)	Marriage	Mystery
+Dial M for Murder (1954)	Marriage	Thriller
+Dial M for Murder (1954)	Tennis Player	Crime
+Dial M for Murder (1954)	Tennis Player	Mystery
+Dial M for Murder (1954)	Tennis Player	Thriller
+Harvey (1950)	Rabbit	Comedy
+Harvey (1950)	Rabbit	Drama
+Harvey (1950)	Rabbit	Fantasy
+Harvey (1950)	Mental Institution	Comedy
+Harvey (1950)	Mental Institution	Drama
+Harvey (1950)	Mental Institution	Fantasy
+Harvey (1950)	Flower	Comedy
+Harvey (1950)	Flower	Drama
+Harvey (1950)	Flower	Fantasy
+Harvey (1950)	Piano	Comedy
+Harvey (1950)	Piano	Drama
+Harvey (1950)	Piano	Fantasy
+Harvey (1950)	Imaginary Friend	Comedy
+Harvey (1950)	Imaginary Friend	Drama
+Harvey (1950)	Imaginary Friend	Fantasy
+Good Will Hunting (1997)	Genius	Drama
+Good Will Hunting (1997)	Janitor	Drama
+Good Will Hunting (1997)	Friend	Drama
+Good Will Hunting (1997)	Professor	Drama
+Good Will Hunting (1997)	Jail	Drama
+Ed Wood (1994)	Director	Biography
+Ed Wood (1994)	Director	Comedy
+Ed Wood (1994)	Director	Drama
+Ed Wood (1994)	Friend	Biography
+Ed Wood (1994)	Friend	Comedy
+Ed Wood (1994)	Friend	Drama
+Ed Wood (1994)	Transvestism	Biography
+Ed Wood (1994)	Transvestism	Comedy
+Ed Wood (1994)	Transvestism	Drama
+Ed Wood (1994)	Friendship	Biography
+Ed Wood (1994)	Friendship	Comedy
+Ed Wood (1994)	Friendship	Drama
+Ed Wood (1994)	Film Within A Film	Biography
+Ed Wood (1994)	Film Within A Film	Comedy
+Ed Wood (1994)	Film Within A Film	Drama
+Rosemary's Baby (1968)	Apartment	Drama
+Rosemary's Baby (1968)	Apartment	Horror
+Rosemary's Baby (1968)	Apartment	Mystery
+Rosemary's Baby (1968)	Apartment	Thriller
+Rosemary's Baby (1968)	Neighbor	Drama
+Rosemary's Baby (1968)	Neighbor	Horror
+Rosemary's Baby (1968)	Neighbor	Mystery
+Rosemary's Baby (1968)	Neighbor	Thriller
+Rosemary's Baby (1968)	Dream	Drama
+Rosemary's Baby (1968)	Dream	Horror
+Rosemary's Baby (1968)	Dream	Mystery
+Rosemary's Baby (1968)	Dream	Thriller
+Rosemary's Baby (1968)	Baby	Drama
+Rosemary's Baby (1968)	Baby	Horror
+Rosemary's Baby (1968)	Baby	Mystery
+Rosemary's Baby (1968)	Baby	Thriller
+Rosemary's Baby (1968)	Paranoia	Drama
+Rosemary's Baby (1968)	Paranoia	Horror
+Rosemary's Baby (1968)	Paranoia	Mystery
+Rosemary's Baby (1968)	Paranoia	Thriller
+Big Fish (2003)	Legend	Adventure
+Big Fish (2003)	Legend	Drama
+Big Fish (2003)	Legend	Fantasy
+Big Fish (2003)	Flashback	Adventure
+Big Fish (2003)	Flashback	Drama
+Big Fish (2003)	Flashback	Fantasy
+Big Fish (2003)	1970s	Adventure
+Big Fish (2003)	1970s	Drama
+Big Fish (2003)	1970s	Fantasy
+Big Fish (2003)	Army	Adventure
+Big Fish (2003)	Army	Drama
+Big Fish (2003)	Army	Fantasy
+Big Fish (2003)	Sorority	Adventure
+Big Fish (2003)	Sorority	Drama
+Big Fish (2003)	Sorority	Fantasy
+King Kong (1933)	Island	Action
+King Kong (1933)	Island	Adventure
+King Kong (1933)	Island	Fantasy
+King Kong (1933)	Island	Horror
+King Kong (1933)	Island	Romance
+King Kong (1933)	Island	Sci-Fi
+King Kong (1933)	Gorilla	Action
+King Kong (1933)	Gorilla	Adventure
+King Kong (1933)	Gorilla	Fantasy
+King Kong (1933)	Gorilla	Horror
+King Kong (1933)	Gorilla	Romance
+King Kong (1933)	Gorilla	Sci-Fi
+King Kong (1933)	Love	Action
+King Kong (1933)	Love	Adventure
+King Kong (1933)	Love	Fantasy
+King Kong (1933)	Love	Horror
+King Kong (1933)	Love	Romance
+King Kong (1933)	Love	Sci-Fi
+King Kong (1933)	Blonde	Action
+King Kong (1933)	Blonde	Adventure
+King Kong (1933)	Blonde	Fantasy
+King Kong (1933)	Blonde	Horror
+King Kong (1933)	Blonde	Romance
+King Kong (1933)	Blonde	Sci-Fi
+King Kong (1933)	King Kong	Action
+King Kong (1933)	King Kong	Adventure
+King Kong (1933)	King Kong	Fantasy
+King Kong (1933)	King Kong	Horror
+King Kong (1933)	King Kong	Romance
+King Kong (1933)	King Kong	Sci-Fi
+El secreto de sus ojos (2009)	Murder	Crime
+El secreto de sus ojos (2009)	Murder	Drama
+El secreto de sus ojos (2009)	Murder	Mystery
+El secreto de sus ojos (2009)	Murder	Romance
+El secreto de sus ojos (2009)	Murder	Thriller
+El secreto de sus ojos (2009)	Football Game	Crime
+El secreto de sus ojos (2009)	Football Game	Drama
+El secreto de sus ojos (2009)	Football Game	Mystery
+El secreto de sus ojos (2009)	Football Game	Romance
+El secreto de sus ojos (2009)	Football Game	Thriller
+El secreto de sus ojos (2009)	Writer	Crime
+El secreto de sus ojos (2009)	Writer	Drama
+El secreto de sus ojos (2009)	Writer	Mystery
+El secreto de sus ojos (2009)	Writer	Romance
+El secreto de sus ojos (2009)	Writer	Thriller
+El secreto de sus ojos (2009)	2000s	Crime
+El secreto de sus ojos (2009)	2000s	Drama
+El secreto de sus ojos (2009)	2000s	Mystery
+El secreto de sus ojos (2009)	2000s	Romance
+El secreto de sus ojos (2009)	2000s	Thriller
+El secreto de sus ojos (2009)	Memory	Crime
+El secreto de sus ojos (2009)	Memory	Drama
+El secreto de sus ojos (2009)	Memory	Mystery
+El secreto de sus ojos (2009)	Memory	Romance
+El secreto de sus ojos (2009)	Memory	Thriller
+A Streetcar Named Desire (1951)	Neurotic	Drama
+A Streetcar Named Desire (1951)	Louisiana	Drama
+A Streetcar Named Desire (1951)	Streetcar	Drama
+A Streetcar Named Desire (1951)	Pregnant Sister	Drama
+A Streetcar Named Desire (1951)	Sister Sister Relationship	Drama
+Letters from Iwo Jima (2006)	Japan	Drama
+Letters from Iwo Jima (2006)	Japan	History
+Letters from Iwo Jima (2006)	Japan	War
+Letters from Iwo Jima (2006)	Island	Drama
+Letters from Iwo Jima (2006)	Island	History
+Letters from Iwo Jima (2006)	Island	War
+Letters from Iwo Jima (2006)	Battle	Drama
+Letters from Iwo Jima (2006)	Battle	History
+Letters from Iwo Jima (2006)	Battle	War
+Letters from Iwo Jima (2006)	Iwo Jima	Drama
+Letters from Iwo Jima (2006)	Iwo Jima	History
+Letters from Iwo Jima (2006)	Iwo Jima	War
+Letters from Iwo Jima (2006)	Japanese Army	Drama
+Letters from Iwo Jima (2006)	Japanese Army	History
+Letters from Iwo Jima (2006)	Japanese Army	War
+Lat den ratte komma in (2008)	Vampire	Drama
+Lat den ratte komma in (2008)	Vampire	Horror
+Lat den ratte komma in (2008)	Vampire	Mystery
+Lat den ratte komma in (2008)	Vampire	Romance
+Lat den ratte komma in (2008)	Blood	Drama
+Lat den ratte komma in (2008)	Blood	Horror
+Lat den ratte komma in (2008)	Blood	Mystery
+Lat den ratte komma in (2008)	Blood	Romance
+Lat den ratte komma in (2008)	Revenge	Drama
+Lat den ratte komma in (2008)	Revenge	Horror
+Lat den ratte komma in (2008)	Revenge	Mystery
+Lat den ratte komma in (2008)	Revenge	Romance
+Lat den ratte komma in (2008)	Suburb	Drama
+Lat den ratte komma in (2008)	Suburb	Horror
+Lat den ratte komma in (2008)	Suburb	Mystery
+Lat den ratte komma in (2008)	Suburb	Romance
+Lat den ratte komma in (2008)	Bully	Drama
+Lat den ratte komma in (2008)	Bully	Horror
+Lat den ratte komma in (2008)	Bully	Mystery
+Lat den ratte komma in (2008)	Bully	Romance
+Sleuth (1972)	Game	Mystery
+Sleuth (1972)	Game	Thriller
+Sleuth (1972)	Insurance	Mystery
+Sleuth (1972)	Insurance	Thriller
+Sleuth (1972)	Lover	Mystery
+Sleuth (1972)	Lover	Thriller
+Sleuth (1972)	Jewelry	Mystery
+Sleuth (1972)	Jewelry	Thriller
+Sleuth (1972)	English	Mystery
+Sleuth (1972)	English	Thriller
+How to Train Your Dragon (2010)	Dragon	Animation
+How to Train Your Dragon (2010)	Dragon	Adventure
+How to Train Your Dragon (2010)	Dragon	Comedy
+How to Train Your Dragon (2010)	Dragon	Family
+How to Train Your Dragon (2010)	Dragon	Fantasy
+How to Train Your Dragon (2010)	Viking	Animation
+How to Train Your Dragon (2010)	Viking	Adventure
+How to Train Your Dragon (2010)	Viking	Comedy
+How to Train Your Dragon (2010)	Viking	Family
+How to Train Your Dragon (2010)	Viking	Fantasy
+How to Train Your Dragon (2010)	Flight	Animation
+How to Train Your Dragon (2010)	Flight	Adventure
+How to Train Your Dragon (2010)	Flight	Comedy
+How to Train Your Dragon (2010)	Flight	Family
+How to Train Your Dragon (2010)	Flight	Fantasy
+How to Train Your Dragon (2010)	Ignorance	Animation
+How to Train Your Dragon (2010)	Ignorance	Adventure
+How to Train Your Dragon (2010)	Ignorance	Comedy
+How to Train Your Dragon (2010)	Ignorance	Family
+How to Train Your Dragon (2010)	Ignorance	Fantasy
+How to Train Your Dragon (2010)	Village	Animation
+How to Train Your Dragon (2010)	Village	Adventure
+How to Train Your Dragon (2010)	Village	Comedy
+How to Train Your Dragon (2010)	Village	Family
+How to Train Your Dragon (2010)	Village	Fantasy
+Kill Bill: Vol. 2 (2004)	Revenge	Crime
+Kill Bill: Vol. 2 (2004)	Revenge	Thriller
+Kill Bill: Vol. 2 (2004)	Death	Crime
+Kill Bill: Vol. 2 (2004)	Death	Thriller
+Kill Bill: Vol. 2 (2004)	Snake	Crime
+Kill Bill: Vol. 2 (2004)	Snake	Thriller
+Kill Bill: Vol. 2 (2004)	Bouncer	Crime
+Kill Bill: Vol. 2 (2004)	Bouncer	Thriller
+Kill Bill: Vol. 2 (2004)	Hattori Hanzo	Crime
+Kill Bill: Vol. 2 (2004)	Hattori Hanzo	Thriller
+Shadow of a Doubt (1943)	Widow	Crime
+Shadow of a Doubt (1943)	Widow	Film-Noir
+Shadow of a Doubt (1943)	Widow	Mystery
+Shadow of a Doubt (1943)	Widow	Thriller
+Shadow of a Doubt (1943)	Visit	Crime
+Shadow of a Doubt (1943)	Visit	Film-Noir
+Shadow of a Doubt (1943)	Visit	Mystery
+Shadow of a Doubt (1943)	Visit	Thriller
+Shadow of a Doubt (1943)	Murderer	Crime
+Shadow of a Doubt (1943)	Murderer	Film-Noir
+Shadow of a Doubt (1943)	Murderer	Mystery
+Shadow of a Doubt (1943)	Murderer	Thriller
+Shadow of a Doubt (1943)	Suspect	Crime
+Shadow of a Doubt (1943)	Suspect	Film-Noir
+Shadow of a Doubt (1943)	Suspect	Mystery
+Shadow of a Doubt (1943)	Suspect	Thriller
+Shadow of a Doubt (1943)	Murder	Crime
+Shadow of a Doubt (1943)	Murder	Film-Noir
+Shadow of a Doubt (1943)	Murder	Mystery
+Shadow of a Doubt (1943)	Murder	Thriller
+Stalag 17 (1953)	Escape	Comedy
+Stalag 17 (1953)	Escape	Drama
+Stalag 17 (1953)	Escape	War
+Stalag 17 (1953)	Barracks	Comedy
+Stalag 17 (1953)	Barracks	Drama
+Stalag 17 (1953)	Barracks	War
+Stalag 17 (1953)	Spy	Comedy
+Stalag 17 (1953)	Spy	Drama
+Stalag 17 (1953)	Spy	War
+Stalag 17 (1953)	Pow	Comedy
+Stalag 17 (1953)	Pow	Drama
+Stalag 17 (1953)	Pow	War
+Stalag 17 (1953)	Guard	Comedy
+Stalag 17 (1953)	Guard	Drama
+Stalag 17 (1953)	Guard	War
+Le scaphandre et le papillon (2007)	Eye	Biography
+Le scaphandre et le papillon (2007)	Eye	Drama
+Le scaphandre et le papillon (2007)	Stroke	Biography
+Le scaphandre et le papillon (2007)	Stroke	Drama
+Le scaphandre et le papillon (2007)	Editor	Biography
+Le scaphandre et le papillon (2007)	Editor	Drama
+Le scaphandre et le papillon (2007)	France	Biography
+Le scaphandre et le papillon (2007)	France	Drama
+Le scaphandre et le papillon (2007)	Blink	Biography
+Le scaphandre et le papillon (2007)	Blink	Drama
+Magnolia (1999)	Coincidence	Drama
+Magnolia (1999)	One Day	Drama
+Magnolia (1999)	Whiz Kid	Drama
+Magnolia (1999)	Cancer	Drama
+Magnolia (1999)	Cocaine	Drama
+Rocky (1976)	Boxer	Drama
+Rocky (1976)	Boxer	Romance
+Rocky (1976)	Boxer	Sport
+Rocky (1976)	Philadelphia	Drama
+Rocky (1976)	Philadelphia	Romance
+Rocky (1976)	Philadelphia	Sport
+Rocky (1976)	Boxing	Drama
+Rocky (1976)	Boxing	Romance
+Rocky (1976)	Boxing	Sport
+Rocky (1976)	Training	Drama
+Rocky (1976)	Training	Romance
+Rocky (1976)	Training	Sport
+Rocky (1976)	Dog	Drama
+Rocky (1976)	Dog	Romance
+Rocky (1976)	Dog	Sport
+Mystic River (2003)	Death	Crime
+Mystic River (2003)	Death	Drama
+Mystic River (2003)	Death	Mystery
+Mystic River (2003)	Death	Thriller
+Mystic River (2003)	Detective	Crime
+Mystic River (2003)	Detective	Drama
+Mystic River (2003)	Detective	Mystery
+Mystic River (2003)	Detective	Thriller
+Mystic River (2003)	Friend	Crime
+Mystic River (2003)	Friend	Drama
+Mystic River (2003)	Friend	Mystery
+Mystic River (2003)	Friend	Thriller
+Mystic River (2003)	Ballistics	Crime
+Mystic River (2003)	Ballistics	Drama
+Mystic River (2003)	Ballistics	Mystery
+Mystic River (2003)	Ballistics	Thriller
+Mystic River (2003)	Gun	Crime
+Mystic River (2003)	Gun	Drama
+Mystic River (2003)	Gun	Mystery
+Mystic River (2003)	Gun	Thriller
+Network (1976)	Rating	Drama
+Network (1976)	Television	Drama
+Network (1976)	News Anchor	Drama
+Network (1976)	Terrorist	Drama
+Network (1976)	Television Network	Drama
+Crash (2004/I)	Racist	Crime
+Crash (2004/I)	Racist	Drama
+Crash (2004/I)	Gun	Crime
+Crash (2004/I)	Gun	Drama
+Crash (2004/I)	Locksmith	Crime
+Crash (2004/I)	Locksmith	Drama
+Crash (2004/I)	Bullet	Crime
+Crash (2004/I)	Bullet	Drama
+Crash (2004/I)	Director	Crime
+Crash (2004/I)	Director	Drama
+The African Queen (1951)	German	Adventure
+The African Queen (1951)	German	Drama
+The African Queen (1951)	German	Romance
+The African Queen (1951)	German	War
+The African Queen (1951)	Steamboat	Adventure
+The African Queen (1951)	Steamboat	Drama
+The African Queen (1951)	Steamboat	Romance
+The African Queen (1951)	Steamboat	War
+The African Queen (1951)	Mission	Adventure
+The African Queen (1951)	Mission	Drama
+The African Queen (1951)	Mission	Romance
+The African Queen (1951)	Mission	War
+The African Queen (1951)	Missionary	Adventure
+The African Queen (1951)	Missionary	Drama
+The African Queen (1951)	Missionary	Romance
+The African Queen (1951)	Missionary	War
+The African Queen (1951)	Torpedo	Adventure
+The African Queen (1951)	Torpedo	Drama
+The African Queen (1951)	Torpedo	Romance
+The African Queen (1951)	Torpedo	War
+Brief Encounter (1945)	Railway Station	Romance
+Brief Encounter (1945)	Railway Station	Drama
+Brief Encounter (1945)	Railway	Romance
+Brief Encounter (1945)	Railway	Drama
+Brief Encounter (1945)	Love	Romance
+Brief Encounter (1945)	Love	Drama
+Brief Encounter (1945)	Housewife	Romance
+Brief Encounter (1945)	Housewife	Drama
+Brief Encounter (1945)	Doctor	Romance
+Brief Encounter (1945)	Doctor	Drama
+Rope (1948)	Party	Crime
+Rope (1948)	Party	Mystery
+Rope (1948)	Party	Thriller
+Rope (1948)	Friend	Crime
+Rope (1948)	Friend	Mystery
+Rope (1948)	Friend	Thriller
+Rope (1948)	Chest	Crime
+Rope (1948)	Chest	Mystery
+Rope (1948)	Chest	Thriller
+Rope (1948)	Dinner Party	Crime
+Rope (1948)	Dinner Party	Mystery
+Rope (1948)	Dinner Party	Thriller
+Rope (1948)	Intellectual	Crime
+Rope (1948)	Intellectual	Mystery
+Rope (1948)	Intellectual	Thriller
+Bonnie and Clyde (1967)	Violence	Biography
+Bonnie and Clyde (1967)	Violence	Crime
+Bonnie and Clyde (1967)	Violence	Drama
+Bonnie and Clyde (1967)	Violence	Romance
+Bonnie and Clyde (1967)	Violence	Thriller
+Bonnie and Clyde (1967)	Robbery	Biography
+Bonnie and Clyde (1967)	Robbery	Crime
+Bonnie and Clyde (1967)	Robbery	Drama
+Bonnie and Clyde (1967)	Robbery	Romance
+Bonnie and Clyde (1967)	Robbery	Thriller
+Bonnie and Clyde (1967)	Crime Spree	Biography
+Bonnie and Clyde (1967)	Crime Spree	Crime
+Bonnie and Clyde (1967)	Crime Spree	Drama
+Bonnie and Clyde (1967)	Crime Spree	Romance
+Bonnie and Clyde (1967)	Crime Spree	Thriller
+Bonnie and Clyde (1967)	Bonnie And Clyde	Biography
+Bonnie and Clyde (1967)	Bonnie And Clyde	Crime
+Bonnie and Clyde (1967)	Bonnie And Clyde	Drama
+Bonnie and Clyde (1967)	Bonnie And Clyde	Romance
+Bonnie and Clyde (1967)	Bonnie And Clyde	Thriller
+Bonnie and Clyde (1967)	Texas	Biography
+Bonnie and Clyde (1967)	Texas	Crime
+Bonnie and Clyde (1967)	Texas	Drama
+Bonnie and Clyde (1967)	Texas	Romance
+Bonnie and Clyde (1967)	Texas	Thriller
+Duck Soup (1933)	Dictator	Comedy
+Duck Soup (1933)	Dictator	Musical
+Duck Soup (1933)	Spy	Comedy
+Duck Soup (1933)	Spy	Musical
+Duck Soup (1933)	Widow	Comedy
+Duck Soup (1933)	Widow	Musical
+Duck Soup (1933)	Dowager	Comedy
+Duck Soup (1933)	Dowager	Musical
+Duck Soup (1933)	Ambassador	Comedy
+Duck Soup (1933)	Ambassador	Musical
+Manhattan (1979)	Writing	Comedy
+Manhattan (1979)	Writing	Drama
+Manhattan (1979)	Writing	Romance
+Manhattan (1979)	Ex Wife	Comedy
+Manhattan (1979)	Ex Wife	Drama
+Manhattan (1979)	Ex Wife	Romance
+Manhattan (1979)	Writer	Comedy
+Manhattan (1979)	Writer	Drama
+Manhattan (1979)	Writer	Romance
+Manhattan (1979)	Harmonica	Comedy
+Manhattan (1979)	Harmonica	Drama
+Manhattan (1979)	Harmonica	Romance
+Manhattan (1979)	Reference To Fellini	Comedy
+Manhattan (1979)	Reference To Fellini	Drama
+Manhattan (1979)	Reference To Fellini	Romance
+Pirates of the Caribbean: The Curse of the Black Pearl (2003)	Pirate	Action
+Pirates of the Caribbean: The Curse of the Black Pearl (2003)	Pirate	Adventure
+Pirates of the Caribbean: The Curse of the Black Pearl (2003)	Pirate	Fantasy
+Pirates of the Caribbean: The Curse of the Black Pearl (2003)	Blacksmith	Action
+Pirates of the Caribbean: The Curse of the Black Pearl (2003)	Blacksmith	Adventure
+Pirates of the Caribbean: The Curse of the Black Pearl (2003)	Blacksmith	Fantasy
+Pirates of the Caribbean: The Curse of the Black Pearl (2003)	Jack Sparrow	Action
+Pirates of the Caribbean: The Curse of the Black Pearl (2003)	Jack Sparrow	Adventure
+Pirates of the Caribbean: The Curse of the Black Pearl (2003)	Jack Sparrow	Fantasy
+Pirates of the Caribbean: The Curse of the Black Pearl (2003)	Caribbean	Action
+Pirates of the Caribbean: The Curse of the Black Pearl (2003)	Caribbean	Adventure
+Pirates of the Caribbean: The Curse of the Black Pearl (2003)	Caribbean	Fantasy
+Pirates of the Caribbean: The Curse of the Black Pearl (2003)	Love	Action
+Pirates of the Caribbean: The Curse of the Black Pearl (2003)	Love	Adventure
+Pirates of the Caribbean: The Curse of the Black Pearl (2003)	Love	Fantasy
+La strada (1954)	Road	Drama
+La strada (1954)	On The Road	Drama
+La strada (1954)	Widow	Drama
+La strada (1954)	Neorealism	Drama
+La strada (1954)	Traveling Circus	Drama
+The Curious Case of Benjamin Button (2008)	Button	Drama
+The Curious Case of Benjamin Button (2008)	Button	Fantasy
+The Curious Case of Benjamin Button (2008)	Button	Mystery
+The Curious Case of Benjamin Button (2008)	Button	Romance
+The Curious Case of Benjamin Button (2008)	Diary	Drama
+The Curious Case of Benjamin Button (2008)	Diary	Fantasy
+The Curious Case of Benjamin Button (2008)	Diary	Mystery
+The Curious Case of Benjamin Button (2008)	Diary	Romance
+The Curious Case of Benjamin Button (2008)	Aging	Drama
+The Curious Case of Benjamin Button (2008)	Aging	Fantasy
+The Curious Case of Benjamin Button (2008)	Aging	Mystery
+The Curious Case of Benjamin Button (2008)	Aging	Romance
+The Curious Case of Benjamin Button (2008)	Hurricane	Drama
+The Curious Case of Benjamin Button (2008)	Hurricane	Fantasy
+The Curious Case of Benjamin Button (2008)	Hurricane	Mystery
+The Curious Case of Benjamin Button (2008)	Hurricane	Romance
+The Curious Case of Benjamin Button (2008)	Hospital	Drama
+The Curious Case of Benjamin Button (2008)	Hospital	Fantasy
+The Curious Case of Benjamin Button (2008)	Hospital	Mystery
+The Curious Case of Benjamin Button (2008)	Hospital	Romance
+Shutter Island (2010)	Island	Drama
+Shutter Island (2010)	Island	Mystery
+Shutter Island (2010)	Island	Thriller
+Shutter Island (2010)	1954	Drama
+Shutter Island (2010)	1954	Mystery
+Shutter Island (2010)	1954	Thriller
+Shutter Island (2010)	Disappearance	Drama
+Shutter Island (2010)	Disappearance	Mystery
+Shutter Island (2010)	Disappearance	Thriller
+Shutter Island (2010)	U.S. Marshal	Drama
+Shutter Island (2010)	U.S. Marshal	Mystery
+Shutter Island (2010)	U.S. Marshal	Thriller
+Shutter Island (2010)	Hurricane	Drama
+Shutter Island (2010)	Hurricane	Mystery
+Shutter Island (2010)	Hurricane	Thriller
+La battaglia di Algeri (1966)	Algerian	Drama
+La battaglia di Algeri (1966)	Algerian	History
+La battaglia di Algeri (1966)	Algerian	War
+La battaglia di Algeri (1966)	French	Drama
+La battaglia di Algeri (1966)	French	History
+La battaglia di Algeri (1966)	French	War
+La battaglia di Algeri (1966)	Independence	Drama
+La battaglia di Algeri (1966)	Independence	History
+La battaglia di Algeri (1966)	Independence	War
+La battaglia di Algeri (1966)	Bomb	Drama
+La battaglia di Algeri (1966)	Bomb	History
+La battaglia di Algeri (1966)	Bomb	War
+La battaglia di Algeri (1966)	Government	Drama
+La battaglia di Algeri (1966)	Government	History
+La battaglia di Algeri (1966)	Government	War
+Wo hu cang long (2000)	Sword	Action
+Wo hu cang long (2000)	Sword	Adventure
+Wo hu cang long (2000)	Sword	Drama
+Wo hu cang long (2000)	Sword	Fantasy
+Wo hu cang long (2000)	Sword	Romance
+Wo hu cang long (2000)	Warrior	Action
+Wo hu cang long (2000)	Warrior	Adventure
+Wo hu cang long (2000)	Warrior	Drama
+Wo hu cang long (2000)	Warrior	Fantasy
+Wo hu cang long (2000)	Warrior	Romance
+Wo hu cang long (2000)	China	Action
+Wo hu cang long (2000)	China	Adventure
+Wo hu cang long (2000)	China	Drama
+Wo hu cang long (2000)	China	Fantasy
+Wo hu cang long (2000)	China	Romance
+Wo hu cang long (2000)	Rooftop	Action
+Wo hu cang long (2000)	Rooftop	Adventure
+Wo hu cang long (2000)	Rooftop	Drama
+Wo hu cang long (2000)	Rooftop	Fantasy
+Wo hu cang long (2000)	Rooftop	Romance
+Wo hu cang long (2000)	Fugitive	Action
+Wo hu cang long (2000)	Fugitive	Adventure
+Wo hu cang long (2000)	Fugitive	Drama
+Wo hu cang long (2000)	Fugitive	Fantasy
+Wo hu cang long (2000)	Fugitive	Romance
+Changeling (2008)	Police	Drama
+Changeling (2008)	Police	History
+Changeling (2008)	Police	Mystery
+Changeling (2008)	Police	Thriller
+Changeling (2008)	Ranch	Drama
+Changeling (2008)	Ranch	History
+Changeling (2008)	Ranch	Mystery
+Changeling (2008)	Ranch	Thriller
+Changeling (2008)	Corruption	Drama
+Changeling (2008)	Corruption	History
+Changeling (2008)	Corruption	Mystery
+Changeling (2008)	Corruption	Thriller
+Changeling (2008)	Missing Child	Drama
+Changeling (2008)	Missing Child	History
+Changeling (2008)	Missing Child	Mystery
+Changeling (2008)	Missing Child	Thriller
+Changeling (2008)	Los Angeles Police Department	Drama
+Changeling (2008)	Los Angeles Police Department	History
+Changeling (2008)	Los Angeles Police Department	Mystery
+Changeling (2008)	Los Angeles Police Department	Thriller
+Patton (1970)	General	Biography
+Patton (1970)	General	Drama
+Patton (1970)	General	War
+Patton (1970)	Germany	Biography
+Patton (1970)	Germany	Drama
+Patton (1970)	Germany	War
+Patton (1970)	American	Biography
+Patton (1970)	American	Drama
+Patton (1970)	American	War
+Patton (1970)	Destiny	Biography
+Patton (1970)	Destiny	Drama
+Patton (1970)	Destiny	War
+Patton (1970)	Military	Biography
+Patton (1970)	Military	Drama
+Patton (1970)	Military	War
+The Conversation (1974)	Surveillance	Drama
+The Conversation (1974)	Surveillance	Mystery
+The Conversation (1974)	Surveillance	Thriller
+The Conversation (1974)	Murder	Drama
+The Conversation (1974)	Murder	Mystery
+The Conversation (1974)	Murder	Thriller
+The Conversation (1974)	Claustrophobia	Drama
+The Conversation (1974)	Claustrophobia	Mystery
+The Conversation (1974)	Claustrophobia	Thriller
+The Conversation (1974)	Tragic Event	Drama
+The Conversation (1974)	Tragic Event	Mystery
+The Conversation (1974)	Tragic Event	Thriller
+The Conversation (1974)	Paranoid Fantasy	Drama
+The Conversation (1974)	Paranoid Fantasy	Mystery
+The Conversation (1974)	Paranoid Fantasy	Thriller
+Little Miss Sunshine (2006)	Pageant	Adventure
+Little Miss Sunshine (2006)	Pageant	Comedy
+Little Miss Sunshine (2006)	Pageant	Drama
+Little Miss Sunshine (2006)	Proust	Adventure
+Little Miss Sunshine (2006)	Proust	Comedy
+Little Miss Sunshine (2006)	Proust	Drama
+Little Miss Sunshine (2006)	Loser	Adventure
+Little Miss Sunshine (2006)	Loser	Comedy
+Little Miss Sunshine (2006)	Loser	Drama
+Little Miss Sunshine (2006)	Beauty Pageant	Adventure
+Little Miss Sunshine (2006)	Beauty Pageant	Comedy
+Little Miss Sunshine (2006)	Beauty Pageant	Drama
+Little Miss Sunshine (2006)	Drugs	Adventure
+Little Miss Sunshine (2006)	Drugs	Comedy
+Little Miss Sunshine (2006)	Drugs	Drama
+Planet of the Apes (1968)	Ape	Adventure
+Planet of the Apes (1968)	Ape	Mystery
+Planet of the Apes (1968)	Ape	Sci-Fi
+Planet of the Apes (1968)	Ape	Thriller
+Planet of the Apes (1968)	Planet	Adventure
+Planet of the Apes (1968)	Planet	Mystery
+Planet of the Apes (1968)	Planet	Sci-Fi
+Planet of the Apes (1968)	Planet	Thriller
+Planet of the Apes (1968)	Astronaut	Adventure
+Planet of the Apes (1968)	Astronaut	Mystery
+Planet of the Apes (1968)	Astronaut	Sci-Fi
+Planet of the Apes (1968)	Astronaut	Thriller
+Planet of the Apes (1968)	Escape	Adventure
+Planet of the Apes (1968)	Escape	Mystery
+Planet of the Apes (1968)	Escape	Sci-Fi
+Planet of the Apes (1968)	Escape	Thriller
+Planet of the Apes (1968)	Trial	Adventure
+Planet of the Apes (1968)	Trial	Mystery
+Planet of the Apes (1968)	Trial	Sci-Fi
+Planet of the Apes (1968)	Trial	Thriller
+The Adventures of Robin Hood (1938)	Prince	Action
+The Adventures of Robin Hood (1938)	Prince	Adventure
+The Adventures of Robin Hood (1938)	Prince	Romance
+The Adventures of Robin Hood (1938)	Outlaw	Action
+The Adventures of Robin Hood (1938)	Outlaw	Adventure
+The Adventures of Robin Hood (1938)	Outlaw	Romance
+The Adventures of Robin Hood (1938)	Castle	Action
+The Adventures of Robin Hood (1938)	Castle	Adventure
+The Adventures of Robin Hood (1938)	Castle	Romance
+The Adventures of Robin Hood (1938)	Rebel	Action
+The Adventures of Robin Hood (1938)	Rebel	Adventure
+The Adventures of Robin Hood (1938)	Rebel	Romance
+The Adventures of Robin Hood (1938)	Forest	Action
+The Adventures of Robin Hood (1938)	Forest	Adventure
+The Adventures of Robin Hood (1938)	Forest	Romance
+Who's Afraid of Virginia Woolf? (1966)	Couple	Drama
+Who's Afraid of Virginia Woolf? (1966)	Professor	Drama
+Who's Afraid of Virginia Woolf? (1966)	New England	Drama
+Who's Afraid of Virginia Woolf? (1966)	Secret	Drama
+Who's Afraid of Virginia Woolf? (1966)	Aging	Drama
+Les quatre cents coups (1959)	Adultery	Crime
+Les quatre cents coups (1959)	Adultery	Drama
+Les quatre cents coups (1959)	Jail	Crime
+Les quatre cents coups (1959)	Jail	Drama
+Les quatre cents coups (1959)	Juvenile Delinquent	Crime
+Les quatre cents coups (1959)	Juvenile Delinquent	Drama
+Les quatre cents coups (1959)	Mugshot	Crime
+Les quatre cents coups (1959)	Mugshot	Drama
+Les quatre cents coups (1959)	Puppet Show	Crime
+Les quatre cents coups (1959)	Puppet Show	Drama
+The Nightmare Before Christmas (1993)	Animation	Animation
+The Nightmare Before Christmas (1993)	Animation	Family
+The Nightmare Before Christmas (1993)	Animation	Fantasy
+The Nightmare Before Christmas (1993)	Animation	Musical
+The Nightmare Before Christmas (1993)	Family	Animation
+The Nightmare Before Christmas (1993)	Family	Family
+The Nightmare Before Christmas (1993)	Family	Fantasy
+The Nightmare Before Christmas (1993)	Family	Musical
+The Nightmare Before Christmas (1993)	Fantasy	Animation
+The Nightmare Before Christmas (1993)	Fantasy	Family
+The Nightmare Before Christmas (1993)	Fantasy	Fantasy
+The Nightmare Before Christmas (1993)	Fantasy	Musical
+The Nightmare Before Christmas (1993)	Musical	Animation
+The Nightmare Before Christmas (1993)	Musical	Family
+The Nightmare Before Christmas (1993)	Musical	Fantasy
+The Nightmare Before Christmas (1993)	Musical	Musical
+Anatomy of a Murder (1959)	Murder	Crime
+Anatomy of a Murder (1959)	Murder	Drama
+Anatomy of a Murder (1959)	Murder	Mystery
+Anatomy of a Murder (1959)	Attorney	Crime
+Anatomy of a Murder (1959)	Attorney	Drama
+Anatomy of a Murder (1959)	Attorney	Mystery
+Anatomy of a Murder (1959)	Rape	Crime
+Anatomy of a Murder (1959)	Rape	Drama
+Anatomy of a Murder (1959)	Rape	Mystery
+Anatomy of a Murder (1959)	Fishing	Crime
+Anatomy of a Murder (1959)	Fishing	Drama
+Anatomy of a Murder (1959)	Fishing	Mystery
+Anatomy of a Murder (1959)	Bartender	Crime
+Anatomy of a Murder (1959)	Bartender	Drama
+Anatomy of a Murder (1959)	Bartender	Mystery
+All Quiet on the Western Front (1930)	German	Action
+All Quiet on the Western Front (1930)	German	Drama
+All Quiet on the Western Front (1930)	German	War
+All Quiet on the Western Front (1930)	Soldier	Action
+All Quiet on the Western Front (1930)	Soldier	Drama
+All Quiet on the Western Front (1930)	Soldier	War
+All Quiet on the Western Front (1930)	Recruit	Action
+All Quiet on the Western Front (1930)	Recruit	Drama
+All Quiet on the Western Front (1930)	Recruit	War
+All Quiet on the Western Front (1930)	Death	Action
+All Quiet on the Western Front (1930)	Death	Drama
+All Quiet on the Western Front (1930)	Death	War
+All Quiet on the Western Front (1930)	Disillusionment	Action
+All Quiet on the Western Front (1930)	Disillusionment	Drama
+All Quiet on the Western Front (1930)	Disillusionment	War
+Mulholland Dr. (2001)	Dream	Drama
+Mulholland Dr. (2001)	Dream	Mystery
+Mulholland Dr. (2001)	Dream	Romance
+Mulholland Dr. (2001)	Dream	Thriller
+Mulholland Dr. (2001)	Amnesia	Drama
+Mulholland Dr. (2001)	Amnesia	Mystery
+Mulholland Dr. (2001)	Amnesia	Romance
+Mulholland Dr. (2001)	Amnesia	Thriller
+Mulholland Dr. (2001)	Conspiracy	Drama
+Mulholland Dr. (2001)	Conspiracy	Mystery
+Mulholland Dr. (2001)	Conspiracy	Romance
+Mulholland Dr. (2001)	Conspiracy	Thriller
+Mulholland Dr. (2001)	Hollywood	Drama
+Mulholland Dr. (2001)	Hollywood	Mystery
+Mulholland Dr. (2001)	Hollywood	Romance
+Mulholland Dr. (2001)	Hollywood	Thriller
+Mulholland Dr. (2001)	Director	Drama
+Mulholland Dr. (2001)	Director	Mystery
+Mulholland Dr. (2001)	Director	Romance
+Mulholland Dr. (2001)	Director	Thriller
+Barry Lyndon (1975)	British Army	Drama
+Barry Lyndon (1975)	British Army	Romance
+Barry Lyndon (1975)	British Army	War
+Barry Lyndon (1975)	Irish	Drama
+Barry Lyndon (1975)	Irish	Romance
+Barry Lyndon (1975)	Irish	War
+Barry Lyndon (1975)	Seven Years War	Drama
+Barry Lyndon (1975)	Seven Years War	Romance
+Barry Lyndon (1975)	Seven Years War	War
+Barry Lyndon (1975)	18th Century	Drama
+Barry Lyndon (1975)	18th Century	Romance
+Barry Lyndon (1975)	18th Century	War
+Barry Lyndon (1975)	England	Drama
+Barry Lyndon (1975)	England	Romance
+Barry Lyndon (1975)	England	War
+The Truman Show (1998)	Hidden Camera	Drama
+The Truman Show (1998)	Island	Drama
+The Truman Show (1998)	Library	Drama
+The Truman Show (1998)	Lawn Mower	Drama
+The Truman Show (1998)	Bridge	Drama
+Shaun of the Dead (2004)	Love	Comedy
+Shaun of the Dead (2004)	Love	Horror
+Shaun of the Dead (2004)	Zombie	Comedy
+Shaun of the Dead (2004)	Zombie	Horror
+Shaun of the Dead (2004)	Pub	Comedy
+Shaun of the Dead (2004)	Pub	Horror
+Shaun of the Dead (2004)	Cricket Bat	Comedy
+Shaun of the Dead (2004)	Cricket Bat	Horror
+Shaun of the Dead (2004)	Record Collection	Comedy
+Shaun of the Dead (2004)	Record Collection	Horror
+Tonari no Totoro (1988)	Forest Spirit	Animation
+Tonari no Totoro (1988)	Forest Spirit	Adventure
+Tonari no Totoro (1988)	Forest Spirit	Family
+Tonari no Totoro (1988)	Forest Spirit	Fantasy
+Tonari no Totoro (1988)	Spirit	Animation
+Tonari no Totoro (1988)	Spirit	Adventure
+Tonari no Totoro (1988)	Spirit	Family
+Tonari no Totoro (1988)	Spirit	Fantasy
+Tonari no Totoro (1988)	Bicycle	Animation
+Tonari no Totoro (1988)	Bicycle	Adventure
+Tonari no Totoro (1988)	Bicycle	Family
+Tonari no Totoro (1988)	Bicycle	Fantasy
+Tonari no Totoro (1988)	Lost	Animation
+Tonari no Totoro (1988)	Lost	Adventure
+Tonari no Totoro (1988)	Lost	Family
+Tonari no Totoro (1988)	Lost	Fantasy
+Tonari no Totoro (1988)	Secret Passage	Animation
+Tonari no Totoro (1988)	Secret Passage	Adventure
+Tonari no Totoro (1988)	Secret Passage	Family
+Tonari no Totoro (1988)	Secret Passage	Fantasy
+Spartacus (1960)	Slave	Action
+Spartacus (1960)	Slave	Adventure
+Spartacus (1960)	Slave	Biography
+Spartacus (1960)	Slave	Drama
+Spartacus (1960)	Slave	History
+Spartacus (1960)	Spartacus	Action
+Spartacus (1960)	Spartacus	Adventure
+Spartacus (1960)	Spartacus	Biography
+Spartacus (1960)	Spartacus	Drama
+Spartacus (1960)	Spartacus	History
+Spartacus (1960)	Love	Action
+Spartacus (1960)	Love	Adventure
+Spartacus (1960)	Love	Biography
+Spartacus (1960)	Love	Drama
+Spartacus (1960)	Love	History
+Spartacus (1960)	Italy	Action
+Spartacus (1960)	Italy	Adventure
+Spartacus (1960)	Italy	Biography
+Spartacus (1960)	Italy	Drama
+Spartacus (1960)	Italy	History
+Spartacus (1960)	Arena	Action
+Spartacus (1960)	Arena	Adventure
+Spartacus (1960)	Arena	Biography
+Spartacus (1960)	Arena	Drama
+Spartacus (1960)	Arena	History
+The Lady Vanishes (1938)	Train	Comedy
+The Lady Vanishes (1938)	Train	Mystery
+The Lady Vanishes (1938)	Train	Romance
+The Lady Vanishes (1938)	Train	Thriller
+The Lady Vanishes (1938)	Governess	Comedy
+The Lady Vanishes (1938)	Governess	Mystery
+The Lady Vanishes (1938)	Governess	Romance
+The Lady Vanishes (1938)	Governess	Thriller
+The Lady Vanishes (1938)	Extramarital Affair	Comedy
+The Lady Vanishes (1938)	Extramarital Affair	Mystery
+The Lady Vanishes (1938)	Extramarital Affair	Romance
+The Lady Vanishes (1938)	Extramarital Affair	Thriller
+The Lady Vanishes (1938)	Nun	Comedy
+The Lady Vanishes (1938)	Nun	Mystery
+The Lady Vanishes (1938)	Nun	Romance
+The Lady Vanishes (1938)	Nun	Thriller
+The Lady Vanishes (1938)	Drugged Drink	Comedy
+The Lady Vanishes (1938)	Drugged Drink	Mystery
+The Lady Vanishes (1938)	Drugged Drink	Romance
+The Lady Vanishes (1938)	Drugged Drink	Thriller
+Glory (1989)	Prejudice	Drama
+Glory (1989)	Prejudice	History
+Glory (1989)	Prejudice	War
+Glory (1989)	Army	Drama
+Glory (1989)	Army	History
+Glory (1989)	Army	War
+Glory (1989)	Civil War	Drama
+Glory (1989)	Civil War	History
+Glory (1989)	Civil War	War
+Glory (1989)	Letter	Drama
+Glory (1989)	Letter	History
+Glory (1989)	Letter	War
+Glory (1989)	Soldier	Drama
+Glory (1989)	Soldier	History
+Glory (1989)	Soldier	War
+Monsters, Inc. (2001)	Monster	Animation
+Monsters, Inc. (2001)	Monster	Adventure
+Monsters, Inc. (2001)	Monster	Comedy
+Monsters, Inc. (2001)	Monster	Family
+Monsters, Inc. (2001)	Monster	Fantasy
+Monsters, Inc. (2001)	Scream	Animation
+Monsters, Inc. (2001)	Scream	Adventure
+Monsters, Inc. (2001)	Scream	Comedy
+Monsters, Inc. (2001)	Scream	Family
+Monsters, Inc. (2001)	Scream	Fantasy
+Monsters, Inc. (2001)	Door	Animation
+Monsters, Inc. (2001)	Door	Adventure
+Monsters, Inc. (2001)	Door	Comedy
+Monsters, Inc. (2001)	Door	Family
+Monsters, Inc. (2001)	Door	Fantasy
+Monsters, Inc. (2001)	Girl	Animation
+Monsters, Inc. (2001)	Girl	Adventure
+Monsters, Inc. (2001)	Girl	Comedy
+Monsters, Inc. (2001)	Girl	Family
+Monsters, Inc. (2001)	Girl	Fantasy
+Monsters, Inc. (2001)	Friend	Animation
+Monsters, Inc. (2001)	Friend	Adventure
+Monsters, Inc. (2001)	Friend	Comedy
+Monsters, Inc. (2001)	Friend	Family
+Monsters, Inc. (2001)	Friend	Fantasy
+The Philadelphia Story (1940)	Reporter	Comedy
+The Philadelphia Story (1940)	Reporter	Romance
+The Philadelphia Story (1940)	Wedding	Comedy
+The Philadelphia Story (1940)	Wedding	Romance
+The Philadelphia Story (1940)	Philadelphia	Comedy
+The Philadelphia Story (1940)	Philadelphia	Romance
+The Philadelphia Story (1940)	Heiress	Comedy
+The Philadelphia Story (1940)	Heiress	Romance
+The Philadelphia Story (1940)	Socialite	Comedy
+The Philadelphia Story (1940)	Socialite	Romance
+Arsenic and Old Lace (1944)	Cellar	Comedy
+Arsenic and Old Lace (1944)	Cellar	Crime
+Arsenic and Old Lace (1944)	Cellar	Thriller
+Arsenic and Old Lace (1944)	Insanity	Comedy
+Arsenic and Old Lace (1944)	Insanity	Crime
+Arsenic and Old Lace (1944)	Insanity	Thriller
+Arsenic and Old Lace (1944)	Critic	Comedy
+Arsenic and Old Lace (1944)	Critic	Crime
+Arsenic and Old Lace (1944)	Critic	Thriller
+Arsenic and Old Lace (1944)	Murder	Comedy
+Arsenic and Old Lace (1944)	Murder	Crime
+Arsenic and Old Lace (1944)	Murder	Thriller
+Arsenic and Old Lace (1944)	Marriage	Comedy
+Arsenic and Old Lace (1944)	Marriage	Crime
+Arsenic and Old Lace (1944)	Marriage	Thriller
+His Girl Friday (1940)	Editor	Comedy
+His Girl Friday (1940)	Editor	Drama
+His Girl Friday (1940)	Editor	Romance
+His Girl Friday (1940)	Newspaper	Comedy
+His Girl Friday (1940)	Newspaper	Drama
+His Girl Friday (1940)	Newspaper	Romance
+His Girl Friday (1940)	Reporter	Comedy
+His Girl Friday (1940)	Reporter	Drama
+His Girl Friday (1940)	Reporter	Romance
+His Girl Friday (1940)	Newspaper Editor	Comedy
+His Girl Friday (1940)	Newspaper Editor	Drama
+His Girl Friday (1940)	Newspaper Editor	Romance
+His Girl Friday (1940)	Mayor	Comedy
+His Girl Friday (1940)	Mayor	Drama
+His Girl Friday (1940)	Mayor	Romance
+Toy Story 2 (1999)	Toy	Animation
+Toy Story 2 (1999)	Toy	Adventure
+Toy Story 2 (1999)	Toy	Comedy
+Toy Story 2 (1999)	Toy	Family
+Toy Story 2 (1999)	Toy	Fantasy
+Toy Story 2 (1999)	Collector	Animation
+Toy Story 2 (1999)	Collector	Adventure
+Toy Story 2 (1999)	Collector	Comedy
+Toy Story 2 (1999)	Collector	Family
+Toy Story 2 (1999)	Collector	Fantasy
+Toy Story 2 (1999)	Rescue	Animation
+Toy Story 2 (1999)	Rescue	Adventure
+Toy Story 2 (1999)	Rescue	Comedy
+Toy Story 2 (1999)	Rescue	Family
+Toy Story 2 (1999)	Rescue	Fantasy
+Toy Story 2 (1999)	Yard Sale	Animation
+Toy Story 2 (1999)	Yard Sale	Adventure
+Toy Story 2 (1999)	Yard Sale	Comedy
+Toy Story 2 (1999)	Yard Sale	Family
+Toy Story 2 (1999)	Yard Sale	Fantasy
+Toy Story 2 (1999)	Friend	Animation
+Toy Story 2 (1999)	Friend	Adventure
+Toy Story 2 (1999)	Friend	Comedy
+Toy Story 2 (1999)	Friend	Family
+Toy Story 2 (1999)	Friend	Fantasy

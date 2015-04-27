@@ -1,5 +1,6 @@
 package ru.zudin.triclustering;
 
+import com.google.common.collect.ImmutableMap;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;
@@ -18,9 +19,22 @@ import java.io.IOException;
  * @since 12.04.15.
  */
 public class Executor {
+    public static final String mainDelimiter = "main_delimiter";
+    public static final String secondaryDelimiter = "secondary_delimiter";
+
     private static final String TEMP_DIR = "job_temp";
 
     public static void main(String[] args) throws Exception {
+        String[] params = {
+                "data/test.txt", //path to file
+                "\t", // main delimiter
+                ";" //secondary delimiter
+        };
+        if (args.length != 0) {
+            for (int i = 0; i < args.length && i < params.length; i++) {
+                params[i] = args[i];
+            }
+        }
         BasicConfigurator.configure();
 
         String output = "result";
@@ -28,11 +42,12 @@ public class Executor {
         ChainingJob job = ChainingJob.Builder.instance()
                 .name("triclustering")
                 .tempDir(TEMP_DIR)
-                .mapper(TupleReadMapper.class)
+                .mapper(TupleReadMapper.class, ImmutableMap.of(mainDelimiter, params[1],
+                        secondaryDelimiter, params[2]))
                 .reducer(TupleContextReducer.class)
                 .mapper(PostProcessingMapper.class)
                 .build();
-        ToolRunner.run(new Configuration(), job, new String[]{ "data/imdb.txt" , output } );
+        ToolRunner.run(new Configuration(), job, new String[]{ params[0] , output } );
     }
 
     private static void clear(String output) throws IOException {

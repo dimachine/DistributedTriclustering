@@ -14,6 +14,7 @@ import org.apache.hadoop.util.Tool;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author Sergey Zudin
@@ -61,7 +62,9 @@ public class ChainingJob extends Configured implements Tool {
 
     public interface MapRedBuilder {
         public ReadyBuilder mapper(Class<? extends Mapper> cls) throws IOException;
+        public ReadyBuilder mapper(Class<? extends Mapper> cls, Map<String, String> params) throws IOException;
         public ReadyBuilder reducer(Class<? extends Reducer> cls) throws IOException;
+        public ReadyBuilder reducer(Class<? extends Reducer> cls, Map<String, String> params) throws IOException;
     }
 
     public interface ReadyBuilder extends MapRedBuilder {
@@ -98,8 +101,14 @@ public class ChainingJob extends Configured implements Tool {
 
         @Override
         public ReadyBuilder mapper(Class<? extends Mapper> cls) throws IOException {
+            return mapper(cls, null);
+        }
+
+        @Override
+        public ReadyBuilder mapper(Class<? extends Mapper> cls, Map<String, String> params) throws IOException {
             if (isPrevMapper) {
                 job.setNumReduceTasks(0);
+                addParams(params);
                 chainingJob.jobs.add(job);
             }
             job = Job.getInstance(conf, chainingJob.name);
@@ -108,12 +117,18 @@ public class ChainingJob extends Configured implements Tool {
             Class<?>[] typeArgs = TypeResolver.resolveRawArguments(Mapper.class, cls);
             job.setOutputKeyClass(typeArgs[2]);
             job.setOutputValueClass(typeArgs[3]);
+            addParams(params);
             isPrevMapper = true;
             return this;
         }
 
         @Override
         public ReadyBuilder reducer(Class<? extends Reducer> cls) throws IOException {
+            return reducer(cls, null);
+        }
+
+        @Override
+        public ReadyBuilder reducer(Class<? extends Reducer> cls, Map<String, String> params) throws IOException {
             if (!isPrevMapper) {
                 job = Job.getInstance(conf, chainingJob.name);
                 job.setJarByClass(ChainingJob.class);
@@ -122,6 +137,7 @@ public class ChainingJob extends Configured implements Tool {
                 job.setOutputValueClass(typeArgs[1]);
             }
             job.setReducerClass(cls);
+            addParams(params);
             chainingJob.jobs.add(job);
             job = null;
             isPrevMapper = false;
@@ -135,6 +151,17 @@ public class ChainingJob extends Configured implements Tool {
                 chainingJob.jobs.add(job);
             }
             return chainingJob;
+        }
+
+
+        private void addParams(Map<String, String> params) {
+            if (params != null) {
+                Configuration conf = job.getConfiguration();
+                for (String key : params.keySet()) {
+                    String value = params.get(key);
+                    conf.set(key, value);
+                }
+            }
         }
     }
 }

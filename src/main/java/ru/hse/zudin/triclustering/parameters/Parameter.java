@@ -1,6 +1,6 @@
-package ru.zudin.triclustering.parameters;
+package ru.hse.zudin.triclustering.parameters;
 
-import ru.zudin.triclustering.model.Tuple;
+import ru.hse.zudin.triclustering.model.Tuple;
 
 /**
  * @author Sergey Zudin

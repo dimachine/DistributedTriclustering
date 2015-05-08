@@ -1,4 +1,4 @@
-package ru.zudin.triclustering.model;
+package ru.hse.zudin.triclustering.model;
 
 import org.apache.commons.collections4.list.FixedSizeList;
 
@@ -18,11 +18,6 @@ public class Utils {
 
     public static <T> List<T> getFixedList(int size) {
         ArrayList<T> list = new ArrayList<>(Collections.nCopies(size, null));
-        return FixedSizeList.fixedSizeList(list);
-    }
-
-    public static <T> List<T> getFixedList(int size, T obj) {
-        ArrayList<T> list = new ArrayList<>(Collections.nCopies(size, obj));
         return FixedSizeList.fixedSizeList(list);
     }
 }

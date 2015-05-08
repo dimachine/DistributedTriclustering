@@ -1,4 +1,4 @@
-package ru.zudin.triclustering.model;
+package ru.hse.zudin.triclustering.model;
 
 import java.util.HashSet;
 import java.util.List;

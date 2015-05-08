@@ -1,4 +1,4 @@
-package ru.zudin.triclustering.model;
+package ru.hse.zudin.triclustering.model;
 
 import com.google.common.collect.Multimap;
 import com.google.common.collect.Multimaps;
@@ -9,7 +9,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * Implementation of {@link ru.zudin.triclustering.model.ClusterConstructor} class for triclustering
+ * Implementation of {@link ClusterConstructor} class for triclustering
  * Works only with tuples with 3 components, which, in this case, are called extent, intent and modus.
  *
  * @author Sergey Zudin

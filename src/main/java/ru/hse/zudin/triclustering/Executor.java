@@ -1,4 +1,4 @@
-package ru.zudin.triclustering;
+package ru.hse.zudin.triclustering;
 
 import com.google.common.collect.ImmutableMap;
 import org.apache.hadoop.conf.Configuration;
@@ -7,10 +7,10 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.log4j.BasicConfigurator;
-import ru.zudin.triclustering.mapreduce.ChainingJob;
-import ru.zudin.triclustering.mapreduce.PostProcessingMapper;
-import ru.zudin.triclustering.mapreduce.TupleContextReducer;
-import ru.zudin.triclustering.mapreduce.TupleReadMapper;
+import ru.hse.zudin.triclustering.mapreduce.ChainingJob;
+import ru.hse.zudin.triclustering.mapreduce.PostProcessingMapper;
+import ru.hse.zudin.triclustering.mapreduce.TupleContextReducer;
+import ru.hse.zudin.triclustering.mapreduce.TupleReadMapper;
 
 import java.io.IOException;
 

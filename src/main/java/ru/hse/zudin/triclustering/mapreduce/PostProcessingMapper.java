@@ -1,13 +1,13 @@
-package ru.zudin.triclustering.mapreduce;
+package ru.hse.zudin.triclustering.mapreduce;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.codehaus.jackson.map.ObjectMapper;
-import ru.zudin.triclustering.model.Tuple;
-import ru.zudin.triclustering.parameters.DensityParameter;
-import ru.zudin.triclustering.parameters.Parameter;
+import ru.hse.zudin.triclustering.model.Tuple;
+import ru.hse.zudin.triclustering.parameters.DensityParameter;
+import ru.hse.zudin.triclustering.parameters.Parameter;
 
 import java.io.IOException;
 import java.util.Arrays;

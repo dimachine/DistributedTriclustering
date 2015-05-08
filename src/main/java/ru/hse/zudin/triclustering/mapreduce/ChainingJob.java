@@ -1,4 +1,4 @@
-package ru.zudin.triclustering.mapreduce;
+package ru.hse.zudin.triclustering.mapreduce;
 
 import net.jodah.typetools.TypeResolver;
 import org.apache.hadoop.conf.Configuration;
@@ -53,22 +53,22 @@ public class ChainingJob extends Configured implements Tool {
     }
 
     public interface NamedBuilder {
-        public TempDirBuilder name(String name);
+        TempDirBuilder name(String name);
     }
 
     public interface TempDirBuilder {
-        public MapRedBuilder tempDir(String path);
+        MapRedBuilder tempDir(String path);
     }
 
     public interface MapRedBuilder {
-        public ReadyBuilder mapper(Class<? extends Mapper> cls) throws IOException;
-        public ReadyBuilder mapper(Class<? extends Mapper> cls, Map<String, String> params) throws IOException;
-        public ReadyBuilder reducer(Class<? extends Reducer> cls) throws IOException;
-        public ReadyBuilder reducer(Class<? extends Reducer> cls, Map<String, String> params) throws IOException;
+        ReadyBuilder mapper(Class<? extends Mapper> cls) throws IOException;
+        ReadyBuilder mapper(Class<? extends Mapper> cls, Map<String, String> params) throws IOException;
+        ReadyBuilder reducer(Class<? extends Reducer> cls) throws IOException;
+        ReadyBuilder reducer(Class<? extends Reducer> cls, Map<String, String> params) throws IOException;
     }
 
     public interface ReadyBuilder extends MapRedBuilder {
-        public ChainingJob build();
+        ChainingJob build();
     }
 
     public static class Builder implements NamedBuilder, TempDirBuilder, ReadyBuilder {

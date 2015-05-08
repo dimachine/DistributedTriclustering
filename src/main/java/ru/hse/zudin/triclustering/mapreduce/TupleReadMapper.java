@@ -1,4 +1,4 @@
-package ru.zudin.triclustering.mapreduce;
+package ru.hse.zudin.triclustering.mapreduce;
 
 
 import org.apache.hadoop.conf.Configuration;
@@ -7,10 +7,10 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.log4j.Logger;
-import ru.zudin.triclustering.Executor;
-import ru.zudin.triclustering.model.Entity;
-import ru.zudin.triclustering.model.EntityType;
-import ru.zudin.triclustering.model.Tuple;
+import ru.hse.zudin.triclustering.Executor;
+import ru.hse.zudin.triclustering.model.Entity;
+import ru.hse.zudin.triclustering.model.EntityType;
+import ru.hse.zudin.triclustering.model.Tuple;
 
 import java.io.IOException;
 import java.util.Arrays;

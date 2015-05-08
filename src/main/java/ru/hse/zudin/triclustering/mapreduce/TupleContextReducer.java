@@ -1,11 +1,11 @@
-package ru.zudin.triclustering.mapreduce;
+package ru.hse.zudin.triclustering.mapreduce;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 import org.codehaus.jackson.map.ObjectMapper;
-import ru.zudin.triclustering.model.FormalContext;
-import ru.zudin.triclustering.model.Tuple;
+import ru.hse.zudin.triclustering.model.FormalContext;
+import ru.hse.zudin.triclustering.model.Tuple;
 
 import java.io.IOException;
 import java.util.Set;

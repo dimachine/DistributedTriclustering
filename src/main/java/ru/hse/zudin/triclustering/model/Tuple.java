@@ -1,4 +1,4 @@
-package ru.zudin.triclustering.model;
+package ru.hse.zudin.triclustering.model;
 
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.hadoop.io.Writable;

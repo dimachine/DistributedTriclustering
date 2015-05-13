@@ -1,8 +1,8 @@
 package ru.hse.zudin.triclustering.model;
 
-import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.TreeSet;
 
 /**
  * Formal context for clustering
@@ -25,11 +25,11 @@ public class FormalContext {
      * Base constructor
      */
     public FormalContext() {
-        tuples = new HashSet<>();
+        tuples = new TreeSet<>();
         constructor = new TriclusterConstructor();
         entities = Utils.getFixedList(EntityType.size());
         for (int i = 0; i < EntityType.size(); i++) {
-            entities.set(i, new HashSet<>());
+            entities.set(i, new TreeSet<>());
         }
     }
 
@@ -56,10 +56,11 @@ public class FormalContext {
      * @return set of all existing clusters
      */
     public Set<Tuple> getClusters() {
-        Set<Tuple> result = new HashSet<>();
+        Set<Tuple> result = new TreeSet<>();
         for (Tuple tuple : tuples) {
             Tuple cluster = new Tuple();
             for (int i = 0; i < tuple.dimension(); i++) {
+                //TODO: move to cluster constructor
                 Set<Entity> set = constructor.get(tuple.getAllExcept(i).toArray(new Entity[0]));
                 cluster.set(i, set);
             }

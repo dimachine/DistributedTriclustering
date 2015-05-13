@@ -19,12 +19,12 @@ public class TupleContextReducer extends Reducer<IntWritable, Tuple, IntWritable
     @Override
     protected void reduce(IntWritable key, Iterable<Tuple> values, Context context) throws IOException, InterruptedException {
         FormalContext formalContext = new FormalContext();
-        ObjectMapper mapper = new ObjectMapper();
-        while (values.iterator().hasNext()) {
-            Tuple tuple = new Tuple(values.iterator().next().getEntities());
-            formalContext.add(tuple);
+        for (Tuple value : values) {
+            formalContext.add(new Tuple(value));
         }
+
         Set<Tuple> clusters = formalContext.getClusters();
+        ObjectMapper mapper = new ObjectMapper();
         for (Tuple cluster : clusters) {
             context.write(new IntWritable(0), new Text(mapper.writeValueAsString(cluster)));
         }

@@ -69,7 +69,7 @@ public class TriclusterConstructor implements ClusterConstructor {
     private void addForPair(Entity value, Entity key1, Entity key2) {
         MultiKeyMap<Entity, Set<Entity>> map = getMapByType(value.getType());
         Set<Entity> set = map.get(key1, key2);
-        if (set == null) set = new HashSet<>();
+        if (set == null) set = new TreeSet<>();
         set.add(value);
         map.put(key1, key2, set);
     }
@@ -93,7 +93,7 @@ public class TriclusterConstructor implements ClusterConstructor {
             for (Entity key1 : index.get(keys[0].getType())) {
                 for (Entity key2 : index.get(keys[keys.length - 1].getType())) {
                     Set<Entity> forPair = getForPair(key1, key2);
-                    result = result == null ? forPair : new HashSet<>(CollectionUtils.intersection(result, forPair));
+                    result = result == null ? forPair : new TreeSet<>(CollectionUtils.intersection(result, forPair));
                 }
             }
             return result;

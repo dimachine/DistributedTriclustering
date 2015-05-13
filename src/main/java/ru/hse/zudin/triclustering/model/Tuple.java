@@ -7,9 +7,9 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 import java.util.Collection;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.TreeSet;
 import java.util.stream.Collectors;
 
 /**
@@ -41,7 +41,7 @@ public class Tuple implements Writable {
 
     public void set(int index, Collection<Entity> collection) {
         Utils.preCheck(index, dimension());
-        entities.set(index, new TreeSet<>(collection));
+        entities.set(index, new HashSet<>(collection));
     }
 
     public Set<Entity> get(int index) {
@@ -79,7 +79,7 @@ public class Tuple implements Writable {
         int capacity = input.readInt();
         entities = Utils.getFixedList(capacity);
         for (int i = 0; i < capacity; i++) {
-            Set<Entity> entitySet = new TreeSet<>();
+            Set<Entity> entitySet = new HashSet<>();
             int amount = input.readInt();
             for (int j = 0; j < amount; j++) {
                 Entity entity = new Entity();

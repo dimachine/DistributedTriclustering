@@ -10,20 +10,21 @@ import java.io.IOException;
 
 /**
  * @author Sergey Zudin
- * @since 15.04.15.
+ * @since 16.05.15.
  */
-public class TupleContextReducer extends Reducer<LongWritable, Text, LongWritable, Text> {
-
+public class CollectReducer extends Reducer<LongWritable, Text, LongWritable, Text> {
     @Override
     protected void reduce(LongWritable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         FormalContext formalContext = new FormalContext();
         for (Text value : values) {
-            Tuple tuple = HadoopIOUtils.parseTuple(value);
-            formalContext.add(tuple);
+            Tuple[] tuples = HadoopIOUtils.parseTuples(value);
+            for (Tuple tuple : tuples) {
+                formalContext.add(tuple);
+            }
         }
 
-
-        Tuple[] tuples = formalContext.getClusters().toArray(new Tuple[0]);
-        context.write(new LongWritable(0), HadoopIOUtils.asText(tuples));
+        for (Tuple cluster : formalContext.getClusters()) {
+            context.write(new LongWritable(0), HadoopIOUtils.asText(cluster));
+        }
     }
 }

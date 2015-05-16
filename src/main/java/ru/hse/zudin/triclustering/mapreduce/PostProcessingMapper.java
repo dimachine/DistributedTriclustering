@@ -33,6 +33,6 @@ public class PostProcessingMapper extends Mapper<LongWritable, Text, LongWritabl
                 return;
             }
         }
-        context.write(new LongWritable(0), tuple);
+        context.write(key, tuple);
     }
 }

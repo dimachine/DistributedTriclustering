@@ -19,7 +19,17 @@ public class HadoopIOUtils {
         return mapper.readValue(content, Tuple.class);
     }
 
+    public static Tuple[] parseTuples(Text text) throws IOException {
+        String[] strings = text.toString().split("\t");
+        String content = strings.length > 1 ? strings[1] : strings[0];
+        return mapper.readValue(content, Tuple[].class);
+    }
+
     public static Text asText(Tuple tuple) throws IOException {
         return new Text(mapper.writeValueAsString(tuple));
+    }
+
+    public static Text asText(Tuple[] tuples) throws IOException {
+        return new Text(mapper.writeValueAsString(tuples));
     }
 }

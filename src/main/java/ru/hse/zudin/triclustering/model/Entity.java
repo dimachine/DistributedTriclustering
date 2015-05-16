@@ -1,17 +1,12 @@
 package ru.hse.zudin.triclustering.model;
 
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.io.Writable;
-
-import java.io.DataInput;
-import java.io.DataOutput;
-import java.io.IOException;
 
 /**
  * @author Sergey Zudin
  * @since 02.04.15.
  */
-public class Entity implements Writable {
+public class Entity {
     private Text value;
     private EntityType type;
     private String description;
@@ -72,25 +67,5 @@ public class Entity implements Writable {
         if (type != null) result = result * 31 + type.hashCode();
         result = 31 * result + description.hashCode();
         return result;
-    }
-
-    // Hadoop methods
-
-    @Override
-    public void write(DataOutput dataOutput) throws IOException {
-        value.write(dataOutput);
-        new Text(type.name()).write(dataOutput);
-        new Text(description).write(dataOutput);
-    }
-
-    @Override
-    public void readFields(DataInput dataInput) throws IOException {
-        value = new Text();
-        value.readFields(dataInput);
-        Text text = new Text();
-        text.readFields(dataInput);
-        type = EntityType.valueOf(text.toString());
-        text.readFields(dataInput);
-        description = text.toString();
     }
 }

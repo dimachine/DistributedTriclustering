@@ -7,5 +7,5 @@ import ru.hse.zudin.triclustering.model.Tuple;
  * @since 15.04.15.
  */
 public interface Parameter {
-    public boolean check(Tuple tuple);
+    boolean check(Tuple tuple);
 }

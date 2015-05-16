@@ -52,6 +52,10 @@ public class ChainingJob extends Configured implements Tool {
         return 1;
     }
 
+    public Job getJob(int index) {
+        return jobs.get(index);
+    }
+
     public interface NamedBuilder {
         TempDirBuilder name(String name);
     }

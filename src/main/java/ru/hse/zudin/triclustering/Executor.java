@@ -26,9 +26,10 @@ public class Executor {
 
     public static void main(String[] args) throws Exception {
         String[] params = {
-                "data/test.txt", //path to file
-                "\t", // main delimiter
-                ";" //secondary delimiter
+            "data/test.txt", //path to file
+                    "\t", // main delimiter
+                    ";", //secondary delimiter
+                    "4" //number of reducers
         };
         if (args.length != 0) {
             for (int i = 0; i < args.length && i < params.length; i++) {
@@ -45,8 +46,10 @@ public class Executor {
                 .mapper(TupleReadMapper.class, ImmutableMap.of(mainDelimiter, params[1],
                         secondaryDelimiter, params[2]))
                 .reducer(TupleContextReducer.class)
+                .reducer(TupleContextReducer.class)
                 .mapper(PostProcessingMapper.class)
                 .build();
+//        job.getJob(1).setNumReduceTasks(Integer.parseInt(params[3]));
         ToolRunner.run(new Configuration(), job, new String[]{ params[0] , output } );
     }
 

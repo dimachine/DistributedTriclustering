@@ -2,7 +2,6 @@ package ru.hse.zudin.triclustering.mapreduce;
 
 
 import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
@@ -21,7 +20,7 @@ import java.util.stream.Collectors;
  * @author Sergey Zudin
  * @since 08.03.15.
  */
-public class TupleReadMapper extends Mapper<LongWritable, Text, IntWritable, Tuple> {
+public class TupleReadMapper extends Mapper<LongWritable, Text, LongWritable, Text> {
     public static Logger logger = Logger.getLogger(TupleReadMapper.class);
     private String mainDelimiter;
     private String insideDelimiter;
@@ -43,13 +42,13 @@ public class TupleReadMapper extends Mapper<LongWritable, Text, IntWritable, Tup
         Tuple tuple = new Tuple();
         for (int i = 0; i < data.length; i++) {
             String[] innerData = data[i].split(insideDelimiter);
-            final int finalI = i;
+            EntityType type = EntityType.values()[i];
             List<Entity> collected = Arrays.asList(innerData).stream()
                     .map(Text::new)
-                    .map(elem -> new Entity(elem, EntityType.values()[finalI]))
+                    .map(elem -> new Entity(elem, type))
                     .collect(Collectors.toList());
             tuple.set(i, collected);
         }
-        context.write(new IntWritable(0), tuple);
+        context.write(new LongWritable(0), HadoopIOUtils.asText(tuple));
     }
 }

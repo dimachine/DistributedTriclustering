@@ -30,7 +30,7 @@ public class TupleReadMapper extends Mapper<LongWritable, Text, LongWritable, Te
         Configuration conf = context.getConfiguration();
         mainDelimiter = conf.get(Constants.MAIN_DELIMETER);
         insideDelimiter = conf.get(Constants.SECONDARY_DELIMETER);
-        numOfKeys = Integer.parseInt(conf.get(Constants.NUM_OF_KEYS));
+        numOfKeys = Integer.parseInt(conf.get(Constants.NUM_OF_REDUCERS));
     }
 
     @Override
@@ -51,6 +51,6 @@ public class TupleReadMapper extends Mapper<LongWritable, Text, LongWritable, Te
             tuple.set(i, collected);
         }
         long outKey = (long) Math.floor(Math.random() * numOfKeys);
-        context.write(new LongWritable(outKey), HadoopIOUtils.asText(tuple));
+        context.write(new LongWritable(outKey), HadoopIOUtils.asText(tuple, false));
     }
 }

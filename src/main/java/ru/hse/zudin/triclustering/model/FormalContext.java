@@ -61,7 +61,8 @@ public class FormalContext {
             Tuple cluster = new Tuple();
             for (int i = 0; i < tuple.dimension(); i++) {
                 //TODO: move to cluster constructor
-                Set<Entity> set = constructor.get(tuple.getAllExcept(i).toArray(new Entity[0]));
+                List<Entity> allExcept = tuple.getAllExcept(i);
+                Set<Entity> set = constructor.get(allExcept.toArray(new Entity[allExcept.size()]));
                 cluster.set(i, set);
             }
             result.add(cluster);

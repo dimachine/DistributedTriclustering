@@ -37,10 +37,9 @@ public class Executor {
                 .tempDir(Constants.TEMP_DIR)
                 .mapper(TupleReadMapper.class, ImmutableMap.of(Constants.MAIN_DELIMETER, params[1],
                         Constants.SECONDARY_DELIMETER, params[2],
-                        Constants.NUM_OF_KEYS, params[3]))
+                        Constants.NUM_OF_REDUCERS, params[3]))
                 .reducer(TupleContextReducer.class)
                 .reducer(CollectReducer.class)
-                .mapper(PostProcessingMapper.class)
                 .build();
         job.getJob(0).setNumReduceTasks(Integer.parseInt(params[3]));
         ToolRunner.run(new Configuration(), job, new String[]{ params[0] , output } );

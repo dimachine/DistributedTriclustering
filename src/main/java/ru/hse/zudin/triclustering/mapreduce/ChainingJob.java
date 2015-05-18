@@ -119,6 +119,8 @@ public class ChainingJob extends Configured implements Tool {
             job.setJarByClass(ChainingJob.class);
             job.setMapperClass(cls);
             Class<?>[] typeArgs = TypeResolver.resolveRawArguments(Mapper.class, cls);
+            job.setMapOutputKeyClass(typeArgs[2]);
+            job.setMapOutputValueClass(typeArgs[3]);
             job.setOutputKeyClass(typeArgs[2]);
             job.setOutputValueClass(typeArgs[3]);
             addParams(params);
@@ -133,13 +135,15 @@ public class ChainingJob extends Configured implements Tool {
 
         @Override
         public ReadyBuilder reducer(Class<? extends Reducer> cls, Map<String, String> params) throws IOException {
+            Class<?>[] typeArgs = TypeResolver.resolveRawArguments(Reducer.class, cls);
             if (!isPrevMapper) {
                 job = Job.getInstance(conf, chainingJob.name);
                 job.setJarByClass(ChainingJob.class);
-                Class<?>[] typeArgs = TypeResolver.resolveRawArguments(Reducer.class, cls);
-                job.setOutputKeyClass(typeArgs[0]);
-                job.setOutputValueClass(typeArgs[1]);
+                job.setMapOutputKeyClass(typeArgs[0]);
+                job.setMapOutputValueClass(typeArgs[1]);
             }
+            job.setOutputKeyClass(typeArgs[2]);
+            job.setOutputValueClass(typeArgs[3]);
             job.setReducerClass(cls);
             addParams(params);
             chainingJob.jobs.add(job);

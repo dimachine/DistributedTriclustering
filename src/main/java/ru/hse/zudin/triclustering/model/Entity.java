@@ -9,7 +9,6 @@ import org.apache.hadoop.io.Text;
 public class Entity {
     private Text value;
     private EntityType type;
-    private String description;
 
     protected Entity() {
         this(null, null);
@@ -22,15 +21,11 @@ public class Entity {
     public Entity(Text value, EntityType type, String description) {
         this.value = value;
         this.type = type;
-        this.description = description;
+//        this.description = description;
     }
 
     public Text getValue() {
         return value;
-    }
-
-    public String getDescription() {
-        return description;
     }
 
     public EntityType getType() {
@@ -45,10 +40,6 @@ public class Entity {
         this.type = type;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
     // Storage methods
 
     @Override
@@ -56,8 +47,7 @@ public class Entity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Entity entity = (Entity) o;
-        return description.equals(entity.description) &&
-                !(value != null ? !value.equals(entity.value) : entity.value != null) &&
+        return  !(value != null ? !value.equals(entity.value) : entity.value != null) &&
                 !(type != null ? !type.equals(entity.type) : entity.type != null);
     }
 
@@ -65,7 +55,6 @@ public class Entity {
     public int hashCode() {
         int result = value != null ? value.hashCode() : 0;
         if (type != null) result = result * 31 + type.hashCode();
-        result = 31 * result + description.hashCode();
         return result;
     }
 }

@@ -73,7 +73,7 @@ public class Tuple {
         return entities.stream()
                 .flatMap(Collection::stream)
                 .mapToInt(Object::hashCode)
-                .reduce((a, b) -> 31 * a + b)
+                .reduce((a, b) -> a + b)
                 .getAsInt();
     }
 
@@ -84,7 +84,7 @@ public class Tuple {
             builder.append("{");
             for (Entity entity : set) {
                 builder.append("{").append(entity.getValue()).append(",").append(entity.getType())
-                        .append(",").append(entity.getDescription()).append("},");
+                        .append("},");
             }
             builder.deleteCharAt(builder.length()-1);
             builder.append("},");

@@ -7,7 +7,6 @@ import ru.hse.zudin.triclustering.model.FormalContext;
 import ru.hse.zudin.triclustering.model.Tuple;
 
 import java.io.IOException;
-import java.util.Set;
 
 /**
  * @author Sergey Zudin
@@ -24,8 +23,8 @@ public class TupleContextReducer extends Reducer<LongWritable, Text, LongWritabl
         }
 
 
-        Set<Tuple> clusters = formalContext.getClusters();
-        Tuple[] tuples = clusters.toArray(new Tuple[clusters.size()]);
-        context.write(new LongWritable(0), HadoopIOUtils.asText(tuples, true));
+        for (Tuple tuple : formalContext.getClusters()) {
+            context.write(new LongWritable(0), HadoopIOUtils.asText(tuple, true));
+        }
     }
 }

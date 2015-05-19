@@ -28,10 +28,8 @@ public class CollectReducer extends Reducer<LongWritable, Text, LongWritable, Te
     protected void reduce(LongWritable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         FormalContext formalContext = new FormalContext();
         for (Text value : values) {
-            Tuple[] tuples = HadoopIOUtils.parseText(value, Tuple[].class, true);
-            for (Tuple tuple : tuples) {
-                formalContext.add(tuple);
-            }
+            Tuple tuple = HadoopIOUtils.parseText(value, Tuple.class, true);
+            formalContext.add(tuple);
         }
 
         for (Tuple cluster : formalContext.getClusters()) {

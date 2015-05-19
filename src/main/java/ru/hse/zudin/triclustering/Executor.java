@@ -10,6 +10,7 @@ import org.apache.log4j.BasicConfigurator;
 import ru.hse.zudin.triclustering.mapreduce.*;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author Sergey Zudin
@@ -17,6 +18,7 @@ import java.io.IOException;
  */
 public class Executor {
     public static void main(String[] args) throws Exception {
+        long start = System.currentTimeMillis();
         String[] params = {
             "data/test.txt", //path to file
                     "\t", // main delimiter
@@ -42,7 +44,9 @@ public class Executor {
                 .reducer(CollectReducer.class)
                 .build();
         job.getJob(0).setNumReduceTasks(Integer.parseInt(params[3]));
-        ToolRunner.run(new Configuration(), job, new String[]{ params[0] , output } );
+        ToolRunner.run(new Configuration(), job, new String[]{params[0], output});
+        long elapsed = System.currentTimeMillis() - start;
+        long seconds = TimeUnit.MILLISECONDS.toSeconds(elapsed);
     }
 
     private static void clear(String output) throws IOException {

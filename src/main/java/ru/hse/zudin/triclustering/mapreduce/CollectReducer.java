@@ -1,5 +1,6 @@
 package ru.hse.zudin.triclustering.mapreduce;
 
+import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
@@ -21,16 +22,19 @@ import java.util.concurrent.TimeUnit;
  */
 public class CollectReducer extends Reducer<LongWritable, Text, LongWritable, Text> {
     private List<Parameter> parameters = new ArrayList<>();
+    private int threads;
 
     @Override
     protected void setup(Context context) throws IOException, InterruptedException {
         parameters.add(new DensityParameter());
+        Configuration conf = context.getConfiguration();
+        threads = Integer.parseInt(conf.get(Constants.THREADS));
     }
 
     @Override
     protected void reduce(LongWritable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         FormalContext formalContext = new FormalContext();
-        ExecutorService service = Executors.newFixedThreadPool(32);
+        ExecutorService service = Executors.newFixedThreadPool(threads);
         for (Text value1 : values) {
             Text value = new Text(value1);
             service.submit(new Runnable() {

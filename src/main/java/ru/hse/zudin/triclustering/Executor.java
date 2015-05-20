@@ -1,5 +1,7 @@
 package ru.hse.zudin.triclustering;
 
+import com.beust.jcommander.JCommander;
+import com.beust.jcommander.Parameter;
 import com.google.common.collect.ImmutableMap;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileStatus;
@@ -10,6 +12,8 @@ import org.apache.log4j.BasicConfigurator;
 import ru.hse.zudin.triclustering.mapreduce.*;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -17,35 +21,46 @@ import java.util.concurrent.TimeUnit;
  * @since 12.04.15.
  */
 public class Executor {
+
+    @Parameter
+    public List<String> parameters = new ArrayList<>();
+
+    @Parameter(names = { "-md" }, description = "Main delimeter")
+    public String mainDelimeter = "\t";
+
+    @Parameter(names = { "-sd" }, description = "Secondary delimeter")
+    public String secondaryDelimeter = ";";
+
+    @Parameter(names = { "-rd" }, description = "Number of reducers")
+    public int reducers = 5;
+
+    @Parameter(names = { "-th" }, description = "Number of threads")
+    public int threads = 5;
+
+    @Parameter(names = { "-out" }, description = "Output dir")
+    public String output = "result";
+
     public static void main(String[] args) throws Exception {
         long start = System.currentTimeMillis();
-        String[] params = {
-            "data/test.txt", //path to file
-                    "\t", // main delimiter
-                    ";", //secondary delimiter
-                    "4" //number of reducers
-        };
-        if (args.length != 0) {
-            for (int i = 0; i < args.length && i < params.length; i++) {
-                params[i] = args[i];
-            }
-        }
-        BasicConfigurator.configure();
+        Executor executor = new Executor();
+        new JCommander(executor, args);
 
-        String output = "result";
-        clear(output);
+        BasicConfigurator.configure();
+        clear(executor.output);
         ChainingJob job = ChainingJob.Builder.instance()
                 .name("triclustering")
                 .tempDir(Constants.TEMP_DIR)
-                .mapper(TupleReadMapper.class, ImmutableMap.of(Constants.MAIN_DELIMETER, params[1],
-                        Constants.SECONDARY_DELIMETER, params[2],
-                        Constants.NUM_OF_REDUCERS, params[3]))
+                .mapper(TupleReadMapper.class, ImmutableMap.of(Constants.MAIN_DELIMETER, executor.mainDelimeter,
+                        Constants.SECONDARY_DELIMETER, executor.secondaryDelimeter,
+                        Constants.NUM_OF_REDUCERS, Integer.toString(executor.reducers)))
                 .reducer(TupleContextReducer.class)
                 .mapper(PrepareMapper.class)
-                .reducer(CollectReducer.class)
+                .reducer(CollectReducer.class, ImmutableMap.of(Constants.THREADS, Integer.toString(executor.threads)))
                 .build();
-        job.getJob(0).setNumReduceTasks(Integer.parseInt(params[3]));
-        ToolRunner.run(new Configuration(), job, new String[]{params[0], output});
+        job.getJob(0).setNumReduceTasks(executor.reducers);
+        job.getJob(1).setNumReduceTasks(1);
+        ToolRunner.run(new Configuration(), job, new String[]{executor.parameters.get(0), executor.output});
+
         long elapsed = System.currentTimeMillis() - start;
         long seconds = TimeUnit.MILLISECONDS.toSeconds(elapsed);
         System.out.println("sec:" + seconds);

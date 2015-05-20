@@ -22,9 +22,6 @@ public class EntityStorage {
         map1 = new ConcurrentHashMap<>();
         map2 = new ConcurrentHashMap<>();
         map3 = new ConcurrentHashMap<>();
-//        map1 = Collections.synchronizedMap(new HashMap<>());
-//        map2 = Collections.synchronizedMap(new HashMap<>());
-//        map3 = Collections.synchronizedMap(new HashMap<>());
     }
 
     /**

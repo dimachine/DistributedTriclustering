@@ -9,4 +9,5 @@ public class Constants {
     public static final String SECONDARY_DELIMETER = "secondary_delimiter";
     public static final String NUM_OF_REDUCERS = "num_of_reducers";
     public static final String TEMP_DIR = "job_temp";
+    public static final String THREADS = "threads";
 }

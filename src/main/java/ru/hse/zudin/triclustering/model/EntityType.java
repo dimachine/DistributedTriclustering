@@ -17,6 +17,6 @@ public enum EntityType {
     }
 
     public static List<EntityType> triclusteringEntities() {
-        return Arrays.asList(values()).subList(0, 3);
+        return Arrays.asList(values());
     }
 }

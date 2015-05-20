@@ -41,12 +41,14 @@ public class Executor {
                         Constants.SECONDARY_DELIMETER, params[2],
                         Constants.NUM_OF_REDUCERS, params[3]))
                 .reducer(TupleContextReducer.class)
+                .mapper(PrepareMapper.class)
                 .reducer(CollectReducer.class)
                 .build();
         job.getJob(0).setNumReduceTasks(Integer.parseInt(params[3]));
         ToolRunner.run(new Configuration(), job, new String[]{params[0], output});
         long elapsed = System.currentTimeMillis() - start;
         long seconds = TimeUnit.MILLISECONDS.toSeconds(elapsed);
+        System.out.println("sec:" + seconds);
     }
 
     private static void clear(String output) throws IOException {

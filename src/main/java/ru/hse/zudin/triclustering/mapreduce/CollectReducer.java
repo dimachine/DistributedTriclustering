@@ -11,6 +11,9 @@ import ru.hse.zudin.triclustering.parameters.Parameter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author Sergey Zudin
@@ -27,10 +30,24 @@ public class CollectReducer extends Reducer<LongWritable, Text, LongWritable, Te
     @Override
     protected void reduce(LongWritable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
         FormalContext formalContext = new FormalContext();
-        for (Text value : values) {
-            Tuple tuple = HadoopIOUtils.parseText(value, Tuple.class, true);
-            formalContext.add(tuple);
+        ExecutorService service = Executors.newFixedThreadPool(32);
+        for (Text value1 : values) {
+            Text value = new Text(value1);
+            service.submit(new Runnable() {
+                @Override
+                public void run() {
+                    Tuple tuple = null;
+                    try {
+                        tuple = HadoopIOUtils.parseText(value, Tuple.class, true);
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    formalContext.add(tuple);
+                }
+            });
         }
+        service.shutdown();
+        service.awaitTermination(24, TimeUnit.HOURS);
 
         for (Tuple cluster : formalContext.getClusters()) {
             for (Parameter parameter : parameters) {

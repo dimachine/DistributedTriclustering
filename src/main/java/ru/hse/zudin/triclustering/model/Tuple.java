@@ -6,7 +6,6 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 /**
  * @author Sergey Zudin
@@ -16,7 +15,7 @@ public class Tuple {
     private List<Set<Entity>> entities;
 
     public Tuple() {
-        this.entities = Utils.getFixedList(dimension());
+        this.entities = ModelUtils.getFixedList(dimension());
     }
 
     public Tuple(List<Set<Entity>> entities) {
@@ -32,21 +31,25 @@ public class Tuple {
     }
 
     public void set(int index, Collection<Entity> collection) {
-        Utils.preCheck(index, dimension());
+        ModelUtils.preCheck(index, dimension());
         entities.set(index, new HashSet<>(collection));
     }
 
     public Set<Entity> get(int index) {
-        Utils.preCheck(index, dimension());
+        ModelUtils.preCheck(index, dimension());
         return entities.get(index);
     }
 
-    public List<Entity> getAllExcept(int index) {
-        Utils.preCheck(index, dimension());
-        return entities.stream()
-                .filter(set -> entities.indexOf(set) != index)
-                .flatMap(Collection::stream)
-                .collect(Collectors.toList());
+    public Entity[][] getAllExcept(int index) {
+        Entity[][] result = new Entity[entities.size() - 1][];
+        ModelUtils.preCheck(index, dimension());
+        for (int i = 0, j = 0; i < entities.size(); i++) {
+            if (i == index) continue;
+            Set<Entity> set = entities.get(i);
+            Entity[] array = set.toArray(new Entity[set.size()]);
+            result[j++] = array;
+        }
+        return result;
     }
 
     public int dimension() {

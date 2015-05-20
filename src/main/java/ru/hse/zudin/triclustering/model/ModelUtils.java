@@ -10,7 +10,7 @@ import java.util.List;
  * @author Sergey Zudin
  * @since 12.04.15.
  */
-public class Utils {
+public class ModelUtils {
     public static void preCheck(int index, int dimension) {
         if (index < 0 || index >= dimension)
             throw new IllegalArgumentException("Illegal index");

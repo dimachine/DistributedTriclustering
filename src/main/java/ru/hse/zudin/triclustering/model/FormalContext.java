@@ -1,8 +1,10 @@
 package ru.hse.zudin.triclustering.model;
 
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * Formal context for clustering
@@ -13,9 +15,9 @@ import java.util.Set;
 public class FormalContext {
     Set<Tuple> tuples;
     List<Set<Entity>> entities;
-    ClusterConstructor constructor;
+    EntityStorage constructor;
 
-    public FormalContext(Set<Tuple> tuples, List<Set<Entity>> entities, ClusterConstructor constructor) {
+    public FormalContext(Set<Tuple> tuples, List<Set<Entity>> entities, EntityStorage constructor) {
         this.tuples = tuples;
         this.entities = entities;
         this.constructor = constructor;
@@ -25,9 +27,9 @@ public class FormalContext {
      * Base constructor
      */
     public FormalContext() {
-        tuples = new HashSet<>();
-        constructor = new TriclusterConstructor();
-        entities = Utils.getFixedList(EntityType.size());
+        tuples = Collections.newSetFromMap(new ConcurrentHashMap<>());
+        constructor = new EntityStorage();
+        entities = ModelUtils.getFixedList(EntityType.size());
         for (int i = 0; i < EntityType.size(); i++) {
             entities.set(i, new HashSet<>());
         }
@@ -45,7 +47,7 @@ public class FormalContext {
         for (int i = 0; i < EntityType.size(); i++) {
             entities.get(i).addAll(tuple.get(i));
             for (Entity elem : tuple.get(i)) {
-                constructor.add(elem, tuple.getAllExcept(i).toArray(new Entity[0]));
+                constructor.add(elem, tuple.getAllExcept(i));
             }
         }
     }
@@ -60,10 +62,7 @@ public class FormalContext {
         for (Tuple tuple : tuples) {
             Tuple cluster = new Tuple();
             for (int i = 0; i < tuple.dimension(); i++) {
-                //TODO: move to cluster constructor
-                List<Entity> allExcept = tuple.getAllExcept(i);
-                Set<Entity> set = constructor.get(allExcept.toArray(new Entity[allExcept.size()]));
-                cluster.set(i, set);
+                cluster.set(i, constructor.get(tuple.getAllExcept(i)));
             }
             result.add(cluster);
         }

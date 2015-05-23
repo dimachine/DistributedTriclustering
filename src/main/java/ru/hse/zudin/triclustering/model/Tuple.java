@@ -1,7 +1,11 @@
 package ru.hse.zudin.triclustering.model;
 
 import org.apache.commons.collections4.CollectionUtils;
+import org.apache.hadoop.io.Writable;
 
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.io.IOException;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
@@ -11,7 +15,7 @@ import java.util.Set;
  * @author Sergey Zudin
  * @since 02.04.15.
  */
-public class Tuple {
+public class Tuple implements Writable {
     private List<Set<Entity>> entities;
 
     public Tuple() {
@@ -20,6 +24,10 @@ public class Tuple {
 
     public Tuple(List<Set<Entity>> entities) {
         this.entities = entities;
+    }
+
+    public Tuple(Tuple tuple) {
+        this(tuple.getEntities());
     }
 
     public List<Set<Entity>> getEntities() {
@@ -54,6 +62,35 @@ public class Tuple {
 
     public int dimension() {
         return EntityType.size();
+    }
+
+    // Hadoop methods
+
+    @Override
+    public void write(DataOutput output) throws IOException {
+        output.writeInt(dimension());
+        for (Set<Entity> set : entities) {
+            output.writeInt(set.size());
+            for (Entity entity : set) {
+                entity.write(output);
+            }
+        }
+    }
+
+    @Override
+    public void readFields(DataInput input) throws IOException {
+        int capacity = input.readInt();
+        entities = ModelUtils.getFixedList(capacity);
+        for (int i = 0; i < capacity; i++) {
+            Set<Entity> entitySet = new HashSet<>();
+            int amount = input.readInt();
+            for (int j = 0; j < amount; j++) {
+                Entity entity = new Entity();
+                entity.readFields(input);
+                entitySet.add(entity);
+            }
+            entities.set(i, entitySet);
+        }
     }
 
     // Storage methods

@@ -2,6 +2,7 @@ package ru.hse.zudin.triclustering;
 
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.Parameter;
+import com.beust.jcommander.Parameters;
 import com.google.common.collect.ImmutableMap;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileStatus;
@@ -10,6 +11,7 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.log4j.BasicConfigurator;
 import ru.hse.zudin.triclustering.mapreduce.*;
+import ru.zudin.ChainingJob;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -20,6 +22,7 @@ import java.util.concurrent.TimeUnit;
  * @author Sergey Zudin
  * @since 12.04.15.
  */
+@Parameters(separators = "=")
 public class Executor {
 
     @Parameter
@@ -44,7 +47,7 @@ public class Executor {
         long start = System.currentTimeMillis();
         Executor executor = new Executor();
         new JCommander(executor, args);
-
+        if (executor.mainDelimeter.length() == 0) executor.mainDelimeter = " ";
         BasicConfigurator.configure();
         clear(executor.output);
         ChainingJob job = ChainingJob.Builder.instance()

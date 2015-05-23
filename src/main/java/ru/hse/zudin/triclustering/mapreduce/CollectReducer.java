@@ -12,15 +12,17 @@ import ru.hse.zudin.triclustering.parameters.Parameter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @author Sergey Zudin
  * @since 16.05.15.
  */
-public class CollectReducer extends Reducer<LongWritable, Text, LongWritable, Text> {
+public class CollectReducer extends Reducer<LongWritable, Tuple, LongWritable, Text> {
     private List<Parameter> parameters = new ArrayList<>();
     private int threads;
 
@@ -32,32 +34,47 @@ public class CollectReducer extends Reducer<LongWritable, Text, LongWritable, Te
     }
 
     @Override
-    protected void reduce(LongWritable key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
+    protected void reduce(LongWritable key, Iterable<Tuple> values, Context context) throws IOException, InterruptedException {
+        long start = System.currentTimeMillis();
         FormalContext formalContext = new FormalContext();
         ExecutorService service = Executors.newFixedThreadPool(threads);
-        for (Text value1 : values) {
-            Text value = new Text(value1);
+        AtomicInteger integer = new AtomicInteger();
+        AtomicInteger integer2 = new AtomicInteger();
+        for (Tuple value : values) {
+            Tuple tuple = new Tuple(value);
+            integer.incrementAndGet();
             service.submit(new Runnable() {
                 @Override
                 public void run() {
-                    Tuple tuple = null;
                     try {
-                        tuple = HadoopIOUtils.parseText(value, Tuple.class, true);
-                    } catch (IOException e) {
-                        e.printStackTrace();
+                        formalContext.add(tuple);
+                        integer2.incrementAndGet();
+                        if (integer2.intValue() % 100 == 0)
+                            System.out.println("ADDING: " + integer2.intValue() + " / " + integer.intValue());
+                    } catch (Throwable t) {
+                        t.printStackTrace();
                     }
-                    formalContext.add(tuple);
                 }
             });
         }
         service.shutdown();
+        long second = System.currentTimeMillis();
         service.awaitTermination(24, TimeUnit.HOURS);
 
-        for (Tuple cluster : formalContext.getClusters()) {
+        long third = System.currentTimeMillis();
+        Set<Tuple> clusters = formalContext.getClusters(threads);
+        long forth = System.currentTimeMillis();
+        for (Tuple cluster : clusters) {
             for (Parameter parameter : parameters) {
                 if (parameter.check(cluster))
                     context.write(new LongWritable(0), new Text(cluster.toString()));
             }
         }
+        long finish = System.currentTimeMillis();
+        System.out.println("CREATING THREADS: " + TimeUnit.MILLISECONDS.toSeconds(second - start));
+        System.out.println("THREADS AWAITING: " + TimeUnit.MILLISECONDS.toSeconds(third - second));
+        System.out.println("CLUSTERS GENERATING: " + TimeUnit.MILLISECONDS.toSeconds(forth - third));
+        System.out.println("WRITING ON THE DISK: " + TimeUnit.MILLISECONDS.toSeconds(finish - forth));
+        System.out.println("TOTAL REDUCER WORKING TIME: " + TimeUnit.MILLISECONDS.toSeconds(finish - start));
     }
 }

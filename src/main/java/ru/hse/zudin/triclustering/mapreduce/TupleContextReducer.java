@@ -23,7 +23,7 @@ public class TupleContextReducer extends Reducer<LongWritable, Text, LongWritabl
         }
 
 
-        for (Tuple tuple : formalContext.getClusters()) {
+        for (Tuple tuple : formalContext.getClusters(4)) {
             context.write(new LongWritable(0), HadoopIOUtils.asText(tuple, true));
         }
     }

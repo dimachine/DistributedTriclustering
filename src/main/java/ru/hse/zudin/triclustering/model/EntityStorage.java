@@ -1,7 +1,10 @@
 package ru.hse.zudin.triclustering.model;
 
+import org.apache.commons.collections4.CollectionUtils;
+
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
  * Class for tricluster building and storing
@@ -11,14 +14,16 @@ import java.util.concurrent.ConcurrentHashMap;
  * @since 12.04.15.
  */
 public class EntityStorage {
-    private Map<MultiKey, Set<Entity>> map1;
-    private Map<MultiKey, Set<Entity>> map2;
-    private Map<MultiKey, Set<Entity>> map3;
+    private Map<MultiKey, Queue<Entity>> map1;
+    private Map<MultiKey, Queue<Entity>> map2;
+    private Map<MultiKey, Queue<Entity>> map3;
+    private Queue<EntityType> types;
 
     /**
      * Base constructor
      */
     public EntityStorage() {
+        types = new ConcurrentLinkedQueue<>(EntityType.triclusteringEntities());
         map1 = new ConcurrentHashMap<>();
         map2 = new ConcurrentHashMap<>();
         map3 = new ConcurrentHashMap<>();
@@ -56,16 +61,20 @@ public class EntityStorage {
      * @param value value to add
      */
     public void add(MultiKey key, Entity value) {
-        Map<MultiKey, Set<Entity>> map = getMap(value.getType());
-        synchronized (this) {
-            Set<Entity> set = map.get(key);
-            if (set == null) set = Collections.newSetFromMap(new ConcurrentHashMap<>());
-            set.add(value);
-            map.put(key, set);
+        boolean isNew = false;
+        Map<MultiKey, Queue<Entity>> map = getMap(value.getType());
+
+
+        Queue<Entity> queue = map.get(key);
+        if (queue == null) {
+            queue = new ConcurrentLinkedQueue<>();
+            isNew = true;
         }
+        queue.add(value);
+        if (isNew) map.put(key, queue);
     }
 
-    private Map<MultiKey, Set<Entity>> getMap(EntityType type) {
+    private Map<MultiKey, Queue<Entity>> getMap(EntityType type) {
         switch (EntityType.triclusteringEntities().indexOf(type)) {
             case 0:
                 return map1;
@@ -94,20 +103,22 @@ public class EntityStorage {
         return entities;
     }
 
-    private Set<Entity> get(MultiKey key) {
-        List<EntityType> types = new ArrayList<>(EntityType.triclusteringEntities());
-        for (Entity entity : key.keys) {
-            types.remove(entity.getType());
-        }
-        return getMap(types.get(0)).get(key);
+    private Queue<Entity> get(MultiKey key) {
+        List<EntityType> subtract = (List<EntityType>) CollectionUtils.subtract(types, key.types);
+        return getMap(subtract.get(0)).get(key);
     }
 
     public static class MultiKey {
         private List<Entity> keys;
+        private Set<EntityType> types;
 
         public MultiKey(Entity... keys) {
             this.keys = new ArrayList<>();
             this.keys.addAll(Arrays.asList(keys));
+            types = new HashSet<>();
+            for (Entity key : keys) {
+                types.add(key.getType());
+            }
         }
 
         @Override

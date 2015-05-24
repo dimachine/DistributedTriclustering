@@ -1,10 +1,13 @@
 package ru.hse.zudin.triclustering.model;
 
+import org.apache.log4j.Logger;
+
 import java.util.Collections;
-import java.util.List;
-import java.util.Queue;
 import java.util.Set;
-import java.util.concurrent.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -14,47 +17,47 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @since 02.04.15.
  */
 public class FormalContext {
-    Queue<Tuple> tuples;
-//    List<Set<Entity>> entities;
-    EntityStorage constructor;
 
-    public FormalContext(Queue<Tuple> tuples, List<Set<Entity>> entities, EntityStorage constructor) {
+    private static final Logger logger = Logger.getLogger(FormalContext.class);
+
+    private Set<Tuple> tuples;
+    public EntityStorage storage;
+
+    public FormalContext(Set<Tuple> tuples, EntityStorage storage) {
         this.tuples = tuples;
-//        this.entities = entities;
-        this.constructor = constructor;
+        this.storage = storage;
+
     }
 
     /**
      * Base constructor
      */
     public FormalContext() {
-        tuples = new ConcurrentLinkedQueue<>(); //Collections.newSetFromMap(new ConcurrentHashMap<>());
-        constructor = new EntityStorage();
-//        entities = ModelUtils.getFixedList(EntityType.size());
-//        for (int i = 0; i < EntityType.size(); i++) {
-//            entities.set(i, new HashSet<>());
-//        }
+        tuples = Collections.newSetFromMap(new ConcurrentHashMap<>());
+        storage = new EntityStorage();
     }
 
     /**
-     * Adds a tuple to formal context: into set of all tuples (@see Context#tuples), into cluster constructor
+     * Adds a tuple to formal context: into set of all tuples (@see Context#tuples), into cluster storage
      * (@see ClusterConstructor) and its components into set of entities (@see Context#entities)
      * @param tuple tuple to add
      */
     public void add(Tuple tuple) {
         if (tuple.dimension() != EntityType.size())
             throw new IllegalArgumentException("Dimensions are different");
+        int oldSize = tuples.size();
         tuples.add(tuple);
+        if (oldSize == tuples.size()) return;
         for (int i = 0; i < EntityType.size(); i++) {
 //            entities.get(i).addAll(tuple.get(i));
             for (Entity elem : tuple.get(i)) {
-                constructor.add(elem, tuple.getAllExcept(i));
+                storage.add(elem, tuple.getAllExcept(i));
             }
         }
     }
 
     /**
-     * Returns result set of all existing clusters by using a cluster constructor (@see ClusterConstructor)
+     * Returns result set of all existing clusters by using a cluster storage (@see ClusterConstructor)
      * It iterates over tuples and build clusters based on their components.
      * @return set of all existing clusters
      */
@@ -69,7 +72,7 @@ public class FormalContext {
                     result.add(getCluster(tuple));
                     integer.incrementAndGet();
                     if (integer.intValue() % 100 == 0)
-                        System.out.println("CREATING CLUSTERS: " + integer.intValue() + " / " + tuples.size());
+                        logger.info("CREATING CLUSTERS: " + integer.intValue() + " / " + tuples.size());
                 }
             });
         }
@@ -81,8 +84,13 @@ public class FormalContext {
     private Tuple getCluster(Tuple tuple) {
         Tuple cluster = new Tuple();
         for (int i = 0; i < tuple.dimension(); i++) {
-            cluster.set(i, constructor.get(tuple.getAllExcept(i)));
+            cluster.set(i, storage.get(tuple.getAllExcept(i)));
         }
         return cluster;
+    }
+
+    public void merge(FormalContext context) {
+        storage.merge(context.storage);
+        tuples.addAll(context.tuples);
     }
 }

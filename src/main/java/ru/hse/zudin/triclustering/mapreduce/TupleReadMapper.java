@@ -50,7 +50,7 @@ public class TupleReadMapper extends Mapper<LongWritable, Text, LongWritable, Te
                     .collect(Collectors.toList());
             tuple.set(i, collected);
         }
-        long outKey = (long) Math.floor(Math.random() * numOfKeys);
+        long outKey = tuple.get(0).toString().hashCode() % numOfKeys; //(long) Math.floor(Math.random() * numOfKeys);
         context.write(new LongWritable(outKey), HadoopIOUtils.asText(tuple, false));
     }
 }

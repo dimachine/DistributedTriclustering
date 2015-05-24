@@ -1,10 +1,11 @@
 package ru.hse.zudin.triclustering.model;
 
 import org.apache.commons.collections4.CollectionUtils;
+import org.apache.log4j.Logger;
 
 import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Class for tricluster building and storing
@@ -14,19 +15,27 @@ import java.util.concurrent.ConcurrentLinkedQueue;
  * @since 12.04.15.
  */
 public class EntityStorage {
-    private Map<MultiKey, Queue<Entity>> map1;
-    private Map<MultiKey, Queue<Entity>> map2;
-    private Map<MultiKey, Queue<Entity>> map3;
+
+    private static final Logger logger = Logger.getLogger(EntityStorage.class);
+
+    private Map<MultiKey, Set<Entity>> map1;
+    private Map<MultiKey, Set<Entity>> map2;
+    private Map<MultiKey, Set<Entity>> map3;
     private Queue<EntityType> types;
+    public AtomicInteger create = new AtomicInteger(0);
+    public AtomicInteger add = new AtomicInteger(0);
 
     /**
      * Base constructor
      */
     public EntityStorage() {
         types = new ConcurrentLinkedQueue<>(EntityType.triclusteringEntities());
-        map1 = new ConcurrentHashMap<>();
-        map2 = new ConcurrentHashMap<>();
-        map3 = new ConcurrentHashMap<>();
+//        map1 = new ConcurrentHashMap<>();
+//        map2 = new ConcurrentHashMap<>();
+//        map3 = new ConcurrentHashMap<>();
+        map1 = Collections.synchronizedMap(new HashMap<>());
+        map2 = Collections.synchronizedMap(new HashMap<>());
+        map3 = Collections.synchronizedMap(new HashMap<>());
     }
 
     /**
@@ -61,20 +70,24 @@ public class EntityStorage {
      * @param value value to add
      */
     public void add(MultiKey key, Entity value) {
-        boolean isNew = false;
-        Map<MultiKey, Queue<Entity>> map = getMap(value.getType());
+        //boolean isNew = false;
 
+        Map<MultiKey, Set<Entity>> map = getMap(value.getType());
 
-        Queue<Entity> queue = map.get(key);
-        if (queue == null) {
-            queue = new ConcurrentLinkedQueue<>();
-            isNew = true;
+        Set<Entity> set = map.get(key);
+        if (set == null) {
+            create.incrementAndGet();
+            set = Collections.newSetFromMap(Collections.synchronizedMap(new HashMap<>())); //new ConcurrentLinkedQueue<>();
+            //isNew = true;
+        } else {
+            add.incrementAndGet();
         }
-        queue.add(value);
-        if (isNew) map.put(key, queue);
+        set.add(value);
+        map.putIfAbsent(key, set);
+        //if (isNew) map.put(key, set);
     }
 
-    private Map<MultiKey, Queue<Entity>> getMap(EntityType type) {
+    private Map<MultiKey, Set<Entity>> getMap(EntityType type) {
         switch (EntityType.triclusteringEntities().indexOf(type)) {
             case 0:
                 return map1;
@@ -103,22 +116,41 @@ public class EntityStorage {
         return entities;
     }
 
-    private Queue<Entity> get(MultiKey key) {
-        List<EntityType> subtract = (List<EntityType>) CollectionUtils.subtract(types, key.types);
+    private Set<Entity> get(MultiKey key) {
+        List<EntityType> subtract = (List<EntityType>) CollectionUtils.subtract(types, key.types());
         return getMap(subtract.get(0)).get(key);
     }
 
-    public static class MultiKey {
-        private List<Entity> keys;
-        private Set<EntityType> types;
+    public void merge(EntityStorage storage) {
+        mergeMaps(map1, storage.map1);
+        mergeMaps(map2, storage.map2);
+        mergeMaps(map3, storage.map3);
+    }
 
-        public MultiKey(Entity... keys) {
-            this.keys = new ArrayList<>();
-            this.keys.addAll(Arrays.asList(keys));
-            types = new HashSet<>();
-            for (Entity key : keys) {
-                types.add(key.getType());
+    private void mergeMaps(Map<MultiKey, Set<Entity>> modified, Map<MultiKey, Set<Entity>> other) {
+        Set<Map.Entry<MultiKey, Set<Entity>>> entries = other.entrySet();
+        for (Map.Entry<MultiKey, Set<Entity>> entry : entries ) {
+            Set<Entity> secondMapValue = modified.get( entry.getKey() );
+            if ( secondMapValue == null ) {
+                modified.put( entry.getKey(), entry.getValue() );
             }
+            else {
+                secondMapValue.addAll( entry.getValue() );
+            }
+        }
+    }
+
+    public static class MultiKey {
+        private Entity key1;
+        private Entity key2;
+
+        public MultiKey(Entity key1, Entity key2) {
+            this.key1 = key1;
+            this.key2 = key2;
+        }
+
+        public List<EntityType> types() {
+            return Arrays.asList(key1.getType(), key2.getType());
         }
 
         @Override
@@ -128,21 +160,12 @@ public class EntityStorage {
 
             MultiKey multiKey = (MultiKey) o;
 
-            if (multiKey.keys.size() != keys.size()) return false;
-
-            for (Entity key : keys) {
-                if (!multiKey.keys.contains(key)) return false;
-            }
-            return true;
+            return key1.equals(multiKey.key1) && key2.equals(multiKey.key2);
         }
 
         @Override
         public int hashCode() {
-            int hash = 31;
-            for (Entity key : keys) {
-                hash += key.hashCode();
-            }
-            return hash;
+            return key1.hashCode() * 31 + key2.hashCode();
         }
     }
 }

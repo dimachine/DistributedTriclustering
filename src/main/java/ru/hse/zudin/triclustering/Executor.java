@@ -9,7 +9,7 @@ import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.util.ToolRunner;
-import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.*;
 import ru.hse.zudin.triclustering.mapreduce.*;
 import ru.zudin.ChainingJob;
 
@@ -48,7 +48,9 @@ public class Executor {
         Executor executor = new Executor();
         new JCommander(executor, args);
         if (executor.mainDelimeter.length() == 0) executor.mainDelimeter = " ";
-        BasicConfigurator.configure();
+
+        setupLogger();
+
         clear(executor.output);
         ChainingJob job = ChainingJob.Builder.instance()
                 .name("triclustering")
@@ -67,6 +69,20 @@ public class Executor {
         long elapsed = System.currentTimeMillis() - start;
         long seconds = TimeUnit.MILLISECONDS.toSeconds(elapsed);
         System.out.println("sec:" + seconds);
+    }
+
+    private static void setupLogger() {
+        BasicConfigurator.configure();
+        Logger.getRootLogger().setLevel(Level.INFO);
+
+        ConsoleAppender console = new ConsoleAppender(); //create appender
+        //configure the appender
+        String PATTERN = "%d{dd MMM yyyy HH:mm:ss,SSS}";
+        console.setLayout(new PatternLayout(PATTERN));
+        console.setThreshold(Level.ALL);
+        console.activateOptions();
+        //add appender to any Logger (here is root)
+        Logger.getRootLogger().addAppender(console);
     }
 
     private static void clear(String output) throws IOException {

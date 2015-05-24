@@ -19,9 +19,9 @@ public class EntityStorage {
 
     private static final Logger logger = Logger.getLogger(EntityStorage.class);
 
-    private Map<MultiKey, Map<Entity, Boolean>> map1;
-    private Map<MultiKey, Map<Entity, Boolean>> map2;
-    private Map<MultiKey, Map<Entity, Boolean>> map3;
+    private Map<MultiKey, ConcurrentHashSet<Entity>> map1;
+    private Map<MultiKey, ConcurrentHashSet<Entity>> map2;
+    private Map<MultiKey, ConcurrentHashSet<Entity>> map3;
     private Queue<EntityType> types;
     public AtomicInteger create = new AtomicInteger(0);
     public AtomicInteger add = new AtomicInteger(0);
@@ -76,22 +76,21 @@ public class EntityStorage {
     public void add(MultiKey key, Entity value) {
         //boolean isNew = false;
 
-        Map<MultiKey, Map<Entity, Boolean>> map = getMap(value.getType());
+        Map<MultiKey, ConcurrentHashSet<Entity>> map = getMap(value.getType());
 
-        Map<Entity, Boolean> set = map.get(key);
+        ConcurrentHashSet<Entity> set = map.get(key);
         if (set == null) {
             create.incrementAndGet();
-            set = new ConcurrentHashMap<>(); //new ConcurrentLinkedQueue<>();
+            set = new ConcurrentHashSet<>();
             //isNew = true;
         } else {
             add.incrementAndGet();
         }
-        set.putIfAbsent(value, true);
+        set.add(value);
         map.putIfAbsent(key, set);
-        //if (isNew) map.put(key, set);
     }
 
-    private Map<MultiKey, Map<Entity, Boolean>> getMap(EntityType type) {
+    private Map<MultiKey, ConcurrentHashSet<Entity>> getMap(EntityType type) {
         switch (EntityType.triclusteringEntities().indexOf(type)) {
             case 0:
                 return map1;
@@ -114,13 +113,13 @@ public class EntityStorage {
         Set<Entity> set = new HashSet<>();
         for (Entity first : keys[0]) {
             for (Entity second : keys[1]) {
-                set.addAll(get(new MultiKey(first, second)).keySet());
+                set.addAll(get(new MultiKey(first, second)));
             }
         }
         return set;
     }
 
-    private Map<Entity, Boolean> get(MultiKey key) {
+    private ConcurrentHashSet<Entity> get(MultiKey key) {
         List<EntityType> subtract = (List<EntityType>) CollectionUtils.subtract(types, key.types());
         return getMap(subtract.get(0)).get(key);
     }

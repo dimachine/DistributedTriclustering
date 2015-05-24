@@ -52,6 +52,7 @@ public class Executor {
         setupLogger();
 
         clear(executor.output);
+
         ChainingJob job = ChainingJob.Builder.instance()
                 .name("triclustering")
                 .tempDir(Constants.TEMP_DIR)
@@ -64,24 +65,23 @@ public class Executor {
                 .build();
         job.getJob(0).setNumReduceTasks(executor.reducers);
         job.getJob(1).setNumReduceTasks(1);
+
         ToolRunner.run(new Configuration(), job, new String[]{executor.parameters.get(0), executor.output});
 
         long elapsed = System.currentTimeMillis() - start;
         long seconds = TimeUnit.MILLISECONDS.toSeconds(elapsed);
-        System.out.println("sec:" + seconds);
+        Logger.getLogger(Executor.class).info("TOTAL TIME: " + seconds);
     }
 
     private static void setupLogger() {
         BasicConfigurator.configure();
         Logger.getRootLogger().setLevel(Level.INFO);
 
-        ConsoleAppender console = new ConsoleAppender(); //create appender
-        //configure the appender
+        ConsoleAppender console = new ConsoleAppender();
         String PATTERN = "%d{dd MMM yyyy HH:mm:ss,SSS}";
         console.setLayout(new PatternLayout(PATTERN));
         console.setThreshold(Level.ALL);
         console.activateOptions();
-        //add appender to any Logger (here is root)
         Logger.getRootLogger().addAppender(console);
     }
 

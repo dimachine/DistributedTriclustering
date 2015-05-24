@@ -20,20 +20,20 @@ public class FormalContext {
 
     private static final Logger logger = Logger.getLogger(FormalContext.class);
 
-    private Map<Tuple, Boolean> tuples;
+    private ConcurrentHashSet<Tuple> tuples;
     public EntityStorage storage;
 
-    public FormalContext(Map<Tuple, Boolean> tuples, EntityStorage storage) {
-        this.tuples = tuples;
-        this.storage = storage;
-
-    }
+//    public FormalContext(Map<Tuple, Boolean> tuples, EntityStorage storage) {
+//        this.tuples = tuples;
+//        this.storage = storage;
+//
+//    }
 
     /**
      * Base constructor
      */
     public FormalContext() {
-        tuples = new ConcurrentHashMap<>();
+        tuples = new ConcurrentHashSet<>();
         storage = new EntityStorage();
     }
 
@@ -46,10 +46,9 @@ public class FormalContext {
         if (tuple.dimension() != EntityType.size())
             throw new IllegalArgumentException("Dimensions are different");
         int oldSize = tuples.size();
-        tuples.putIfAbsent(tuple, true);
+        tuples.add(tuple);
         if (oldSize == tuples.size()) return;
         for (int i = 0; i < EntityType.size(); i++) {
-//            entities.get(i).addAll(tuple.get(i));
             for (Entity elem : tuple.get(i)) {
                 storage.add(elem, tuple.getAllExcept(i));
             }
@@ -65,7 +64,7 @@ public class FormalContext {
         ExecutorService service = Executors.newFixedThreadPool(threads);
         Map<Tuple, Boolean> result = new ConcurrentHashMap<>();
         AtomicInteger integer = new AtomicInteger();
-        for (Tuple tuple : tuples.keySet()) {
+        for (Tuple tuple : tuples) {
             service.submit(new Runnable() {
                 @Override
                 public void run() {

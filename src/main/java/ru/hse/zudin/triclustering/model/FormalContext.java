@@ -2,7 +2,7 @@ package ru.hse.zudin.triclustering.model;
 
 import org.apache.log4j.Logger;
 
-import java.util.Collections;
+import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
@@ -20,10 +20,10 @@ public class FormalContext {
 
     private static final Logger logger = Logger.getLogger(FormalContext.class);
 
-    private Set<Tuple> tuples;
+    private Map<Tuple, Boolean> tuples;
     public EntityStorage storage;
 
-    public FormalContext(Set<Tuple> tuples, EntityStorage storage) {
+    public FormalContext(Map<Tuple, Boolean> tuples, EntityStorage storage) {
         this.tuples = tuples;
         this.storage = storage;
 
@@ -33,7 +33,7 @@ public class FormalContext {
      * Base constructor
      */
     public FormalContext() {
-        tuples = Collections.newSetFromMap(new ConcurrentHashMap<>());
+        tuples = new ConcurrentHashMap<>();
         storage = new EntityStorage();
     }
 
@@ -46,7 +46,7 @@ public class FormalContext {
         if (tuple.dimension() != EntityType.size())
             throw new IllegalArgumentException("Dimensions are different");
         int oldSize = tuples.size();
-        tuples.add(tuple);
+        tuples.putIfAbsent(tuple, true);
         if (oldSize == tuples.size()) return;
         for (int i = 0; i < EntityType.size(); i++) {
 //            entities.get(i).addAll(tuple.get(i));
@@ -63,13 +63,13 @@ public class FormalContext {
      */
     public Set<Tuple> getClusters(int threads) throws InterruptedException {
         ExecutorService service = Executors.newFixedThreadPool(threads);
-        Set<Tuple> result = Collections.newSetFromMap(new ConcurrentHashMap<>());
+        Map<Tuple, Boolean> result = new ConcurrentHashMap<>();
         AtomicInteger integer = new AtomicInteger();
-        for (Tuple tuple : tuples) {
+        for (Tuple tuple : tuples.keySet()) {
             service.submit(new Runnable() {
                 @Override
                 public void run() {
-                    result.add(getCluster(tuple));
+                    result.putIfAbsent(getCluster(tuple), true);
                     integer.incrementAndGet();
                     if (integer.intValue() % 100 == 0)
                         logger.info("CREATING CLUSTERS: " + integer.intValue() + " / " + tuples.size());
@@ -78,7 +78,7 @@ public class FormalContext {
         }
         service.shutdown();
         service.awaitTermination(24, TimeUnit.HOURS);
-        return result;
+        return result.keySet();
     }
 
     private Tuple getCluster(Tuple tuple) {
@@ -89,8 +89,8 @@ public class FormalContext {
         return cluster;
     }
 
-    public void merge(FormalContext context) {
-        storage.merge(context.storage);
-        tuples.addAll(context.tuples);
-    }
+//    public void merge(FormalContext context) {
+//        storage.merge(context.storage);
+//        tuples.addAll(context.tuples);
+//    }
 }

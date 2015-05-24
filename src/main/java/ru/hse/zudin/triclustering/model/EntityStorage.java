@@ -4,6 +4,7 @@ import org.apache.commons.collections4.CollectionUtils;
 import org.apache.log4j.Logger;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -18,24 +19,27 @@ public class EntityStorage {
 
     private static final Logger logger = Logger.getLogger(EntityStorage.class);
 
-    private Map<MultiKey, Set<Entity>> map1;
-    private Map<MultiKey, Set<Entity>> map2;
-    private Map<MultiKey, Set<Entity>> map3;
+    private Map<MultiKey, Map<Entity, Boolean>> map1;
+    private Map<MultiKey, Map<Entity, Boolean>> map2;
+    private Map<MultiKey, Map<Entity, Boolean>> map3;
     private Queue<EntityType> types;
     public AtomicInteger create = new AtomicInteger(0);
     public AtomicInteger add = new AtomicInteger(0);
+
+
+
 
     /**
      * Base constructor
      */
     public EntityStorage() {
         types = new ConcurrentLinkedQueue<>(EntityType.triclusteringEntities());
-//        map1 = new ConcurrentHashMap<>();
-//        map2 = new ConcurrentHashMap<>();
-//        map3 = new ConcurrentHashMap<>();
-        map1 = Collections.synchronizedMap(new HashMap<>());
-        map2 = Collections.synchronizedMap(new HashMap<>());
-        map3 = Collections.synchronizedMap(new HashMap<>());
+        map1 = new ConcurrentHashMap<>();
+        map2 = new ConcurrentHashMap<>();
+        map3 = new ConcurrentHashMap<>();
+//        map1 = Collections.synchronizedMap(new HashMap<>());
+//        map2 = Collections.synchronizedMap(new HashMap<>());
+//        map3 = Collections.synchronizedMap(new HashMap<>());
     }
 
     /**
@@ -72,22 +76,22 @@ public class EntityStorage {
     public void add(MultiKey key, Entity value) {
         //boolean isNew = false;
 
-        Map<MultiKey, Set<Entity>> map = getMap(value.getType());
+        Map<MultiKey, Map<Entity, Boolean>> map = getMap(value.getType());
 
-        Set<Entity> set = map.get(key);
+        Map<Entity, Boolean> set = map.get(key);
         if (set == null) {
             create.incrementAndGet();
-            set = Collections.newSetFromMap(Collections.synchronizedMap(new HashMap<>())); //new ConcurrentLinkedQueue<>();
+            set = new ConcurrentHashMap<>(); //new ConcurrentLinkedQueue<>();
             //isNew = true;
         } else {
             add.incrementAndGet();
         }
-        set.add(value);
+        set.putIfAbsent(value, true);
         map.putIfAbsent(key, set);
         //if (isNew) map.put(key, set);
     }
 
-    private Map<MultiKey, Set<Entity>> getMap(EntityType type) {
+    private Map<MultiKey, Map<Entity, Boolean>> getMap(EntityType type) {
         switch (EntityType.triclusteringEntities().indexOf(type)) {
             case 0:
                 return map1;
@@ -107,38 +111,38 @@ public class EntityStorage {
      */
     public Set<Entity> get(Entity[]... keys) {
         check(keys);
-        Set<Entity> entities = new HashSet<>();
+        Set<Entity> set = new HashSet<>();
         for (Entity first : keys[0]) {
             for (Entity second : keys[1]) {
-                entities.addAll(get(new MultiKey(first, second)));
+                set.addAll(get(new MultiKey(first, second)).keySet());
             }
         }
-        return entities;
+        return set;
     }
 
-    private Set<Entity> get(MultiKey key) {
+    private Map<Entity, Boolean> get(MultiKey key) {
         List<EntityType> subtract = (List<EntityType>) CollectionUtils.subtract(types, key.types());
         return getMap(subtract.get(0)).get(key);
     }
 
-    public void merge(EntityStorage storage) {
-        mergeMaps(map1, storage.map1);
-        mergeMaps(map2, storage.map2);
-        mergeMaps(map3, storage.map3);
-    }
-
-    private void mergeMaps(Map<MultiKey, Set<Entity>> modified, Map<MultiKey, Set<Entity>> other) {
-        Set<Map.Entry<MultiKey, Set<Entity>>> entries = other.entrySet();
-        for (Map.Entry<MultiKey, Set<Entity>> entry : entries ) {
-            Set<Entity> secondMapValue = modified.get( entry.getKey() );
-            if ( secondMapValue == null ) {
-                modified.put( entry.getKey(), entry.getValue() );
-            }
-            else {
-                secondMapValue.addAll( entry.getValue() );
-            }
-        }
-    }
+//    public void merge(EntityStorage storage) {
+//        mergeMaps(map1, storage.map1);
+//        mergeMaps(map2, storage.map2);
+//        mergeMaps(map3, storage.map3);
+//    }
+//
+//    private void mergeMaps(Map<MultiKey, Map<Entity, Boolean>> modified, Map<MultiKey, Map<Entity, Boolean>> other) {
+//        Set<Map.Entry<MultiKey, Map<Entity, Boolean>>> entries = other.entrySet();
+//        for (Map.Entry<MultiKey, Map<Entity, Boolean>> entry : entries ) {
+//            Map<Entity, Boolean> secondMapValue = modified.get( entry.getKey() );
+//            if ( secondMapValue == null ) {
+//                modified.put( entry.getKey(), entry.getValue() );
+//            }
+//            else {
+//                secondMapValue.addAll( entry.getValue() );
+//            }
+//        }
+//    }
 
     public static class MultiKey {
         private Entity key1;

@@ -2,9 +2,7 @@ package ru.hse.zudin.triclustering.model;
 
 import org.apache.log4j.Logger;
 
-import java.util.Map;
 import java.util.Set;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -22,12 +20,6 @@ public class FormalContext {
 
     private ConcurrentHashSet<Tuple> tuples;
     public EntityStorage storage;
-
-//    public FormalContext(Map<Tuple, Boolean> tuples, EntityStorage storage) {
-//        this.tuples = tuples;
-//        this.storage = storage;
-//
-//    }
 
     /**
      * Base constructor
@@ -62,13 +54,13 @@ public class FormalContext {
      */
     public Set<Tuple> getClusters(int threads) throws InterruptedException {
         ExecutorService service = Executors.newFixedThreadPool(threads);
-        Map<Tuple, Boolean> result = new ConcurrentHashMap<>();
+        Set<Tuple> result = new ConcurrentHashSet<>();
         AtomicInteger integer = new AtomicInteger();
         for (Tuple tuple : tuples) {
             service.submit(new Runnable() {
                 @Override
                 public void run() {
-                    result.putIfAbsent(getCluster(tuple), true);
+                    result.add(getCluster(tuple));
                     integer.incrementAndGet();
                     if (integer.intValue() % 100 == 0)
                         logger.info("CREATING CLUSTERS: " + integer.intValue() + " / " + tuples.size());
@@ -77,7 +69,7 @@ public class FormalContext {
         }
         service.shutdown();
         service.awaitTermination(24, TimeUnit.HOURS);
-        return result.keySet();
+        return result;
     }
 
     private Tuple getCluster(Tuple tuple) {
@@ -87,9 +79,4 @@ public class FormalContext {
         }
         return cluster;
     }
-
-//    public void merge(FormalContext context) {
-//        storage.merge(context.storage);
-//        tuples.addAll(context.tuples);
-//    }
 }

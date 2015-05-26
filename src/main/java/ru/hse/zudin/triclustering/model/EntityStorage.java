@@ -124,25 +124,6 @@ public class EntityStorage {
         return getMap(subtract.get(0)).get(key);
     }
 
-//    public void merge(EntityStorage storage) {
-//        mergeMaps(map1, storage.map1);
-//        mergeMaps(map2, storage.map2);
-//        mergeMaps(map3, storage.map3);
-//    }
-//
-//    private void mergeMaps(Map<MultiKey, Map<Entity, Boolean>> modified, Map<MultiKey, Map<Entity, Boolean>> other) {
-//        Set<Map.Entry<MultiKey, Map<Entity, Boolean>>> entries = other.entrySet();
-//        for (Map.Entry<MultiKey, Map<Entity, Boolean>> entry : entries ) {
-//            Map<Entity, Boolean> secondMapValue = modified.get( entry.getKey() );
-//            if ( secondMapValue == null ) {
-//                modified.put( entry.getKey(), entry.getValue() );
-//            }
-//            else {
-//                secondMapValue.addAll( entry.getValue() );
-//            }
-//        }
-//    }
-
     public static class MultiKey {
         private Entity key1;
         private Entity key2;

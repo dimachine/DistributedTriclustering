@@ -12,19 +12,19 @@ import java.io.IOException;
  * @since 02.04.15.
  */
 public class Entity implements Writable {
-    private Text value;
+    private String value;
     private EntityType type;
 
     protected Entity() {
         this(null, null);
     }
 
-    public Entity(Text value, EntityType type) {
+    public Entity(String value, EntityType type) {
         this.value = value;
         this.type = type;
     }
 
-    public Text getValue() {
+    public String getValue() {
         return value;
     }
 
@@ -32,7 +32,7 @@ public class Entity implements Writable {
         return type;
     }
 
-    public void setValue(Text value) {
+    public void setValue(String value) {
         this.value = value;
     }
 
@@ -46,9 +46,10 @@ public class Entity implements Writable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+
         Entity entity = (Entity) o;
-        return  !(value != null ? !value.equals(entity.value) : entity.value != null) &&
-                !(type != null ? !type.equals(entity.type) : entity.type != null);
+
+        return value.equals(entity.value) && type == entity.type;
     }
 
     @Override
@@ -58,20 +59,20 @@ public class Entity implements Writable {
         return result;
     }
 
-
     // Hadoop methods
 
     @Override
     public void write(DataOutput dataOutput) throws IOException {
-        value.write(dataOutput);
+        new Text(value).write(dataOutput);
         new Text(type.name()).write(dataOutput);
     }
 
     @Override
     public void readFields(DataInput dataInput) throws IOException {
-        value = new Text();
-        value.readFields(dataInput);
         Text text = new Text();
+        text.readFields(dataInput);
+        value = text.toString();
+        text = new Text();
         text.readFields(dataInput);
         type = EntityType.valueOf(text.toString());
     }

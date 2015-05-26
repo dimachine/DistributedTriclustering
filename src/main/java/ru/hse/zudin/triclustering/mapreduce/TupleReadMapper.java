@@ -46,7 +46,7 @@ public class TupleReadMapper extends Mapper<LongWritable, Text, LongWritable, Te
             EntityType type = EntityType.values()[i];
             List<Entity> collected = Arrays.asList(innerData).stream()
                     .map(Text::new)
-                    .map(elem -> new Entity(elem, type))
+                    .map(elem -> new Entity(elem.toString(), type))
                     .collect(Collectors.toList());
             tuple.set(i, collected);
         }

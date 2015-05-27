@@ -9,7 +9,7 @@ import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.util.ToolRunner;
-import org.apache.log4j.*;
+import org.apache.log4j.Logger;
 import ru.hse.zudin.triclustering.mapreduce.*;
 import ru.zudin.ChainingJob;
 
@@ -28,20 +28,23 @@ public class Executor {
     @Parameter
     public List<String> parameters = new ArrayList<>();
 
-    @Parameter(names = { "-md" }, description = "Main delimeter")
+    @Parameter(names = { "-md", "--main_delim" }, description = "Main delimeter")
     public String mainDelimeter = "\t";
 
-    @Parameter(names = { "-sd" }, description = "Secondary delimeter")
-    public String secondaryDelimeter = ";";
+    @Parameter(names = { "-sd", "--second_delim" }, description = "Secondary delimeter")
+    public String secondaryDelimeter = "¥";
 
-    @Parameter(names = { "-rd" }, description = "Number of reducers")
+    @Parameter(names = { "-rd", "--reducers" }, description = "Number of reducers")
     public int reducers = 5;
 
-    @Parameter(names = { "-th" }, description = "Number of threads")
+    @Parameter(names = { "-th", "--threads" }, description = "Number of threads")
     public int threads = 5;
 
-    @Parameter(names = { "-out" }, description = "Output dir")
+    @Parameter(names = { "-out", "--output" }, description = "Output dir")
     public String output = "result";
+
+    @Parameter(names = { "-g", "--group" }, description = "Group index")
+    public int groupIndex = 0;
 
     public static void main(String[] args) throws Exception {
         long start = System.currentTimeMillis();
@@ -49,8 +52,7 @@ public class Executor {
         new JCommander(executor, args);
         if (executor.mainDelimeter.length() == 0) executor.mainDelimeter = " ";
 
-        setupLogger();
-
+//        BasicConfigurator.configure();
         clear(executor.output);
 
         ChainingJob job = ChainingJob.Builder.instance()
@@ -58,7 +60,8 @@ public class Executor {
                 .tempDir(Constants.TEMP_DIR)
                 .mapper(TupleReadMapper.class, ImmutableMap.of(Constants.MAIN_DELIMETER, executor.mainDelimeter,
                         Constants.SECONDARY_DELIMETER, executor.secondaryDelimeter,
-                        Constants.NUM_OF_REDUCERS, Integer.toString(executor.reducers)))
+                        Constants.NUM_OF_REDUCERS, Integer.toString(executor.reducers),
+                        Constants.GROUP_INDEX, Integer.toString(executor.groupIndex)))
                 .reducer(TupleContextReducer.class)
                 .mapper(PrepareMapper.class)
                 .reducer(CollectReducer.class, ImmutableMap.of(Constants.THREADS, Integer.toString(executor.threads)))
@@ -71,18 +74,6 @@ public class Executor {
         long elapsed = System.currentTimeMillis() - start;
         long seconds = TimeUnit.MILLISECONDS.toSeconds(elapsed);
         Logger.getLogger(Executor.class).info("TOTAL TIME: " + seconds);
-    }
-
-    private static void setupLogger() {
-        BasicConfigurator.configure();
-        Logger.getRootLogger().setLevel(Level.INFO);
-
-        ConsoleAppender console = new ConsoleAppender();
-        String PATTERN = "%d{dd MMM yyyy HH:mm:ss,SSS}";
-        console.setLayout(new PatternLayout(PATTERN));
-        console.setThreshold(Level.ALL);
-        console.activateOptions();
-        Logger.getRootLogger().addAppender(console);
     }
 
     private static void clear(String output) throws IOException {

@@ -11,9 +11,8 @@ import ru.hse.zudin.triclustering.model.EntityType;
 import ru.hse.zudin.triclustering.model.Tuple;
 
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * @author Sergey Zudin
@@ -24,6 +23,7 @@ public class TupleReadMapper extends Mapper<LongWritable, Text, LongWritable, Te
     private String mainDelimiter;
     private String insideDelimiter;
     private int numOfKeys;
+    private int groupIndex;
 
     @Override
     protected void setup(Context context) throws IOException, InterruptedException {
@@ -31,6 +31,7 @@ public class TupleReadMapper extends Mapper<LongWritable, Text, LongWritable, Te
         mainDelimiter = conf.get(Constants.MAIN_DELIMETER);
         insideDelimiter = conf.get(Constants.SECONDARY_DELIMETER);
         numOfKeys = Integer.parseInt(conf.get(Constants.NUM_OF_REDUCERS));
+        groupIndex = Integer.parseInt(conf.get(Constants.GROUP_INDEX));
     }
 
     @Override
@@ -44,11 +45,11 @@ public class TupleReadMapper extends Mapper<LongWritable, Text, LongWritable, Te
         for (int i = 0; i < data.length; i++) {
             String[] innerData = data[i].split(insideDelimiter);
             EntityType type = EntityType.values()[i];
-            List<Entity> collected = Arrays.asList(innerData).stream()
-                    .map(Text::new)
-                    .map(elem -> new Entity(elem.toString(), type))
-                    .collect(Collectors.toList());
-            tuple.set(i, collected);
+            Set<Entity> set = new HashSet<>();
+            for (String str : innerData) {
+                set.add(new Entity(str, type));
+            }
+            tuple.set(i, set);
         }
         long outKey = tuple.get(0).toString().hashCode() % numOfKeys; //(long) Math.floor(Math.random() * numOfKeys);
         context.write(new LongWritable(outKey), HadoopIOUtils.asText(tuple, false));

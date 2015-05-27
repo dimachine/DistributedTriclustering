@@ -53,13 +53,15 @@ public class EntityStorage {
      * @param value value to add
      * @param keys keys for map
      */
-    public void add(Entity value, Entity[]... keys) {
+    public Set<Entity> add(Entity value, Entity[]... keys) {
         check(keys);
+        Set<Entity> set = new ConcurrentHashSet<>();
         for (Entity first : keys[0]) {
             for (Entity second : keys[1]) {
-                add(new MultiKey(first, second), value);
+                set.addAll(add(new MultiKey(first, second), value));
             }
         }
+        return set;
     }
 
     private void check(Entity[][] keys) {
@@ -73,7 +75,7 @@ public class EntityStorage {
      * Adds value for given pair of keys. Map to adding is selected by type of value
      * @param value value to add
      */
-    public void add(MultiKey key, Entity value) {
+    public Set<Entity> add(MultiKey key, Entity value) {
         //boolean isNew = false;
 
         Map<MultiKey, ConcurrentHashSet<Entity>> map = getMap(value.getType());
@@ -88,6 +90,7 @@ public class EntityStorage {
         }
         set.add(value);
         map.putIfAbsent(key, set);
+        return set;
     }
 
     private Map<MultiKey, ConcurrentHashSet<Entity>> getMap(EntityType type) {

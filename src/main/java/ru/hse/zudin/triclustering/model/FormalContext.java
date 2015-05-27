@@ -3,10 +3,6 @@ package ru.hse.zudin.triclustering.model;
 import org.apache.log4j.Logger;
 
 import java.util.Set;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Formal context for clustering
@@ -18,14 +14,16 @@ public class FormalContext {
 
     private static final Logger logger = Logger.getLogger(FormalContext.class);
 
-    private ConcurrentHashSet<Tuple> tuples;
+//    private ConcurrentHashSet<Tuple> tuples;
+    private ConcurrentHashSet<Tuple> clusters;
     public EntityStorage storage;
 
     /**
      * Base constructor
      */
     public FormalContext() {
-        tuples = new ConcurrentHashSet<>();
+//        tuples = new ConcurrentHashSet<>();
+        clusters = new ConcurrentHashSet<>();
         storage = new EntityStorage();
     }
 
@@ -37,14 +35,17 @@ public class FormalContext {
     public void add(Tuple tuple) {
         if (tuple.dimension() != EntityType.size())
             throw new IllegalArgumentException("Dimensions are different");
-        int oldSize = tuples.size();
-        tuples.add(tuple);
-        if (oldSize == tuples.size()) return;
+//        int oldSize = tuples.size();
+//        tuples.add(tuple);
+        Tuple cluster = new Tuple();
+//        if (oldSize == tuples.size()) return;
         for (int i = 0; i < EntityType.size(); i++) {
             for (Entity elem : tuple.get(i)) {
-                storage.add(elem, tuple.getAllExcept(i));
+                Set<Entity> add = storage.add(elem, tuple.getAllExcept(i));
+                cluster.set(i, add);
             }
         }
+        clusters.add(cluster);
     }
 
     /**
@@ -53,23 +54,24 @@ public class FormalContext {
      * @return set of all existing clusters
      */
     public Set<Tuple> getClusters(int threads) throws InterruptedException {
-        ExecutorService service = Executors.newFixedThreadPool(threads);
-        Set<Tuple> result = new ConcurrentHashSet<>();
-        AtomicInteger integer = new AtomicInteger();
-        for (Tuple tuple : tuples) {
-            service.submit(new Runnable() {
-                @Override
-                public void run() {
-                    result.add(getCluster(tuple));
-                    integer.incrementAndGet();
-                    if (integer.intValue() % 100 == 0)
-                        logger.info("CREATING CLUSTERS: " + integer.intValue() + " / " + tuples.size());
-                }
-            });
-        }
-        service.shutdown();
-        service.awaitTermination(24, TimeUnit.HOURS);
-        return result;
+        return clusters;
+//        ExecutorService service = Executors.newFixedThreadPool(threads);
+//        Set<Tuple> result = new ConcurrentHashSet<>();
+//        AtomicInteger integer = new AtomicInteger();
+//        for (Tuple tuple : tuples) {
+//            service.submit(new Runnable() {
+//                @Override
+//                public void run() {
+//                    result.add(getCluster(tuple));
+//                    integer.incrementAndGet();
+//                    if (integer.intValue() % 100 == 0)
+//                        logger.info("CREATING CLUSTERS: " + integer.intValue() + " / " + tuples.size());
+//                }
+//            });
+//        }
+//        service.shutdown();
+//        service.awaitTermination(24, TimeUnit.HOURS);
+//        return result;
     }
 
     private Tuple getCluster(Tuple tuple) {

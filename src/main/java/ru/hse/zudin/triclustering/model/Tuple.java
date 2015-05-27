@@ -38,9 +38,9 @@ public class Tuple implements Writable {
         this.entities = entities;
     }
 
-    public void set(int index, Collection<Entity> collection) {
+    public void set(int index, Set<Entity> collection) {
         ModelUtils.preCheck(index, dimension());
-        entities.set(index, new HashSet<>(collection));
+        entities.set(index, collection);
     }
 
     public Set<Entity> get(int index) {

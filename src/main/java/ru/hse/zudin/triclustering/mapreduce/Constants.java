@@ -10,4 +10,5 @@ public class Constants {
     public static final String NUM_OF_REDUCERS = "num_of_reducers";
     public static final String TEMP_DIR = "job";
     public static final String THREADS = "threads";
+    public static final String GROUP_INDEX = "group";
 }

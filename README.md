@@ -42,7 +42,7 @@ It is based on our previous work on a one-pass online algorithm for triclusterin
 }
 ```
 
-2.```bibtex
+2. ```bibtex
 @inproceedings{Gnatyshak:2014,
   author    = {Dmitry Gnatyshak and
                Dmitry I. Ignatov and
@@ -71,6 +71,7 @@ It is based on our previous work on a one-pass online algorithm for triclusterin
   urn       = {urn:nbn:de:0074-1252-0}
 }
 ```
+
 
 
 

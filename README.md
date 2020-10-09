@@ -1,11 +1,11 @@
 # DistributedTriclustering
 
 
-This is an archived version of a distributed triclustering algorithm implemented by Sergey Zudin under my supervision and Dmitry Gnatyshak guidance.
+This is the archived version of a distributed triclustering algorithm implemented by Sergey Zudin under my supervision and Dmitry Gnatyshak guidance.
 
 [Sergey Zudin, Dmitry V. Gnatyshak, Dmitry I. Ignatov: Putting OAC-triclustering on MapReduce. CLA 2015: 47-58](http://ceur-ws.org/Vol-1466/paper04.pdf)
 
-Abstract
+**Abstract**
 In our previous work an efficient one-pass online algorithm for triclustering of binary data (triadic formal contexts) was proposed. This algorithm is a modified version of the basic algorithm for OAC-triclustering approach; it has linear time and memory complexities. In this paper we parallelise it via map-reduce framework in order to make it suitable for big datasets. The results of computer experiments show the efficiency of the proposed algorithm; for example, it outperforms the online counterpart on Bibsonomy dataset with ≈ 800, 000 triples.
 
 
@@ -14,7 +14,7 @@ It is based on our previous work on a one-pass online algorithm for triclusterin
 [Dmitry Gnatyshak, Dmitry I. Ignatov, Sergei O. Kuznetsov, Lhouari Nourine: A One-pass Triclustering Approach: Is There any Room for Big Data? CLA 2014: 231-242](http://ceur-ws.org/Vol-1252/cla2014_submission_26.pdf)
 
 
-References in BibTeX:
+##References in BibTeX:##
 
 ```bibtex
 @inproceedings{Zudin:2015,

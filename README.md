@@ -11,10 +11,7 @@ In our previous work an efficient one-pass online algorithm for triclustering of
 
 It is based on the earlier work on a one-pass online algorithm for triclustering.
 
-
-[Dmitry Gnatyshak, Dmitry I. Ignatov, Sergei O. Kuznetsov, Lhouari Nourine:
-A One-pass Triclustering Approach: Is There any Room for Big Data? CLA 2014: 231-242]
-(http://ceur-ws.org/Vol-1252/cla2014_submission_26.pdf)
+[Dmitry Gnatyshak, Dmitry I. Ignatov, Sergei O. Kuznetsov, Lhouari Nourine: A One-pass Triclustering Approach: Is There any Room for Big Data? CLA 2014: 231-242](http://ceur-ws.org/Vol-1252/cla2014_submission_26.pdf)
 
 
 References in BibTeX:

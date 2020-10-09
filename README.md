@@ -21,6 +21,7 @@ A One-pass Triclustering Approach: Is There any Room for Big Data? CLA 2014: 231
 
 References in BibTeX:
 
+```bibtex
 @inproceedings{Zudin:2015,
   author    = {Sergey Zudin and
                Dmitry V. Gnatyshak and
@@ -44,6 +45,7 @@ References in BibTeX:
   publisher = {CEUR-WS.org},
   year      = {2015}
 }
+```
 
 @inproceedings{Gnatyshak:2014,
   author    = {Dmitry Gnatyshak and

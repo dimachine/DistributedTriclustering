@@ -47,6 +47,7 @@ References in BibTeX:
 }
 ```
 
+```bibtex
 @inproceedings{Gnatyshak:2014,
   author    = {Dmitry Gnatyshak and
                Dmitry I. Ignatov and
@@ -74,7 +75,7 @@ References in BibTeX:
   url       = {http://ceur-ws.org/Vol-1252},
   urn       = {urn:nbn:de:0074-1252-0}
 }
-
+```
 
 
 

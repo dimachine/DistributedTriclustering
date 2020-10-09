@@ -14,6 +14,8 @@ It is based on our previous work on a one-pass online algorithm for triclusterin
 * [Dmitry Gnatyshak, Dmitry I. Ignatov, Sergei O. Kuznetsov, Lhouari Nourine: A One-pass Triclustering Approach: Is There any Room for Big Data? CLA 2014: 231-242](http://ceur-ws.org/Vol-1252/cla2014_submission_26.pdf)
 
 
+To acknowledge use of the code in publications, please cite the following papers and mention this repository.
+
 ## References in BibTeX:
 
 1.

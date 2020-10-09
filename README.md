@@ -1,7 +1,7 @@
 # DistributedTriclustering
 
 
-This is the archived version of a distributed triclustering algorithm implemented by Sergey Zudin under my supervision and Dmitry Gnatyshak guidance.
+This is the archived code of a distributed triclustering algorithm implemented by Sergey Zudin under my supervision and Dmitry Gnatyshak guidance.
 
 * [Sergey Zudin, Dmitry V. Gnatyshak, Dmitry I. Ignatov: Putting OAC-triclustering on MapReduce. CLA 2015: 47-58](http://ceur-ws.org/Vol-1466/paper04.pdf)
 
